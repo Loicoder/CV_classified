@@ -1,0 +1,4 @@
+# bỏ qua thư mục raw_data, tránh làm nặng repo
+
+raw_data/**/*
+baocao/**/*

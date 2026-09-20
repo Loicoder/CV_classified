@@ -1,0 +1,6 @@
+## Nơi chứa các trang được dùng làm nguồn tham khảo ##
+
+Kaggle: Dataset "Resume Dataset"
+Hugging Face: Dataset "peanut520/resumes-raw-pdf", "nadeem06/Annotated_NER_PDF_Resumes"
+Facebook Groups: "IT Jobs: Tuyển Dụng IT", "IT Job Hiring", "Tuyển Dụng Thực Tập Sinh IT"
+, "JOBVUI ĐÂY"
