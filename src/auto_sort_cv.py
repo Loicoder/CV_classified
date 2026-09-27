@@ -1,3 +1,9 @@
+"""
+đây là file dùng để tự động sắp xếp các file cv từ thư mục ban đầu sang các thư mục
+nhóm ngành nghề tương ứng, sử dụng kĩ thuật word-maching, đầu tiên đọc text trong cv
+sau đó so sánh với CATEGORY_KEYWORDS xem nó thuộc nghành nghề nào
+"""
+
 import re
 import shutil
 from pathlib import Path

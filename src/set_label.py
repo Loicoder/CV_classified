@@ -1,3 +1,11 @@
+"""
+file này dùng để tự động trích xuất raw text từ file cv thô
+sau đó gán nhãn cho chúng vào file json raw với định dạng
+3 trường text, label, source:
+- text: nội dung cv
+- label: nhãn nghề nghiệp
+- source: tên file cv
+"""
 import json
 import random
 from pathlib import Path
