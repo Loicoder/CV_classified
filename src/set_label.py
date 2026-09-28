@@ -14,10 +14,10 @@ from cv_reader import CVReader
 
 
 CATEGORIES = (
-	"Business_Analyst",
-	"Developer",
-	"Quality_Assurance",
-	"UIUX_Designer",
+    "Business_Analyst",
+    "Developer",
+    "Quality_Assurance",
+    "UIUX_Designer",
 )
 SUPPORTED_EXTENSIONS = CVReader.SUPPORTED_EXTENSIONS
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -69,10 +69,10 @@ def collect_labeled_data(raw_data_dir: Path, reader: CVReader) -> dict[str, list
 
             if text:
                 samples.append({
-					"text": text,
-					"label": label,
-					"source": file_path.name,
-				})
+                    "text": text,
+                    "label": label,
+                    "source": file_path.name,
+                })
 
         data_by_label[label] = samples
 
@@ -84,42 +84,52 @@ def collect_labeled_data(raw_data_dir: Path, reader: CVReader) -> dict[str, list
     print(f"Hoàn tất việc tạo file JSON cho {raw_data_dir}.")
     return data_by_label
 
-# hàm chia dữ liệu đã gán nhãn ngẫu nhiên thành tập train và test với tỉ lệ 4/1
+# hàm chia dữ liệu thành tập train, evaluation và test với tỉ lệ 80:10:10
 def split_data(
-	data_by_label: dict[str, list[dict[str, str]]],
-	test_ratio: float = 0.2,
-) -> tuple[list[dict[str, str]], list[dict[str, str]]]:
-    print("Đang chia dữ liệu thành tập train và test...")
+    data_by_label: dict[str, list[dict[str, str]]],
+    eval_ratio: float = 0.1,
+    test_ratio: float = 0.1,
+) -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[str, str]]]:
+    print("Đang chia dữ liệu thành tập train, evaluation và test...")
     random_generator = random.Random()
     train_data = []
+    eval_data = []
     test_data = []
 
     for label, samples in data_by_label.items():
         shuffled_samples = samples.copy()
         random_generator.shuffle(shuffled_samples)
+        total_samples = len(shuffled_samples)
 
-        if len(shuffled_samples) < 2:
+        if total_samples < 3:
+            # Nếu mẫu của nhãn này quá ít (<3), dồn tất cả vào train
+            eval_count = 0
             test_count = 0
         else:
-            test_count = max(1, round(len(shuffled_samples) * test_ratio))
+            eval_count = max(1, round(total_samples * eval_ratio))
+            test_count = max(1, round(total_samples * test_ratio))
 
-        test_data.extend(shuffled_samples[:test_count])
-        train_data.extend(shuffled_samples[test_count:])
+        # Phân chia dữ liệu theo chỉ số (slice)
+        eval_data.extend(shuffled_samples[:eval_count])
+        test_data.extend(shuffled_samples[eval_count : eval_count + test_count])
+        train_data.extend(shuffled_samples[eval_count + test_count :])
 
     print("Hoàn tất việc chia dữ liệu.")
-    # tránh các ngành nghề giống nhau nằm kế nhau
+    # Xáo trộn lại để các ngành nghề nằm xen kẽ nhau
     random_generator.shuffle(train_data)
+    random_generator.shuffle(eval_data)
     random_generator.shuffle(test_data)
-    return train_data, test_data
 
-# lưu 2 tập dữ liệu train và test vào 2 file json riêng biệt
+    return train_data, eval_data, test_data
+
+# lưu các tập dữ liệu vào file json riêng biệt
 def save_json(data: list[dict[str, str]], output_path: Path) -> None:
     print(f"Đang ghi dữ liệu vào {output_path}...")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
-		json.dumps(data, ensure_ascii=False, indent=2),
-		encoding="utf-8",
-	) 
+        json.dumps(data, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    ) 
     print(f"Hoàn tất việc ghi dữ liệu.")
 
 if __name__ == "__main__":
@@ -128,10 +138,15 @@ if __name__ == "__main__":
     reader = CVReader(ocr_lang="vie+eng", min_chars_for_valid_pdf_text=10)
 
     data_by_label = collect_labeled_data(raw_data_dir, reader)
-    train_data, test_data = split_data(data_by_label)
+    
+    # Chia dữ liệu theo tỉ lệ 80:10:10
+    train_data, eval_data, test_data = split_data(data_by_label, eval_ratio=0.1, test_ratio=0.1)
 
-    save_json(train_data, processed_data_dir / "train.json")
-    save_json(test_data, processed_data_dir / "test.json")
+    # Lưu dữ liệu vào các file json tương ứng
+    save_json(train_data, processed_data_dir / "train_raw.json")
+    save_json(eval_data, processed_data_dir / "evaluation_raw.json")
+    save_json(test_data, processed_data_dir / "test_raw.json")
 
-    print(f"Đã ghi {len(train_data)} mẫu vào processed_data/train.json")
-    print(f"Đã ghi {len(test_data)} mẫu vào processed_data/test.json")
+    print(f"Đã ghi {len(train_data)} mẫu vào processed_data/train_raw.json")
+    print(f"Đã ghi {len(eval_data)} mẫu vào processed_data/evaluation_raw.json")
+    print(f"Đã ghi {len(test_data)} mẫu vào processed_data/test_raw.json")

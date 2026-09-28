@@ -10174,5 +10174,3076 @@
         },
         "label": "Developer",
         "source": "7ecb553a-4fb4-45c0-8bb6-0d374e13bd29.pdf"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Sam Grant",
+                "email": "sam.grant61@example.com",
+                "so_dien_thoai": "(555) 010-2221"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Riverside Institute of Technology",
+                    "chuyen_nganh": "Software Engineering",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2014
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Regression Testing",
+                "Bug Reporting",
+                "Test Scenario Writing",
+                "Test Planning",
+                "Defect Tracking",
+                "Cross-browser Testing",
+                "Test Case Design",
+                "Git",
+                "Jira",
+                "Postman",
+                "Charles Proxy",
+                "BrowserStack",
+                "TestRail"
+            ],
+            "ky_nang_khac": [
+                "Problem solving",
+                "Time management",
+                "Mentoring",
+                "Team collaboration"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Nimbus Software",
+                    "chuc_danh": "QA Lead",
+                    "thoi_gian_bat_dau": "2019-11",
+                    "thoi_gian_ket_thuc": "2026-03",
+                    "mo_ta_cong_viec": "Defined the team's test strategy and quality gates for the online learning platform. Coordinated testing across 2 squads and owned release readiness reports. Coordinated testing across 2 squads and owned release readiness reports. Defined the team's test strategy and quality gates for the online learning platform."
+                },
+                {
+                    "cong_ty": "Juniper Works",
+                    "chuc_danh": "Manual Tester",
+                    "thoi_gian_bat_dau": "2015-08",
+                    "thoi_gian_ket_thuc": "2019-09",
+                    "mo_ta_cong_viec": "Participated in UAT sessions and release sign-off for the real estate marketplace. Reviewed requirements with product owners to find gaps before development started. Analyzed production incidents and added missing regression coverage to the test suite. Maintained test data and test environments, including SQL checks against the database."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Fintech Payment Gateway Regression Automation",
+                    "vai_tro": "Automation Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "TestRail"
+                    ],
+                    "mo_ta": "Built a regression suite that runs before each release and reports results to the team."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Quinn Dixon",
+                "email": "quinn.dixon46@example.com",
+                "so_dien_thoai": "(555) 018-2598"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Central Valley University",
+                    "chuyen_nganh": "Information Technology",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2023
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Test Case Design",
+                "Regression Testing",
+                "Smoke Testing",
+                "Test Scenario Writing",
+                "Exploratory Testing",
+                "Git",
+                "Confluence",
+                "Zephyr",
+                "BrowserStack",
+                "Postman"
+            ],
+            "ky_nang_khac": [
+                "Ownership",
+                "Analytical thinking",
+                "Communication"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Certified Agile Tester",
+                    "to_chuc_cap": "iSQI",
+                    "nam_cap": 2026
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Ember Works",
+                    "chuc_danh": "Software Tester",
+                    "thoi_gian_bat_dau": "2024-12",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Carried out exploratory and cross-browser testing on Chrome, Firefox, Safari and Edge. Reviewed requirements with product owners to find gaps before development started. Performed API testing with Postman and validated responses against the specification. Designed and executed 178 test cases for the e-commerce platform, covering functional, regression and smoke scenarios."
+                },
+                {
+                    "cong_ty": "Harbor Works",
+                    "chuc_danh": "Junior Software Tester",
+                    "thoi_gian_bat_dau": "2023-04",
+                    "thoi_gian_ket_thuc": "2024-12",
+                    "mo_ta_cong_viec": "Logged and tracked defects in Jira, working with developers to reproduce and verify fixes. Analyzed production incidents and added missing regression coverage to the test suite. Carried out exploratory and cross-browser testing on Chrome, Firefox, Safari and Edge."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "API Test Suite for Real Estate Marketplace",
+                    "vai_tro": "QA Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "Jira"
+                    ],
+                    "mo_ta": "Measured response times under load and reported bottlenecks to the developers."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Sasha Griffin",
+                "email": "sasha.griffin17@example.com",
+                "so_dien_thoai": "(555) 010-9646"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Central Valley University",
+                    "chuyen_nganh": "Information Technology",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2025
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Manual Testing",
+                "Test Scenario Writing",
+                "Cross-browser Testing",
+                "Exploratory Testing",
+                "Black Box Testing",
+                "Regression Testing",
+                "Swagger",
+                "Jira",
+                "Agile/Scrum",
+                "Zephyr"
+            ],
+            "ky_nang_khac": [
+                "Curiosity",
+                "Critical thinking",
+                "Stakeholder management",
+                "Attention to detail"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Bright Works",
+                    "chuc_danh": "Junior QA Analyst",
+                    "thoi_gian_bat_dau": "2025-12",
+                    "thoi_gian_ket_thuc": "2026-08",
+                    "mo_ta_cong_viec": "Analyzed production incidents and added missing regression coverage to the test suite. Designed and executed 109 test cases for the fintech payment gateway, covering functional, regression and smoke scenarios."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "API Test Suite for Budgeting App",
+                    "vai_tro": "Test Lead",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "TestRail",
+                        "Jira"
+                    ],
+                    "mo_ta": "Planned and executed end-to-end tests covering the main user journeys and edge cases."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Skyler Ramirez",
+                "email": "skyler.ramirez74@example.com",
+                "so_dien_thoai": "(555) 014-2281"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Pioneer State University",
+                    "chuyen_nganh": "Multimedia Design",
+                    "bang_cap": "Master of Science",
+                    "nam_tot_nghiep": 2023
+                },
+                {
+                    "truong": "Riverside Institute of Technology",
+                    "chuyen_nganh": "Interaction Design",
+                    "bang_cap": "Bachelor of Arts",
+                    "nam_tot_nghiep": 2021
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Sketch",
+                "Zeplin",
+                "Axure RP",
+                "Miro",
+                "Balsamiq",
+                "Mobile App Design",
+                "Interaction Design",
+                "User Flows",
+                "Prototyping",
+                "Design Thinking",
+                "Card Sorting",
+                "Information Architecture",
+                "Google Analytics",
+                "Illustration",
+                "Layout Design",
+                "Adobe Photoshop"
+            ],
+            "ky_nang_khac": [
+                "Communication",
+                "Attention to detail",
+                "Problem solving",
+                "Adaptability",
+                "Curiosity"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Adobe Certified Professional: Visual Design",
+                    "to_chuc_cap": "Adobe",
+                    "nam_cap": 2025
+                },
+                {
+                    "ten_chung_chi": "Web Accessibility Fundamentals",
+                    "to_chuc_cap": "Deque University",
+                    "nam_cap": 2026
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Lumen Networks",
+                    "chuc_danh": "UX/UI Designer",
+                    "thoi_gian_bat_dau": "2024-12",
+                    "thoi_gian_ket_thuc": "2026-08",
+                    "mo_ta_cong_viec": "Facilitated design workshops with product managers and engineers to align on requirements. Ensured designs met WCAG accessibility guidelines and responsive breakpoints. Redesigned the onboarding flow of the insurance claims portal, increasing completion rate by 26%. Collaborated with developers to hand off specs and assets and reviewed implementation for design fidelity."
+                },
+                {
+                    "cong_ty": "Bright Labs",
+                    "chuc_danh": "Junior UX/UI Designer",
+                    "thoi_gian_bat_dau": "2022-02",
+                    "thoi_gian_ket_thuc": "2024-10",
+                    "mo_ta_cong_viec": "Defined user personas and journey maps based on survey and interview research. Produced icons, illustrations and visual style guides consistent with brand guidelines. Created high-fidelity mockups and interactive prototypes in Sketch for stakeholder review. Conducted 27 usability tests and user interviews and turned the findings into design improvements."
+                }
+            ],
+            "du_an": []
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Jordan Nguyen",
+                "email": "jordan.nguyen6@example.com",
+                "so_dien_thoai": "(555) 017-6534"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Northfield University",
+                    "chuyen_nganh": "Psychology",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2023
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "Axure RP",
+                "Adobe XD",
+                "Sketch",
+                "Design Thinking",
+                "Wireframing",
+                "Interaction Design",
+                "Prototyping",
+                "Illustration",
+                "Typography",
+                "Lottie",
+                "Principle"
+            ],
+            "ky_nang_khac": [
+                "Curiosity",
+                "Problem solving",
+                "Stakeholder management",
+                "Ownership",
+                "Attention to detail"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "NN/g UX Certification",
+                    "to_chuc_cap": "Nielsen Norman Group",
+                    "nam_cap": 2024
+                },
+                {
+                    "ten_chung_chi": "Interaction Design Foundation Course Certificate",
+                    "to_chuc_cap": "Interaction Design Foundation",
+                    "nam_cap": 2026
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Ember Software",
+                    "chuc_danh": "Junior UI Designer",
+                    "thoi_gian_bat_dau": "2024-04",
+                    "thoi_gian_ket_thuc": "2026-03",
+                    "mo_ta_cong_viec": "Created high-fidelity mockups and interactive prototypes in Figma for stakeholder review. Built and maintained a design system with reusable components, adopted by 5 product teams. Produced icons, illustrations and visual style guides consistent with brand guidelines. Ensured designs met WCAG accessibility guidelines and responsive breakpoints."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Video Streaming App Redesign",
+                    "vai_tro": "UI Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Framer"
+                    ],
+                    "mo_ta": "Researched user needs, mapped the main flows and delivered clickable prototypes for testing."
+                },
+                {
+                    "ten_du_an": "Video Streaming App Landing Page Redesign",
+                    "vai_tro": "Lead Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Adobe XD",
+                        "Sketch"
+                    ],
+                    "mo_ta": "Simplified the navigation and checkout steps after usability testing with real users."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Skyler Jacobs",
+                "email": "skyler.jacobs90@example.com",
+                "so_dien_thoai": "(555) 016-2657"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Pioneer State University",
+                    "chuyen_nganh": "Computer Engineering",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2021
+                }
+            ],
+            "ngon_ngu_lap_trinh": [
+                "JavaScript"
+            ],
+            "ky_nang": [
+                "API Testing",
+                "Test Case Design",
+                "Test Planning",
+                "Black Box Testing",
+                "Exploratory Testing",
+                "User Acceptance Testing (UAT)",
+                "Bug Reporting",
+                "Regression Testing",
+                "Confluence",
+                "Agile/Scrum",
+                "TestRail",
+                "Playwright",
+                "Cypress",
+                "Jest",
+                "Jenkins"
+            ],
+            "ky_nang_khac": [
+                "Stakeholder management",
+                "Adaptability",
+                "Presentation skills",
+                "Analytical thinking"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Nimbus Technologies",
+                    "chuc_danh": "Senior Test Automation Engineer",
+                    "thoi_gian_bat_dau": "2024-10",
+                    "thoi_gian_ket_thuc": "2026-07",
+                    "mo_ta_cong_viec": "Automated API regression checks and data-driven tests covering 364 endpoints. Integrated automated tests into the GitLab CI pipeline to run on every build."
+                },
+                {
+                    "cong_ty": "Willow Systems",
+                    "chuc_danh": "Junior Test Automation Engineer",
+                    "thoi_gian_bat_dau": "2021-11",
+                    "thoi_gian_ket_thuc": "2024-10",
+                    "mo_ta_cong_viec": "Performed API testing with Postman and validated responses against the specification. Stabilized flaky tests and improved automation pass rate to 93%. Participated in UAT sessions and release sign-off for the travel booking platform. Analyzed production incidents and added missing regression coverage to the test suite."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Logistics Tracking System Test Strategy",
+                    "vai_tro": "Automation Engineer",
+                    "cong_nghe_su_dung": [
+                        "Cypress",
+                        "Jira",
+                        "Postman"
+                    ],
+                    "mo_ta": "Built a regression suite that runs before each release and reports results to the team."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Nico Morales",
+                "email": "nico.morales78@example.com",
+                "so_dien_thoai": "(555) 014-6023"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Pioneer State University",
+                    "chuyen_nganh": "Information Technology",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2024
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Exploratory Testing",
+                "Manual Testing",
+                "Defect Tracking",
+                "Regression Testing",
+                "Smoke Testing",
+                "Test Case Design",
+                "Test Planning",
+                "Charles Proxy",
+                "Zephyr",
+                "Azure DevOps"
+            ],
+            "ky_nang_khac": [
+                "Adaptability",
+                "Presentation skills",
+                "Ownership",
+                "Time management",
+                "Critical thinking"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Certified Agile Tester",
+                    "to_chuc_cap": "iSQI",
+                    "nam_cap": 2024
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Orbit Group",
+                    "chuc_danh": "Junior QA Tester",
+                    "thoi_gian_bat_dau": "2025-09",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Prepared test summary reports and defect metrics for each release. Reviewed requirements with product owners to find gaps before development started. Analyzed production incidents and added missing regression coverage to the test suite."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Logistics Tracking System Regression Automation",
+                    "vai_tro": "QA Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "TestRail",
+                        "Jira"
+                    ],
+                    "mo_ta": "Validated APIs and database changes and tracked all defects to closure."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Avery Xavier",
+                "email": "avery.xavier73@example.com",
+                "so_dien_thoai": "(555) 016-9276"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Highland College of Engineering",
+                    "chuyen_nganh": "Information Technology",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2017
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Defect Tracking",
+                "Test Scenario Writing",
+                "Manual Testing",
+                "Test Planning",
+                "Test Case Design",
+                "User Acceptance Testing (UAT)",
+                "Smoke Testing",
+                "Regression Testing",
+                "Agile/Scrum",
+                "Zephyr",
+                "SQL",
+                "Confluence",
+                "Swagger"
+            ],
+            "ky_nang_khac": [
+                "Curiosity",
+                "Presentation skills",
+                "Communication",
+                "Analytical thinking",
+                "Stakeholder management"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Certified Agile Tester",
+                    "to_chuc_cap": "iSQI",
+                    "nam_cap": 2021
+                },
+                {
+                    "ten_chung_chi": "ISTQB Certified Tester Foundation Level",
+                    "to_chuc_cap": "ISTQB",
+                    "nam_cap": 2022
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Atlas Labs",
+                    "chuc_danh": "Senior Manual Tester",
+                    "thoi_gian_bat_dau": "2022-02",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Coordinated testing across 2 squads and owned release readiness reports. Defined the team's test strategy and quality gates for the SaaS CRM. Analyzed production incidents and added missing regression coverage to the test suite."
+                },
+                {
+                    "cong_ty": "Ironbridge Solutions",
+                    "chuc_danh": "Manual Tester",
+                    "thoi_gian_bat_dau": "2017-05",
+                    "thoi_gian_ket_thuc": "2021-11",
+                    "mo_ta_cong_viec": "Logged and tracked defects in Jira, working with developers to reproduce and verify fixes. Prepared test summary reports and defect metrics for each release."
+                }
+            ],
+            "du_an": []
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Jamie Reyes",
+                "email": "jamie.reyes25@example.com",
+                "so_dien_thoai": "(555) 016-2507"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Central Valley University",
+                    "chuyen_nganh": "Psychology",
+                    "bang_cap": "Master of Science",
+                    "nam_tot_nghiep": 2021
+                },
+                {
+                    "truong": "Summit Polytechnic",
+                    "chuyen_nganh": "Human-Computer Interaction",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2019
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Adobe XD",
+                "Figma",
+                "Zeplin",
+                "Axure RP",
+                "ProtoPie",
+                "Design Thinking",
+                "Interaction Design",
+                "Mobile App Design",
+                "Heuristic Evaluation",
+                "Card Sorting",
+                "Persona Development",
+                "Usability Testing",
+                "Optimal Workshop"
+            ],
+            "ky_nang_khac": [
+                "Presentation skills",
+                "Critical thinking",
+                "Team collaboration"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Certified Usability Analyst",
+                    "to_chuc_cap": "Human Factors International",
+                    "nam_cap": 2022
+                },
+                {
+                    "ten_chung_chi": "Interaction Design Foundation Course Certificate",
+                    "to_chuc_cap": "Interaction Design Foundation",
+                    "nam_cap": 2022
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Mosaic Labs",
+                    "chuc_danh": "Interaction Designer",
+                    "thoi_gian_bat_dau": "2023-12",
+                    "thoi_gian_ket_thuc": "2026-03",
+                    "mo_ta_cong_viec": "Defined user personas and journey maps based on survey and interview research. Conducted 14 usability tests and user interviews and turned the findings into design improvements."
+                },
+                {
+                    "cong_ty": "Harbor Group",
+                    "chuc_danh": "Junior Interaction Designer",
+                    "thoi_gian_bat_dau": "2020-11",
+                    "thoi_gian_ket_thuc": "2023-09",
+                    "mo_ta_cong_viec": "Conducted 21 usability tests and user interviews and turned the findings into design improvements. Defined user personas and journey maps based on survey and interview research. Mapped information architecture and navigation for the telehealth app based on card sorting results. Designed end-to-end user flows and wireframes for the telehealth app in Adobe XD."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Logistics Tracking System Landing Page Redesign",
+                    "vai_tro": "Product Designer",
+                    "cong_nghe_su_dung": [
+                        "Adobe XD",
+                        "Balsamiq",
+                        "Figma"
+                    ],
+                    "mo_ta": "Redesigned key screens for clarity and accessibility and validated them with stakeholders."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Drew Ortega",
+                "email": "drew.ortega13@example.com",
+                "so_dien_thoai": "(555) 015-3414"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Northfield University",
+                    "chuyen_nganh": "Psychology",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2019
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Adobe XD",
+                "FigJam",
+                "Figma",
+                "Prototyping",
+                "Accessibility (WCAG)",
+                "Mobile App Design",
+                "Responsive Design",
+                "Information Architecture",
+                "Journey Mapping",
+                "Persona Development",
+                "Usability Testing",
+                "Maze",
+                "Iconography",
+                "Brand Identity",
+                "Visual Design",
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Lottie"
+            ],
+            "ky_nang_khac": [
+                "Attention to detail",
+                "Problem solving",
+                "Stakeholder management",
+                "Analytical thinking",
+                "Time management"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Web Accessibility Fundamentals",
+                    "to_chuc_cap": "Deque University",
+                    "nam_cap": 2025
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Bright Interactive",
+                    "chuc_danh": "Design Lead",
+                    "thoi_gian_bat_dau": "2024-11",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Created high-fidelity mockups and interactive prototypes in Adobe XD for stakeholder review. Partnered with product and engineering leads to prioritize design work across 2 teams. Collaborated with developers to hand off specs and assets and reviewed implementation for design fidelity."
+                },
+                {
+                    "cong_ty": "Bright Solutions",
+                    "chuc_danh": "UI/UX Designer",
+                    "thoi_gian_bat_dau": "2022-08",
+                    "thoi_gian_ket_thuc": "2024-08",
+                    "mo_ta_cong_viec": "Facilitated design workshops with product managers and engineers to align on requirements. Designed end-to-end user flows and wireframes for the video streaming app in Adobe XD. Led the visual design of the mobile app for the video streaming app across iOS and Android."
+                },
+                {
+                    "cong_ty": "Willow Networks",
+                    "chuc_danh": "Junior UI/UX Designer",
+                    "thoi_gian_bat_dau": "2020-05",
+                    "thoi_gian_ket_thuc": "2022-06",
+                    "mo_ta_cong_viec": "Created high-fidelity mockups and interactive prototypes in Adobe XD for stakeholder review. Produced icons, illustrations and visual style guides consistent with brand guidelines."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Budgeting App Landing Page Redesign",
+                    "vai_tro": "UX Designer",
+                    "cong_nghe_su_dung": [
+                        "Adobe XD",
+                        "Zeplin",
+                        "Miro"
+                    ],
+                    "mo_ta": "Created the visual language and component library and handed specs to developers."
+                },
+                {
+                    "ten_du_an": "Telehealth App Landing Page Redesign",
+                    "vai_tro": "UI Designer",
+                    "cong_nghe_su_dung": [
+                        "Adobe XD",
+                        "Balsamiq",
+                        "InVision"
+                    ],
+                    "mo_ta": "Created the visual language and component library and handed specs to developers."
+                },
+                {
+                    "ten_du_an": "Real Estate Marketplace Mobile App UX",
+                    "vai_tro": "Lead Designer",
+                    "cong_nghe_su_dung": [
+                        "Adobe XD",
+                        "Framer",
+                        "Balsamiq"
+                    ],
+                    "mo_ta": "Created the visual language and component library and handed specs to developers."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Peyton Anderson",
+                "email": "peyton.anderson61@example.com",
+                "so_dien_thoai": "(555) 016-0355"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Coastal University",
+                    "chuyen_nganh": "Software Engineering",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": null
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Test Scenario Writing",
+                "Defect Tracking",
+                "Test Planning",
+                "Smoke Testing",
+                "User Acceptance Testing (UAT)",
+                "Test Case Design",
+                "Agile/Scrum",
+                "TestRail",
+                "Postman",
+                "SQL",
+                "Charles Proxy"
+            ],
+            "ky_nang_khac": [
+                "Adaptability",
+                "Communication",
+                "Analytical thinking"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Vertex Digital",
+                    "chuc_danh": "QA Analyst",
+                    "thoi_gian_bat_dau": "2024-08",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Wrote test plans and test scenarios from user stories and acceptance criteria during sprint planning. Prepared test summary reports and defect metrics for each release. Logged and tracked defects in Bugzilla, working with developers to reproduce and verify fixes. Reviewed requirements with product owners to find gaps before development started."
+                },
+                {
+                    "cong_ty": "Atlas Digital",
+                    "chuc_danh": "Junior QA Analyst",
+                    "thoi_gian_bat_dau": "2021-11",
+                    "thoi_gian_ket_thuc": "2024-07",
+                    "mo_ta_cong_viec": "Designed and executed 298 test cases for the logistics tracking system, covering functional, regression and smoke scenarios. Logged and tracked defects in Azure DevOps, working with developers to reproduce and verify fixes. Performed API testing with Postman and validated responses against the specification. Participated in UAT sessions and release sign-off for the logistics tracking system."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Performance Testing of Insurance Claims Portal",
+                    "vai_tro": "QA Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "TestRail",
+                        "SQL"
+                    ],
+                    "mo_ta": "Measured response times under load and reported bottlenecks to the developers."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Parker Keller",
+                "email": "parker.keller51@example.com",
+                "so_dien_thoai": "(555) 012-5774"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Maplewood College",
+                    "chuyen_nganh": "Interaction Design",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2025
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Adobe XD",
+                "ProtoPie",
+                "Mobile App Design",
+                "Responsive Design",
+                "Wireframing",
+                "Accessibility (WCAG)",
+                "Interaction Design",
+                "Typography",
+                "Visual Design",
+                "Adobe After Effects"
+            ],
+            "ky_nang_khac": [
+                "Adaptability",
+                "Presentation skills",
+                "Attention to detail",
+                "Team collaboration"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Google UX Design Professional Certificate",
+                    "to_chuc_cap": "Google (Coursera)",
+                    "nam_cap": 2026
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Kestrel Labs",
+                    "chuc_danh": "UI Designer",
+                    "thoi_gian_bat_dau": "2026-03",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Created high-fidelity mockups and interactive prototypes in Adobe XD for stakeholder review. Produced icons, illustrations and visual style guides consistent with brand guidelines."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Insurance Claims Portal Landing Page Redesign",
+                    "vai_tro": "Product Designer",
+                    "cong_nghe_su_dung": [
+                        "Adobe XD",
+                        "Zeplin",
+                        "FigJam"
+                    ],
+                    "mo_ta": "Created the visual language and component library and handed specs to developers."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Ellis Jacobs",
+                "email": "ellis.jacobs82@example.com",
+                "so_dien_thoai": "(555) 013-1840"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Harborview Institute of Design",
+                    "chuyen_nganh": "Information Technology",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2024
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Black Box Testing",
+                "Cross-browser Testing",
+                "Smoke Testing",
+                "Test Case Design",
+                "Defect Tracking",
+                "Zephyr",
+                "Postman",
+                "Confluence",
+                "Jira",
+                "Azure DevOps"
+            ],
+            "ky_nang_khac": [
+                "Critical thinking",
+                "Team collaboration",
+                "Time management",
+                "Mentoring"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Postman API Fundamentals Student Expert",
+                    "to_chuc_cap": "Postman",
+                    "nam_cap": 2026
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Nova Labs",
+                    "chuc_danh": "Test Analyst",
+                    "thoi_gian_bat_dau": "2024-06",
+                    "thoi_gian_ket_thuc": "2026-06",
+                    "mo_ta_cong_viec": "Wrote test plans and test scenarios from user stories and acceptance criteria during sprint planning. Reviewed requirements with product owners to find gaps before development started. Carried out exploratory and cross-browser testing on Chrome, Firefox, Safari and Edge."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Performance Testing of Saas Crm",
+                    "vai_tro": "Tester",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "Jira",
+                        "SQL"
+                    ],
+                    "mo_ta": "Validated APIs and database changes and tracked all defects to closure."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Sage Morales",
+                "email": "sage.morales34@example.com",
+                "so_dien_thoai": "(555) 016-6472"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Riverside Institute of Technology",
+                    "chuyen_nganh": "Computer Engineering",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2026
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Manual Testing",
+                "Test Scenario Writing",
+                "Test Planning",
+                "Test Case Design",
+                "Exploratory Testing",
+                "Cross-browser Testing",
+                "BrowserStack",
+                "Zephyr",
+                "Confluence"
+            ],
+            "ky_nang_khac": [
+                "Stakeholder management",
+                "Presentation skills",
+                "Problem solving",
+                "Analytical thinking"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Mosaic Solutions",
+                    "chuc_danh": "Junior Manual Tester",
+                    "thoi_gian_bat_dau": "2026-02",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Prepared test summary reports and defect metrics for each release. Wrote test plans and test scenarios from user stories and acceptance criteria during sprint planning. Designed and executed 437 test cases for the hotel booking system, covering functional, regression and smoke scenarios. Participated in UAT sessions and release sign-off for the hotel booking system."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Performance Testing of Logistics Tracking System",
+                    "vai_tro": "QA Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "SQL"
+                    ],
+                    "mo_ta": "Planned and executed end-to-end tests covering the main user journeys and edge cases."
+                },
+                {
+                    "ten_du_an": "API Test Suite for Video Streaming App",
+                    "vai_tro": "Automation Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "Jira",
+                        "SQL"
+                    ],
+                    "mo_ta": "Measured response times under load and reported bottlenecks to the developers."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Morgan Khan",
+                "email": "morgan.khan61@example.com",
+                "so_dien_thoai": "(555) 019-3735"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Central Valley University",
+                    "chuyen_nganh": "Information Technology",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2024
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Exploratory Testing",
+                "Manual Testing",
+                "Regression Testing",
+                "Test Planning",
+                "Black Box Testing",
+                "Test Scenario Writing",
+                "SQL",
+                "Zephyr",
+                "TestRail",
+                "Azure DevOps",
+                "Confluence",
+                "Git"
+            ],
+            "ky_nang_khac": [
+                "Adaptability",
+                "Critical thinking",
+                "Analytical thinking"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Selenium WebDriver Course Certificate",
+                    "to_chuc_cap": "Udemy",
+                    "nam_cap": 2025
+                },
+                {
+                    "ten_chung_chi": "Professional Scrum Master I",
+                    "to_chuc_cap": "Scrum.org",
+                    "nam_cap": 2026
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Nimbus Works",
+                    "chuc_danh": "Software Tester",
+                    "thoi_gian_bat_dau": "2025-03",
+                    "thoi_gian_ket_thuc": "2026-04",
+                    "mo_ta_cong_viec": "Reviewed requirements with product owners to find gaps before development started. Carried out exploratory and cross-browser testing on Chrome, Firefox, Safari and Edge."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Performance Testing of Video Streaming App",
+                    "vai_tro": "Automation Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "TestRail"
+                    ],
+                    "mo_ta": "Measured response times under load and reported bottlenecks to the developers."
+                },
+                {
+                    "ten_du_an": "Hotel Booking System Regression Automation",
+                    "vai_tro": "Automation Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "SQL",
+                        "TestRail"
+                    ],
+                    "mo_ta": "Planned and executed end-to-end tests covering the main user journeys and edge cases."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Casey Palmer",
+                "email": "casey.palmer54@example.com",
+                "so_dien_thoai": "(555) 018-2210"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Ridgeview University",
+                    "chuyen_nganh": "Visual Communication",
+                    "bang_cap": "Master of Science",
+                    "nam_tot_nghiep": 2025
+                },
+                {
+                    "truong": "Northfield University",
+                    "chuyen_nganh": "Psychology",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2023
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "Framer",
+                "Adobe XD",
+                "Zeplin",
+                "Design Systems",
+                "Interaction Design",
+                "Wireframing",
+                "Responsive Design",
+                "Usability Testing",
+                "Information Architecture",
+                "Persona Development",
+                "Dovetail",
+                "UserTesting"
+            ],
+            "ky_nang_khac": [
+                "Critical thinking",
+                "Presentation skills",
+                "Mentoring"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Zenith Systems",
+                    "chuc_danh": "Senior Interaction Designer",
+                    "thoi_gian_bat_dau": "2025-06",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Facilitated design workshops with product managers and engineers to align on requirements. Designed end-to-end user flows and wireframes for the online learning platform in Figma. Mapped information architecture and navigation for the online learning platform based on card sorting results."
+                },
+                {
+                    "cong_ty": "Vertex Interactive",
+                    "chuc_danh": "Junior Interaction Designer",
+                    "thoi_gian_bat_dau": "2023-10",
+                    "thoi_gian_ket_thuc": "2025-06",
+                    "mo_ta_cong_viec": "Defined user personas and journey maps based on survey and interview research. Facilitated design workshops with product managers and engineers to align on requirements."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Ride-Hailing App Landing Page Redesign",
+                    "vai_tro": "UX Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Zeplin",
+                        "FigJam"
+                    ],
+                    "mo_ta": "Created the visual language and component library and handed specs to developers."
+                },
+                {
+                    "ten_du_an": "Food Delivery App Redesign",
+                    "vai_tro": "UX Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Sketch"
+                    ],
+                    "mo_ta": "Redesigned key screens for clarity and accessibility and validated them with stakeholders."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Finley Khan",
+                "email": "finley.khan25@example.com",
+                "so_dien_thoai": "(555) 015-0243"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Central Valley University",
+                    "chuyen_nganh": "Multimedia Design",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2020
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "Sketch",
+                "Miro",
+                "Framer",
+                "Wireframing",
+                "User Flows",
+                "Responsive Design",
+                "Visual Design",
+                "Color Theory",
+                "Layout Design",
+                "Lottie",
+                "Adobe Photoshop",
+                "Adobe Illustrator"
+            ],
+            "ky_nang_khac": [
+                "Ownership",
+                "Attention to detail",
+                "Mentoring",
+                "Stakeholder management",
+                "Analytical thinking"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Adobe Certified Professional: Visual Design",
+                    "to_chuc_cap": "Adobe",
+                    "nam_cap": 2026
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Quanta Solutions",
+                    "chuc_danh": "Senior Visual Designer",
+                    "thoi_gian_bat_dau": "2023-11",
+                    "thoi_gian_ket_thuc": "2026-03",
+                    "mo_ta_cong_viec": "Produced icons, illustrations and visual style guides consistent with brand guidelines. Ensured designs met WCAG accessibility guidelines and responsive breakpoints. Created high-fidelity mockups and interactive prototypes in Figma for stakeholder review."
+                },
+                {
+                    "cong_ty": "Nimbus Networks",
+                    "chuc_danh": "Junior Visual Designer",
+                    "thoi_gian_bat_dau": "2021-05",
+                    "thoi_gian_ket_thuc": "2023-10",
+                    "mo_ta_cong_viec": "Collaborated with developers to hand off specs and assets and reviewed implementation for design fidelity. Built and maintained a design system with reusable components, adopted by 3 product teams. Created high-fidelity mockups and interactive prototypes in Figma for stakeholder review. Led the visual design of the mobile app for the insurance claims portal across iOS and Android."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Design System for Telehealth App",
+                    "vai_tro": "UI Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Miro",
+                        "InVision"
+                    ],
+                    "mo_ta": "Researched user needs, mapped the main flows and delivered clickable prototypes for testing."
+                },
+                {
+                    "ten_du_an": "Design System for Logistics Tracking System",
+                    "vai_tro": "UX Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Axure RP",
+                        "ProtoPie"
+                    ],
+                    "mo_ta": "Simplified the navigation and checkout steps after usability testing with real users."
+                },
+                {
+                    "ten_du_an": "Online Learning Platform Onboarding Flow",
+                    "vai_tro": "Lead Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Miro",
+                        "Axure RP"
+                    ],
+                    "mo_ta": "Redesigned key screens for clarity and accessibility and validated them with stakeholders."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Quinn Jenkins",
+                "email": "quinn.jenkins44@example.com",
+                "so_dien_thoai": "(555) 011-6821"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Harborview Institute of Design",
+                    "chuyen_nganh": "Software Engineering",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2025
+                }
+            ],
+            "ngon_ngu_lap_trinh": [
+                "TypeScript"
+            ],
+            "ky_nang": [
+                "Black Box Testing",
+                "Exploratory Testing",
+                "Test Case Design",
+                "User Acceptance Testing (UAT)",
+                "Regression Testing",
+                "Manual Testing",
+                "Test Scenario Writing",
+                "Agile/Scrum",
+                "SQL",
+                "Git",
+                "Zephyr",
+                "Charles Proxy",
+                "Playwright",
+                "Cypress",
+                "Docker",
+                "JMeter"
+            ],
+            "ky_nang_khac": [
+                "Curiosity",
+                "Communication",
+                "Adaptability"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Pixel Studio",
+                    "chuc_danh": "QA Intern",
+                    "thoi_gian_bat_dau": "2025-12",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Stabilized flaky tests and improved automation pass rate to 99%. Reviewed requirements with product owners to find gaps before development started. Analyzed production incidents and added missing regression coverage to the test suite."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Budgeting App Regression Automation",
+                    "vai_tro": "Automation Engineer",
+                    "cong_nghe_su_dung": [
+                        "Playwright",
+                        "Postman",
+                        "TestRail"
+                    ],
+                    "mo_ta": "Built a regression suite that runs before each release and reports results to the team."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Casey Anderson",
+                "email": "casey.anderson53@example.com",
+                "so_dien_thoai": "(555) 014-6791"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Westbrook Institute",
+                    "chuyen_nganh": "Software Engineering",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2022
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Test Planning",
+                "API Testing",
+                "Defect Tracking",
+                "Bug Reporting",
+                "Smoke Testing",
+                "Cross-browser Testing",
+                "TestRail",
+                "Zephyr",
+                "Git",
+                "Postman",
+                "Confluence",
+                "Azure DevOps"
+            ],
+            "ky_nang_khac": [
+                "Attention to detail",
+                "Communication",
+                "Analytical thinking"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "ISTQB Certified Tester Foundation Level",
+                    "to_chuc_cap": "ISTQB",
+                    "nam_cap": 2026
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Lumen Systems",
+                    "chuc_danh": "QA Analyst",
+                    "thoi_gian_bat_dau": "2024-10",
+                    "thoi_gian_ket_thuc": "2026-05",
+                    "mo_ta_cong_viec": "Wrote test plans and test scenarios from user stories and acceptance criteria during sprint planning. Analyzed production incidents and added missing regression coverage to the test suite. Carried out exploratory and cross-browser testing on Chrome, Firefox, Safari and Edge."
+                },
+                {
+                    "cong_ty": "Lumen Group",
+                    "chuc_danh": "Junior QA Analyst",
+                    "thoi_gian_bat_dau": "2022-10",
+                    "thoi_gian_ket_thuc": "2024-08",
+                    "mo_ta_cong_viec": "Reviewed requirements with product owners to find gaps before development started. Wrote test plans and test scenarios from user stories and acceptance criteria during sprint planning. Logged and tracked defects in Bugzilla, working with developers to reproduce and verify fixes. Maintained test data and test environments, including SQL checks against the database."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Ride-Hailing App Test Strategy",
+                    "vai_tro": "QA Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "Jira",
+                        "TestRail"
+                    ],
+                    "mo_ta": "Validated APIs and database changes and tracked all defects to closure."
+                },
+                {
+                    "ten_du_an": "Hotel Booking System Test Strategy",
+                    "vai_tro": "Automation Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "TestRail"
+                    ],
+                    "mo_ta": "Validated APIs and database changes and tracked all defects to closure."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Casey Grant",
+                "email": "casey.grant40@example.com",
+                "so_dien_thoai": "(555) 016-3904"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Central Valley University",
+                    "chuyen_nganh": "Computer Science",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2017
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Regression Testing",
+                "Smoke Testing",
+                "Cross-browser Testing",
+                "Test Scenario Writing",
+                "Manual Testing",
+                "API Testing",
+                "Test Case Design",
+                "BrowserStack",
+                "Git",
+                "Azure DevOps",
+                "Swagger",
+                "TestRail"
+            ],
+            "ky_nang_khac": [
+                "Communication",
+                "Stakeholder management",
+                "Attention to detail",
+                "Team collaboration"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "ISTQB Advanced Level Test Analyst",
+                    "to_chuc_cap": "ISTQB",
+                    "nam_cap": 2020
+                },
+                {
+                    "ten_chung_chi": "ISTQB Certified Tester Foundation Level",
+                    "to_chuc_cap": "ISTQB",
+                    "nam_cap": 2026
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Bright Software",
+                    "chuc_danh": "QA Lead",
+                    "thoi_gian_bat_dau": "2021-09",
+                    "thoi_gian_ket_thuc": "2026-05",
+                    "mo_ta_cong_viec": "Logged and tracked defects in Bugzilla, working with developers to reproduce and verify fixes. Coordinated testing across 2 squads and owned release readiness reports. Designed and executed 76 test cases for the mobile banking app, covering functional, regression and smoke scenarios."
+                },
+                {
+                    "cong_ty": "Atlas Software",
+                    "chuc_danh": "Test Analyst",
+                    "thoi_gian_bat_dau": "2018-10",
+                    "thoi_gian_ket_thuc": "2021-09",
+                    "mo_ta_cong_viec": "Analyzed production incidents and added missing regression coverage to the test suite. Performed API testing with Postman and validated responses against the specification."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Hr Management System Regression Automation",
+                    "vai_tro": "Tester",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "SQL"
+                    ],
+                    "mo_ta": "Measured response times under load and reported bottlenecks to the developers."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Sage Holloway",
+                "email": "sage.holloway1@example.com",
+                "so_dien_thoai": "(555) 014-1517"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Eastgate University",
+                    "chuyen_nganh": "Psychology",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2023
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "Framer",
+                "Sketch",
+                "Prototyping",
+                "Design Thinking",
+                "User Flows",
+                "Usability Testing",
+                "Heuristic Evaluation",
+                "UserTesting",
+                "Google Analytics",
+                "Color Theory",
+                "Layout Design",
+                "Principle"
+            ],
+            "ky_nang_khac": [
+                "Mentoring",
+                "Curiosity",
+                "Stakeholder management"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Certified Usability Analyst",
+                    "to_chuc_cap": "Human Factors International",
+                    "nam_cap": 2024
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Lumen Networks",
+                    "chuc_danh": "Junior Product Designer",
+                    "thoi_gian_bat_dau": "2024-12",
+                    "thoi_gian_ket_thuc": "2026-04",
+                    "mo_ta_cong_viec": "Created high-fidelity mockups and interactive prototypes in Figma for stakeholder review. Redesigned the onboarding flow of the food delivery app, increasing completion rate by 34%. Built and maintained a design system with reusable components, adopted by 2 product teams."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Design System for Mobile Banking App",
+                    "vai_tro": "Product Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Zeplin",
+                        "Balsamiq"
+                    ],
+                    "mo_ta": "Researched user needs, mapped the main flows and delivered clickable prototypes for testing."
+                },
+                {
+                    "ten_du_an": "Travel Booking Platform Redesign",
+                    "vai_tro": "Lead Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Adobe XD",
+                        "Zeplin"
+                    ],
+                    "mo_ta": "Simplified the navigation and checkout steps after usability testing with real users."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Logan Walker",
+                "email": "logan.walker16@example.com",
+                "so_dien_thoai": "(555) 016-8456"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Pioneer State University",
+                    "chuyen_nganh": "Interaction Design",
+                    "bang_cap": "Master of Science",
+                    "nam_tot_nghiep": 2018
+                },
+                {
+                    "truong": "Summit Polytechnic",
+                    "chuyen_nganh": "Interaction Design",
+                    "bang_cap": "Bachelor of Arts",
+                    "nam_tot_nghiep": null
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "Sketch",
+                "ProtoPie",
+                "Design Systems",
+                "User Flows",
+                "Wireframing",
+                "Responsive Design",
+                "Mobile App Design",
+                "Layout Design",
+                "Illustration",
+                "Adobe Illustrator",
+                "Principle",
+                "Lottie"
+            ],
+            "ky_nang_khac": [
+                "Team collaboration",
+                "Mentoring",
+                "Presentation skills",
+                "Curiosity"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Adobe Certified Professional: Visual Design",
+                    "to_chuc_cap": "Adobe",
+                    "nam_cap": 2024
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Crest Systems",
+                    "chuc_danh": "Senior UI Designer",
+                    "thoi_gian_bat_dau": "2022-12",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Mentored 3 junior designers and ran weekly design critiques. Led the visual design of the mobile app for the food delivery app across iOS and Android."
+                },
+                {
+                    "cong_ty": "Pixel Labs",
+                    "chuc_danh": "UI Designer",
+                    "thoi_gian_bat_dau": "2016-05",
+                    "thoi_gian_ket_thuc": "2022-09",
+                    "mo_ta_cong_viec": "Ensured designs met WCAG accessibility guidelines and responsive breakpoints. Produced icons, illustrations and visual style guides consistent with brand guidelines. Collaborated with developers to hand off specs and assets and reviewed implementation for design fidelity. Led the visual design of the mobile app for the healthcare portal across iOS and Android."
+                }
+            ],
+            "du_an": []
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Harper Khan",
+                "email": "harper.khan59@example.com",
+                "so_dien_thoai": "(555) 011-6245"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Summit Polytechnic",
+                    "chuyen_nganh": "Computer Science",
+                    "bang_cap": "Master of Science",
+                    "nam_tot_nghiep": 2025
+                },
+                {
+                    "truong": "Crescent Arts University",
+                    "chuyen_nganh": "Visual Communication",
+                    "bang_cap": "Bachelor of Arts",
+                    "nam_tot_nghiep": 2023
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Sketch",
+                "Miro",
+                "Axure RP",
+                "Mobile App Design",
+                "Responsive Design",
+                "Interaction Design",
+                "Persona Development",
+                "Card Sorting",
+                "Maze",
+                "UserTesting",
+                "Visual Design",
+                "Typography",
+                "Principle",
+                "Adobe After Effects"
+            ],
+            "ky_nang_khac": [
+                "Curiosity",
+                "Presentation skills",
+                "Adaptability"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Atlas Digital",
+                    "chuc_danh": "Senior UX/UI Designer",
+                    "thoi_gian_bat_dau": "2025-05",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Ran A/B tests on key screens and iterated on layouts using analytics from Google Analytics. Redesigned the onboarding flow of the SaaS CRM, increasing completion rate by 33%."
+                },
+                {
+                    "cong_ty": "Harbor Software",
+                    "chuc_danh": "Junior UX/UI Designer",
+                    "thoi_gian_bat_dau": "2023-02",
+                    "thoi_gian_ket_thuc": "2025-03",
+                    "mo_ta_cong_viec": "Built and maintained a design system with reusable components, adopted by 5 product teams. Redesigned the onboarding flow of the online learning platform, increasing completion rate by 12%."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Saas Crm Onboarding Flow",
+                    "vai_tro": "Lead Designer",
+                    "cong_nghe_su_dung": [
+                        "Sketch",
+                        "Axure RP",
+                        "Miro"
+                    ],
+                    "mo_ta": "Created the visual language and component library and handed specs to developers."
+                },
+                {
+                    "ten_du_an": "Logistics Tracking System Landing Page Redesign",
+                    "vai_tro": "UI Designer",
+                    "cong_nghe_su_dung": [
+                        "Sketch",
+                        "Figma",
+                        "Axure RP"
+                    ],
+                    "mo_ta": "Researched user needs, mapped the main flows and delivered clickable prototypes for testing."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Jamie Dixon",
+                "email": "jamie.dixon20@example.com",
+                "so_dien_thoai": "(555) 012-5683"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Pioneer State University",
+                    "chuyen_nganh": "Visual Communication",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2025
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "InVision",
+                "Responsive Design",
+                "Usability Testing",
+                "Design Systems",
+                "Wireframing",
+                "Interaction Design",
+                "Persona Development",
+                "Card Sorting",
+                "Information Architecture",
+                "A/B Testing",
+                "Dovetail",
+                "Visual Design",
+                "Layout Design",
+                "Adobe Photoshop",
+                "Lottie"
+            ],
+            "ky_nang_khac": [
+                "Team collaboration",
+                "Curiosity",
+                "Attention to detail",
+                "Presentation skills"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Pixel Works",
+                    "chuc_danh": "Junior Product Designer",
+                    "thoi_gian_bat_dau": "2026-03",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Facilitated design workshops with product managers and engineers to align on requirements. Conducted 39 usability tests and user interviews and turned the findings into design improvements."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Hotel Booking System Onboarding Flow",
+                    "vai_tro": "Product Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Zeplin"
+                    ],
+                    "mo_ta": "Researched user needs, mapped the main flows and delivered clickable prototypes for testing."
+                },
+                {
+                    "ten_du_an": "Insurance Claims Portal Onboarding Flow",
+                    "vai_tro": "UI Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Axure RP",
+                        "InVision"
+                    ],
+                    "mo_ta": "Redesigned key screens for clarity and accessibility and validated them with stakeholders."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Leslie Griffin",
+                "email": "leslie.griffin31@example.com",
+                "so_dien_thoai": "(555) 017-4161"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Highland College of Engineering",
+                    "chuyen_nganh": "Multimedia Design",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2025
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "Zeplin",
+                "ProtoPie",
+                "Wireframing",
+                "Usability Testing",
+                "Mobile App Design",
+                "Heuristic Evaluation",
+                "A/B Testing",
+                "Dovetail",
+                "Optimal Workshop",
+                "Color Theory",
+                "Brand Identity",
+                "Iconography",
+                "Principle",
+                "Adobe After Effects"
+            ],
+            "ky_nang_khac": [
+                "Team collaboration",
+                "Curiosity",
+                "Time management",
+                "Mentoring",
+                "Attention to detail"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Willow Interactive",
+                    "chuc_danh": "UX/UI Designer",
+                    "thoi_gian_bat_dau": "2025-01",
+                    "thoi_gian_ket_thuc": "2026-06",
+                    "mo_ta_cong_viec": "Conducted 29 usability tests and user interviews and turned the findings into design improvements. Built and maintained a design system with reusable components, adopted by 4 product teams. Produced icons, illustrations and visual style guides consistent with brand guidelines. Collaborated with developers to hand off specs and assets and reviewed implementation for design fidelity."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Design System for Insurance Claims Portal",
+                    "vai_tro": "Lead Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Sketch",
+                        "Balsamiq"
+                    ],
+                    "mo_ta": "Created the visual language and component library and handed specs to developers."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Leslie Hughes",
+                "email": "leslie.hughes94@example.com",
+                "so_dien_thoai": "(555) 013-9562"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Metropolitan University of Technology",
+                    "chuyen_nganh": "Human-Computer Interaction",
+                    "bang_cap": "Bachelor of Arts",
+                    "nam_tot_nghiep": 2024
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "Zeplin",
+                "InVision",
+                "Balsamiq",
+                "ProtoPie",
+                "Design Thinking",
+                "Accessibility (WCAG)",
+                "Responsive Design",
+                "Heuristic Evaluation",
+                "Usability Testing",
+                "User Research",
+                "Card Sorting",
+                "Dovetail",
+                "Iconography",
+                "Brand Identity",
+                "Adobe Illustrator",
+                "Lottie",
+                "Adobe Photoshop"
+            ],
+            "ky_nang_khac": [
+                "Ownership",
+                "Curiosity",
+                "Adaptability"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Helix Systems",
+                    "chuc_danh": "UI/UX Designer",
+                    "thoi_gian_bat_dau": "2024-10",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Conducted 19 usability tests and user interviews and turned the findings into design improvements. Led the visual design of the mobile app for the video streaming app across iOS and Android. Created high-fidelity mockups and interactive prototypes in Figma for stakeholder review. Designed end-to-end user flows and wireframes for the video streaming app in Figma."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Online Learning Platform Onboarding Flow",
+                    "vai_tro": "UI Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "ProtoPie",
+                        "Miro"
+                    ],
+                    "mo_ta": "Created the visual language and component library and handed specs to developers."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Sam Palmer",
+                "email": "sam.palmer62@example.com",
+                "so_dien_thoai": "(555) 010-8256"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Metropolitan University of Technology",
+                    "chuyen_nganh": "Human-Computer Interaction",
+                    "bang_cap": "Bachelor of Arts",
+                    "nam_tot_nghiep": 2021
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Sketch",
+                "Figma",
+                "FigJam",
+                "Responsive Design",
+                "User Flows",
+                "Mobile App Design",
+                "A/B Testing",
+                "Persona Development",
+                "Usability Testing",
+                "Google Analytics",
+                "Maze",
+                "Visual Design",
+                "Color Theory",
+                "Layout Design",
+                "Adobe Illustrator",
+                "Adobe Photoshop"
+            ],
+            "ky_nang_khac": [
+                "Presentation skills",
+                "Ownership",
+                "Time management"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Helix Labs",
+                    "chuc_danh": "Product Designer",
+                    "thoi_gian_bat_dau": "2023-10",
+                    "thoi_gian_ket_thuc": "2026-08",
+                    "mo_ta_cong_viec": "Built and maintained a design system with reusable components, adopted by 5 product teams. Ran A/B tests on key screens and iterated on layouts using analytics from Google Analytics. Redesigned the onboarding flow of the hotel booking system, increasing completion rate by 27%. Collaborated with developers to hand off specs and assets and reviewed implementation for design fidelity."
+                },
+                {
+                    "cong_ty": "Atlas Networks",
+                    "chuc_danh": "Junior Product Designer",
+                    "thoi_gian_bat_dau": "2021-07",
+                    "thoi_gian_ket_thuc": "2023-09",
+                    "mo_ta_cong_viec": "Created high-fidelity mockups and interactive prototypes in Sketch for stakeholder review. Conducted 23 usability tests and user interviews and turned the findings into design improvements. Mapped information architecture and navigation for the mobile banking app based on card sorting results."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Healthcare Portal Redesign",
+                    "vai_tro": "UX Designer",
+                    "cong_nghe_su_dung": [
+                        "Sketch",
+                        "Framer",
+                        "Axure RP"
+                    ],
+                    "mo_ta": "Simplified the navigation and checkout steps after usability testing with real users."
+                },
+                {
+                    "ten_du_an": "Logistics Tracking System Onboarding Flow",
+                    "vai_tro": "Lead Designer",
+                    "cong_nghe_su_dung": [
+                        "Sketch",
+                        "FigJam",
+                        "Figma"
+                    ],
+                    "mo_ta": "Redesigned key screens for clarity and accessibility and validated them with stakeholders."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Hayden Dixon",
+                "email": "hayden.dixon77@example.com",
+                "so_dien_thoai": "(555) 017-3411"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Coastal University",
+                    "chuyen_nganh": "Information Systems",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2024
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Regression Testing",
+                "Test Case Design",
+                "Black Box Testing",
+                "User Acceptance Testing (UAT)",
+                "Test Planning",
+                "Manual Testing",
+                "Git",
+                "Jira",
+                "Azure DevOps",
+                "TestRail",
+                "Confluence"
+            ],
+            "ky_nang_khac": [
+                "Critical thinking",
+                "Mentoring",
+                "Adaptability",
+                "Presentation skills"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Juniper Cloud",
+                    "chuc_danh": "QA Intern",
+                    "thoi_gian_bat_dau": "2024-11",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Analyzed production incidents and added missing regression coverage to the test suite. Prepared test summary reports and defect metrics for each release. Maintained test data and test environments, including SQL checks against the database."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Performance Testing of Hr Management System",
+                    "vai_tro": "QA Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "TestRail"
+                    ],
+                    "mo_ta": "Planned and executed end-to-end tests covering the main user journeys and edge cases."
+                },
+                {
+                    "ten_du_an": "Healthcare Portal Test Strategy",
+                    "vai_tro": "Tester",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "Jira"
+                    ],
+                    "mo_ta": "Measured response times under load and reported bottlenecks to the developers."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Sam Nguyen",
+                "email": "sam.nguyen89@example.com",
+                "so_dien_thoai": "(555) 018-2186"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Harborview Institute of Design",
+                    "chuyen_nganh": "Human-Computer Interaction",
+                    "bang_cap": "Bachelor of Arts",
+                    "nam_tot_nghiep": 2020
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "Balsamiq",
+                "ProtoPie",
+                "Adobe XD",
+                "User Flows",
+                "Usability Testing",
+                "Mobile App Design",
+                "Design Systems",
+                "Interaction Design",
+                "Visual Design",
+                "Color Theory",
+                "Adobe Photoshop"
+            ],
+            "ky_nang_khac": [
+                "Team collaboration",
+                "Adaptability",
+                "Critical thinking",
+                "Analytical thinking"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Web Accessibility Fundamentals",
+                    "to_chuc_cap": "Deque University",
+                    "nam_cap": 2021
+                },
+                {
+                    "ten_chung_chi": "Google UX Design Professional Certificate",
+                    "to_chuc_cap": "Google (Coursera)",
+                    "nam_cap": 2020
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Juniper Technologies",
+                    "chuc_danh": "Senior UI Designer",
+                    "thoi_gian_bat_dau": "2023-06",
+                    "thoi_gian_ket_thuc": "2026-04",
+                    "mo_ta_cong_viec": "Created high-fidelity mockups and interactive prototypes in Figma for stakeholder review. Ensured designs met WCAG accessibility guidelines and responsive breakpoints. Built and maintained a design system with reusable components, adopted by 2 product teams. Led the visual design of the mobile app for the budgeting app across iOS and Android."
+                },
+                {
+                    "cong_ty": "Ironbridge Interactive",
+                    "chuc_danh": "Junior UI Designer",
+                    "thoi_gian_bat_dau": "2021-08",
+                    "thoi_gian_ket_thuc": "2023-04",
+                    "mo_ta_cong_viec": "Led the visual design of the mobile app for the telehealth app across iOS and Android. Collaborated with developers to hand off specs and assets and reviewed implementation for design fidelity. Created high-fidelity mockups and interactive prototypes in Figma for stakeholder review."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Telehealth App Redesign",
+                    "vai_tro": "Lead Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Balsamiq",
+                        "Framer"
+                    ],
+                    "mo_ta": "Simplified the navigation and checkout steps after usability testing with real users."
+                },
+                {
+                    "ten_du_an": "Telehealth App Mobile App UX",
+                    "vai_tro": "Lead Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Miro",
+                        "Framer"
+                    ],
+                    "mo_ta": "Simplified the navigation and checkout steps after usability testing with real users."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Ellis Lawson",
+                "email": "ellis.lawson58@example.com",
+                "so_dien_thoai": "(555) 010-2975"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Pioneer State University",
+                    "chuyen_nganh": "Information Systems",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2016
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Bug Reporting",
+                "Exploratory Testing",
+                "Test Scenario Writing",
+                "Regression Testing",
+                "Test Case Design",
+                "API Testing",
+                "Zephyr",
+                "Confluence",
+                "Swagger"
+            ],
+            "ky_nang_khac": [
+                "Critical thinking",
+                "Stakeholder management",
+                "Adaptability",
+                "Mentoring",
+                "Analytical thinking"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "ISTQB Certified Tester Foundation Level",
+                    "to_chuc_cap": "ISTQB",
+                    "nam_cap": 2025
+                },
+                {
+                    "ten_chung_chi": "ISTQB Advanced Level Test Analyst",
+                    "to_chuc_cap": "ISTQB",
+                    "nam_cap": 2024
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Bright Studio",
+                    "chuc_danh": "QA Lead",
+                    "thoi_gian_bat_dau": "2021-10",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Carried out exploratory and cross-browser testing on Chrome, Firefox, Safari and Edge. Coordinated testing across 3 squads and owned release readiness reports. Defined the team's test strategy and quality gates for the travel booking platform."
+                },
+                {
+                    "cong_ty": "Zenith Works",
+                    "chuc_danh": "Manual Tester",
+                    "thoi_gian_bat_dau": "2016-04",
+                    "thoi_gian_ket_thuc": "2021-10",
+                    "mo_ta_cong_viec": "Carried out exploratory and cross-browser testing on Chrome, Firefox, Safari and Edge. Performed API testing with Postman and validated responses against the specification. Logged and tracked defects in Bugzilla, working with developers to reproduce and verify fixes."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "API Test Suite for Inventory Management System",
+                    "vai_tro": "Automation Engineer",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "Jira",
+                        "SQL"
+                    ],
+                    "mo_ta": "Planned and executed end-to-end tests covering the main user journeys and edge cases."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Harper Keller",
+                "email": "harper.keller95@example.com",
+                "so_dien_thoai": "(555) 013-1750"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Northfield University",
+                    "chuyen_nganh": "Computer Science",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2022
+                }
+            ],
+            "ngon_ngu_lap_trinh": [
+                "Java"
+            ],
+            "ky_nang": [
+                "Test Planning",
+                "User Acceptance Testing (UAT)",
+                "Defect Tracking",
+                "Manual Testing",
+                "Smoke Testing",
+                "Black Box Testing",
+                "Test Case Design",
+                "Test Scenario Writing",
+                "BrowserStack",
+                "Azure DevOps",
+                "Zephyr",
+                "Selenium",
+                "TestNG",
+                "REST Assured",
+                "Appium",
+                "k6",
+                "GitLab CI"
+            ],
+            "ky_nang_khac": [
+                "Attention to detail",
+                "Adaptability",
+                "Ownership",
+                "Curiosity",
+                "Problem solving"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Cobalt Studio",
+                    "chuc_danh": "Senior SDET",
+                    "thoi_gian_bat_dau": "2025-01",
+                    "thoi_gian_ket_thuc": "2026-07",
+                    "mo_ta_cong_viec": "Maintained test data and test environments, including SQL checks against the database. Analyzed production incidents and added missing regression coverage to the test suite. Automated API regression checks and data-driven tests covering 160 endpoints."
+                },
+                {
+                    "cong_ty": "Aster Networks",
+                    "chuc_danh": "Junior SDET",
+                    "thoi_gian_bat_dau": "2022-07",
+                    "thoi_gian_ket_thuc": "2024-10",
+                    "mo_ta_cong_viec": "Participated in UAT sessions and release sign-off for the telehealth app. Analyzed production incidents and added missing regression coverage to the test suite. Designed and executed 301 test cases for the telehealth app, covering functional, regression and smoke scenarios. Ran performance and load tests with Gatling to identify bottlenecks before release."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Fintech Payment Gateway Regression Automation",
+                    "vai_tro": "Tester",
+                    "cong_nghe_su_dung": [
+                        "REST Assured",
+                        "TestRail",
+                        "Postman"
+                    ],
+                    "mo_ta": "Validated APIs and database changes and tracked all defects to closure."
+                },
+                {
+                    "ten_du_an": "Saas Crm Test Strategy",
+                    "vai_tro": "Tester",
+                    "cong_nghe_su_dung": [
+                        "REST Assured",
+                        "Jira",
+                        "TestRail"
+                    ],
+                    "mo_ta": "Built a regression suite that runs before each release and reports results to the team."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Nico Palmer",
+                "email": "nico.palmer20@example.com",
+                "so_dien_thoai": "(555) 019-3176"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Pioneer State University",
+                    "chuyen_nganh": "Information Systems",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2024
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "InVision",
+                "Sketch",
+                "Design Systems",
+                "Usability Testing",
+                "Responsive Design",
+                "A/B Testing",
+                "Journey Mapping",
+                "Heuristic Evaluation",
+                "Google Analytics",
+                "Optimal Workshop",
+                "Illustration",
+                "Typography",
+                "Brand Identity",
+                "Adobe Photoshop",
+                "Lottie",
+                "Adobe After Effects"
+            ],
+            "ky_nang_khac": [
+                "Communication",
+                "Presentation skills",
+                "Attention to detail",
+                "Curiosity",
+                "Mentoring"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Google UX Design Professional Certificate",
+                    "to_chuc_cap": "Google (Coursera)",
+                    "nam_cap": 2025
+                },
+                {
+                    "ten_chung_chi": "Certified Usability Analyst",
+                    "to_chuc_cap": "Human Factors International",
+                    "nam_cap": 2024
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Nimbus Works",
+                    "chuc_danh": "UX/UI Designer",
+                    "thoi_gian_bat_dau": "2025-01",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Led the visual design of the mobile app for the e-commerce platform across iOS and Android. Built and maintained a design system with reusable components, adopted by 5 product teams."
+                }
+            ],
+            "du_an": []
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Parker Patel",
+                "email": "parker.patel7@example.com",
+                "so_dien_thoai": "(555) 016-1057"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Summit Polytechnic",
+                    "chuyen_nganh": "Information Technology",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2022
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Black Box Testing",
+                "Exploratory Testing",
+                "Manual Testing",
+                "API Testing",
+                "Regression Testing",
+                "Test Case Design",
+                "Test Scenario Writing",
+                "Test Planning",
+                "Jira",
+                "SQL",
+                "BrowserStack",
+                "Swagger",
+                "Git"
+            ],
+            "ky_nang_khac": [
+                "Presentation skills",
+                "Mentoring",
+                "Stakeholder management",
+                "Curiosity",
+                "Ownership"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Willow Digital",
+                    "chuc_danh": "Software Tester",
+                    "thoi_gian_bat_dau": "2024-07",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Maintained test data and test environments, including SQL checks against the database. Designed and executed 487 test cases for the telehealth app, covering functional, regression and smoke scenarios. Wrote test plans and test scenarios from user stories and acceptance criteria during sprint planning."
+                },
+                {
+                    "cong_ty": "Ember Cloud",
+                    "chuc_danh": "Junior Software Tester",
+                    "thoi_gian_bat_dau": "2022-08",
+                    "thoi_gian_ket_thuc": "2024-06",
+                    "mo_ta_cong_viec": "Prepared test summary reports and defect metrics for each release. Performed API testing with Postman and validated responses against the specification. Participated in UAT sessions and release sign-off for the fintech payment gateway."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Hotel Booking System Regression Automation",
+                    "vai_tro": "Tester",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "SQL",
+                        "Jira"
+                    ],
+                    "mo_ta": "Validated APIs and database changes and tracked all defects to closure."
+                },
+                {
+                    "ten_du_an": "API Test Suite for Hotel Booking System",
+                    "vai_tro": "Tester",
+                    "cong_nghe_su_dung": [
+                        "Postman",
+                        "TestRail",
+                        "SQL"
+                    ],
+                    "mo_ta": "Validated APIs and database changes and tracked all defects to closure."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Jordan Ramirez",
+                "email": "jordan.ramirez70@example.com",
+                "so_dien_thoai": "(555) 018-1567"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Coastal University",
+                    "chuyen_nganh": "Software Engineering",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2015
+                }
+            ],
+            "ngon_ngu_lap_trinh": [
+                "JavaScript"
+            ],
+            "ky_nang": [
+                "Regression Testing",
+                "Black Box Testing",
+                "User Acceptance Testing (UAT)",
+                "Test Planning",
+                "API Testing",
+                "Exploratory Testing",
+                "Defect Tracking",
+                "Git",
+                "Postman",
+                "TestRail",
+                "Zephyr",
+                "Agile/Scrum",
+                "Selenium",
+                "Playwright",
+                "Jenkins",
+                "Docker",
+                "GitHub Actions"
+            ],
+            "ky_nang_khac": [
+                "Stakeholder management",
+                "Communication",
+                "Mentoring",
+                "Analytical thinking",
+                "Time management"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Professional Scrum Master I",
+                    "to_chuc_cap": "Scrum.org",
+                    "nam_cap": 2021
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Nimbus Group",
+                    "chuc_danh": "QA Lead",
+                    "thoi_gian_bat_dau": "2023-05",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Designed and executed 123 test cases for the online learning platform, covering functional, regression and smoke scenarios. Developed reusable page-object frameworks and test utilities in JavaScript. Ran performance and load tests with Gatling to identify bottlenecks before release."
+                },
+                {
+                    "cong_ty": "Cobalt Networks",
+                    "chuc_danh": "QA Engineer",
+                    "thoi_gian_bat_dau": "2020-08",
+                    "thoi_gian_ket_thuc": "2023-02",
+                    "mo_ta_cong_viec": "Designed and executed 464 test cases for the real estate marketplace, covering functional, regression and smoke scenarios. Maintained test data and test environments, including SQL checks against the database. Integrated automated tests into the Jenkins pipeline to run on every build. Stabilized flaky tests and improved automation pass rate to 95%."
+                },
+                {
+                    "cong_ty": "Juniper Cloud",
+                    "chuc_danh": "Junior QA Engineer",
+                    "thoi_gian_bat_dau": "2015-12",
+                    "thoi_gian_ket_thuc": "2020-07",
+                    "mo_ta_cong_viec": "Logged and tracked defects in Jira, working with developers to reproduce and verify fixes. Integrated automated tests into the GitHub Actions pipeline to run on every build. Automated API regression checks and data-driven tests covering 507 endpoints. Reviewed requirements with product owners to find gaps before development started."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "E-Commerce Platform Test Strategy",
+                    "vai_tro": "Automation Engineer",
+                    "cong_nghe_su_dung": [
+                        "Selenium",
+                        "TestRail",
+                        "SQL"
+                    ],
+                    "mo_ta": "Planned and executed end-to-end tests covering the main user journeys and edge cases."
+                },
+                {
+                    "ten_du_an": "Real Estate Marketplace Regression Automation",
+                    "vai_tro": "Test Lead",
+                    "cong_nghe_su_dung": [
+                        "Selenium",
+                        "Postman",
+                        "SQL"
+                    ],
+                    "mo_ta": "Measured response times under load and reported bottlenecks to the developers."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Kai Xavier",
+                "email": "kai.xavier50@example.com",
+                "so_dien_thoai": "(555) 016-2496"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Lakeshore State University",
+                    "chuyen_nganh": "Graphic Design",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2023
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "Balsamiq",
+                "Axure RP",
+                "ProtoPie",
+                "Prototyping",
+                "User Flows",
+                "Responsive Design",
+                "Journey Mapping",
+                "User Research",
+                "Usability Testing",
+                "Optimal Workshop",
+                "Hotjar",
+                "Iconography",
+                "Brand Identity",
+                "Adobe After Effects",
+                "Adobe Photoshop"
+            ],
+            "ky_nang_khac": [
+                "Critical thinking",
+                "Time management",
+                "Ownership"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Summit Labs",
+                    "chuc_danh": "Product Designer",
+                    "thoi_gian_bat_dau": "2024-11",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Conducted 12 usability tests and user interviews and turned the findings into design improvements. Redesigned the onboarding flow of the hotel booking system, increasing completion rate by 37%. Led the visual design of the mobile app for the hotel booking system across iOS and Android. Built and maintained a design system with reusable components, adopted by 2 product teams."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Travel Booking Platform Landing Page Redesign",
+                    "vai_tro": "Lead Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Miro",
+                        "Sketch"
+                    ],
+                    "mo_ta": "Redesigned key screens for clarity and accessibility and validated them with stakeholders."
+                },
+                {
+                    "ten_du_an": "Online Learning Platform Redesign",
+                    "vai_tro": "UI Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Framer",
+                        "Adobe XD"
+                    ],
+                    "mo_ta": "Simplified the navigation and checkout steps after usability testing with real users."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Robin Carter",
+                "email": "robin.carter34@example.com",
+                "so_dien_thoai": "(555) 011-2464"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Crescent Arts University",
+                    "chuyen_nganh": "Software Engineering",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2025
+                }
+            ],
+            "ngon_ngu_lap_trinh": [
+                "Python"
+            ],
+            "ky_nang": [
+                "Smoke Testing",
+                "Regression Testing",
+                "Test Planning",
+                "Defect Tracking",
+                "Test Case Design",
+                "API Testing",
+                "Git",
+                "Swagger",
+                "Charles Proxy",
+                "Zephyr",
+                "Playwright",
+                "Appium",
+                "Jenkins"
+            ],
+            "ky_nang_khac": [
+                "Problem solving",
+                "Presentation skills",
+                "Curiosity",
+                "Stakeholder management"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Selenium WebDriver Course Certificate",
+                    "to_chuc_cap": "Udemy",
+                    "nam_cap": 2025
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Orbit Labs",
+                    "chuc_danh": "SDET",
+                    "thoi_gian_bat_dau": "2025-09",
+                    "thoi_gian_ket_thuc": "2026-05",
+                    "mo_ta_cong_viec": "Maintained test data and test environments, including SQL checks against the database. Integrated automated tests into the Jenkins pipeline to run on every build."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Performance Testing of Hr Management System",
+                    "vai_tro": "Test Lead",
+                    "cong_nghe_su_dung": [
+                        "Playwright",
+                        "Postman",
+                        "SQL"
+                    ],
+                    "mo_ta": "Measured response times under load and reported bottlenecks to the developers."
+                },
+                {
+                    "ten_du_an": "Healthcare Portal Test Strategy",
+                    "vai_tro": "Automation Engineer",
+                    "cong_nghe_su_dung": [
+                        "Playwright",
+                        "TestRail",
+                        "Postman"
+                    ],
+                    "mo_ta": "Built a regression suite that runs before each release and reports results to the team."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Peyton Walker",
+                "email": "peyton.walker59@example.com",
+                "so_dien_thoai": "(555) 019-8406"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Northfield University",
+                    "chuyen_nganh": "Interaction Design",
+                    "bang_cap": "Bachelor of Arts",
+                    "nam_tot_nghiep": 2025
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "Zeplin",
+                "InVision",
+                "Framer",
+                "Usability Testing",
+                "Design Thinking",
+                "Mobile App Design",
+                "Wireframing",
+                "User Research",
+                "Information Architecture",
+                "Optimal Workshop"
+            ],
+            "ky_nang_khac": [
+                "Time management",
+                "Mentoring",
+                "Attention to detail",
+                "Critical thinking",
+                "Analytical thinking"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Ironbridge Works",
+                    "chuc_danh": "Junior UX Researcher",
+                    "thoi_gian_bat_dau": "2025-03",
+                    "thoi_gian_ket_thuc": "2026-08",
+                    "mo_ta_cong_viec": "Designed end-to-end user flows and wireframes for the e-commerce platform in Figma. Redesigned the onboarding flow of the e-commerce platform, increasing completion rate by 43%."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Food Delivery App Redesign",
+                    "vai_tro": "Product Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "FigJam",
+                        "Sketch"
+                    ],
+                    "mo_ta": "Simplified the navigation and checkout steps after usability testing with real users."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Sasha Thornton",
+                "email": "sasha.thornton94@example.com",
+                "so_dien_thoai": "(555) 013-4401"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Harborview Institute of Design",
+                    "chuyen_nganh": "Human-Computer Interaction",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2024
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Figma",
+                "Axure RP",
+                "Balsamiq",
+                "FigJam",
+                "Prototyping",
+                "Accessibility (WCAG)",
+                "Design Systems",
+                "Journey Mapping",
+                "A/B Testing",
+                "Information Architecture",
+                "Hotjar"
+            ],
+            "ky_nang_khac": [
+                "Adaptability",
+                "Time management",
+                "Mentoring"
+            ],
+            "chung_chi": [],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Mosaic Digital",
+                    "chuc_danh": "UX Researcher",
+                    "thoi_gian_bat_dau": "2024-06",
+                    "thoi_gian_ket_thuc": "2026-04",
+                    "mo_ta_cong_viec": "Ran A/B tests on key screens and iterated on layouts using analytics from Amplitude. Defined user personas and journey maps based on survey and interview research. Conducted 36 usability tests and user interviews and turned the findings into design improvements. Designed end-to-end user flows and wireframes for the healthcare portal in Figma."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Real Estate Marketplace Redesign",
+                    "vai_tro": "UX Designer",
+                    "cong_nghe_su_dung": [
+                        "Figma",
+                        "Adobe XD"
+                    ],
+                    "mo_ta": "Researched user needs, mapped the main flows and delivered clickable prototypes for testing."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Jules Coleman",
+                "email": "jules.coleman78@example.com",
+                "so_dien_thoai": "(555) 015-3381"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Riverside Institute of Technology",
+                    "chuyen_nganh": "Computer Science",
+                    "bang_cap": "Bachelor of Engineering",
+                    "nam_tot_nghiep": 2022
+                }
+            ],
+            "ngon_ngu_lap_trinh": [
+                "Python"
+            ],
+            "ky_nang": [
+                "Smoke Testing",
+                "Test Case Design",
+                "Exploratory Testing",
+                "Test Planning",
+                "Defect Tracking",
+                "Black Box Testing",
+                "Bug Reporting",
+                "Regression Testing",
+                "Confluence",
+                "SQL",
+                "Charles Proxy",
+                "Robot Framework",
+                "Appium",
+                "Selenium",
+                "k6",
+                "Jenkins",
+                "JMeter"
+            ],
+            "ky_nang_khac": [
+                "Attention to detail",
+                "Adaptability",
+                "Presentation skills",
+                "Communication"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "AWS Certified Cloud Practitioner",
+                    "to_chuc_cap": "Amazon Web Services",
+                    "nam_cap": 2025
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Zenith Cloud",
+                    "chuc_danh": "QA Automation Engineer",
+                    "thoi_gian_bat_dau": "2024-11",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Analyzed production incidents and added missing regression coverage to the test suite. Wrote test plans and test scenarios from user stories and acceptance criteria during sprint planning. Participated in UAT sessions and release sign-off for the logistics tracking system."
+                },
+                {
+                    "cong_ty": "Ironbridge Solutions",
+                    "chuc_danh": "Junior QA Automation Engineer",
+                    "thoi_gian_bat_dau": "2022-11",
+                    "thoi_gian_ket_thuc": "2024-08",
+                    "mo_ta_cong_viec": "Wrote test plans and test scenarios from user stories and acceptance criteria during sprint planning. Carried out exploratory and cross-browser testing on Chrome, Firefox, Safari and Edge."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "API Test Suite for E-Commerce Platform",
+                    "vai_tro": "QA Engineer",
+                    "cong_nghe_su_dung": [
+                        "Appium",
+                        "SQL",
+                        "TestRail"
+                    ],
+                    "mo_ta": "Planned and executed end-to-end tests covering the main user journeys and edge cases."
+                }
+            ]
+        },
+        "label": "Quality_Assurance",
+        "source": "synthetic"
+    },
+    {
+        "info": {
+            "thong_tin_ca_nhan": {
+                "ho_ten": "Drew Vasquez",
+                "email": "drew.vasquez49@example.com",
+                "so_dien_thoai": "(555) 017-8684"
+            },
+            "hoc_van": [
+                {
+                    "truong": "Ridgeview University",
+                    "chuyen_nganh": "Psychology",
+                    "bang_cap": "Master of Science",
+                    "nam_tot_nghiep": 2022
+                },
+                {
+                    "truong": "Highland College of Engineering",
+                    "chuyen_nganh": "Information Systems",
+                    "bang_cap": "Bachelor of Science",
+                    "nam_tot_nghiep": 2020
+                }
+            ],
+            "ngon_ngu_lap_trinh": [],
+            "ky_nang": [
+                "Sketch",
+                "Axure RP",
+                "Adobe XD",
+                "FigJam",
+                "Responsive Design",
+                "Accessibility (WCAG)",
+                "Prototyping",
+                "Usability Testing",
+                "Card Sorting",
+                "Information Architecture",
+                "User Research",
+                "Persona Development",
+                "Hotjar",
+                "Maze",
+                "Iconography",
+                "Color Theory",
+                "Principle",
+                "Lottie"
+            ],
+            "ky_nang_khac": [
+                "Attention to detail",
+                "Presentation skills",
+                "Team collaboration",
+                "Ownership"
+            ],
+            "chung_chi": [
+                {
+                    "ten_chung_chi": "Google UX Design Professional Certificate",
+                    "to_chuc_cap": "Google (Coursera)",
+                    "nam_cap": 2023
+                }
+            ],
+            "kinh_nghiem": [
+                {
+                    "cong_ty": "Willow Networks",
+                    "chuc_danh": "Senior UI/UX Designer",
+                    "thoi_gian_bat_dau": "2023-07",
+                    "thoi_gian_ket_thuc": "hien_tai",
+                    "mo_ta_cong_viec": "Led the visual design of the mobile app for the mobile banking app across iOS and Android. Mapped information architecture and navigation for the mobile banking app based on card sorting results. Ran A/B tests on key screens and iterated on layouts using analytics from Mixpanel. Created high-fidelity mockups and interactive prototypes in Sketch for stakeholder review."
+                },
+                {
+                    "cong_ty": "Pixel Digital",
+                    "chuc_danh": "Junior UI/UX Designer",
+                    "thoi_gian_bat_dau": "2021-01",
+                    "thoi_gian_ket_thuc": "2023-04",
+                    "mo_ta_cong_viec": "Collaborated with developers to hand off specs and assets and reviewed implementation for design fidelity. Defined user personas and journey maps based on survey and interview research."
+                }
+            ],
+            "du_an": [
+                {
+                    "ten_du_an": "Design System for Fintech Payment Gateway",
+                    "vai_tro": "Product Designer",
+                    "cong_nghe_su_dung": [
+                        "Sketch",
+                        "Balsamiq"
+                    ],
+                    "mo_ta": "Researched user needs, mapped the main flows and delivered clickable prototypes for testing."
+                }
+            ]
+        },
+        "label": "UIUX_Designer",
+        "source": "synthetic"
     }
 ]
