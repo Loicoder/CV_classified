@@ -28,15 +28,20 @@ def collect_raw_skills():
             if data[i]["info"]:
                 data_info = data[i]["info"]
                 for skill in data_info["ngon_ngu_lap_trinh"]:
-                    skills.append(skill.strip())
+                    raw_skill = skill.strip()
+                    if raw_skill != "":
+                        skills.append(raw_skill.strip())
                 for skill in data_info["ky_nang"]:
-                    skills.append(skill.strip())
+                    raw_skill = skill.strip()
+                    if raw_skill != "":
+                        skills.append(raw_skill.strip())
                 for project in data_info["du_an"]:
                     for skill in project["cong_nghe_su_dung"]:
-                        skills.append(skill.strip())
+                        raw_skill = skill.strip()
+                        if raw_skill != "":
+                            skills.append(raw_skill.strip())
     skills = list(set(skills))
     return skills
-
 
 def make_prompt(skill_list):
     return f"""
@@ -78,10 +83,11 @@ def process_one_batch(batch_arr, prompt):
         
         except (OpenAIError, json.JSONDecodeError) as e:
             print(f"[ERR] Lỗi api: {e}")
-            return None
+            continue
+    return None
 
 def normalize_skill():
-    batch = 10
+    batch = 100
     normalized_skill_count = 0
     batch_count = 0
 
@@ -89,16 +95,12 @@ def normalize_skill():
     normalized_skills = {}
     skills_len = len(skills)
     
-    # while normalized_skill_count < skills_len:
-    while normalized_skill_count < 10:
+    for i in range(0, skills_len, batch):
+        print("#"*60)
         batch_count += 1
-        print(f"Đang khởi tạo batch {batch_count}/{skills_len/batch}")
-        batch_arr = []
+        print(f"Đang khởi tạo batch {batch_count}/{-(-skills_len//batch)}")
         print("Đang chia dữ liệu thành từng batch")
-        for i in range(normalized_skill_count, normalized_skill_count + batch):
-            if skills[i]:
-                normalized_skill_count += 1
-                batch_arr.append(skills[i])
+        batch_arr = skills[i:i+batch]
         print("Hoàn tất việc chia batch")
                 
         prompt = make_prompt(batch_arr)
@@ -118,22 +120,50 @@ def normalize_skill():
     return normalized_skills
 
 def reflex(skill_mapping, info_file_path: Path):
+    print(f"Bắt đầu quá trình ánh xạ {info_file_path.name}")
     if info_file_path.exists():
         with open(info_file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
     else:
         print("[ERR] Cannot find the file in the directory")
-
+        return 
+    
     data_len = len(data)
     for i in range(data_len):
         if data[i]["info"]:
-            new_skills = []
             data_info = data[i]["info"]
 
+            # ánh xạ ngôn ngữ lập trình
+            new_languages = []
+            for current_language in data_info["ngon_ngu_lap_trinh"]:
+                normalize_name = skill_mapping.get(current_language.strip(), current_language)
+                new_languages.append(normalize_name)
+            data_info["ngon_ngu_lap_trinh"] = new_languages
+
+            # ánh xạ kỹ năng
+            new_skills = []
             for current_skill in data_info["ky_nang"]:
-                pass
+                normalize_skill_name = skill_mapping.get(current_skill.strip(), current_skill)
+                new_skills.append(normalize_skill_name)
+            data_info["ky_nang"] = new_skills
+
+            # ánh xạ công nghệ dự án
+            for project in data_info["du_an"]:
+                new_techs = []
+                for current_tech in project["cong_nghe_su_dung"]:
+                    normalize_tech = skill_mapping.get(current_tech.strip(), current_tech)
+                    new_techs.append(normalize_tech)
+                project["cong_nghe_su_dung"] = new_techs  
+
+    with open(info_file_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)              
+    print("Hoàn tất ánh xạ")
 
 if __name__ == "__main__":
     skill_mapping = normalize_skill()
-    reflex(skill_mapping, Path("./processed_data/train_info.json"))
+    
+    sets = ["train", "evaluation", "test"]
+    for set_name in sets:
+        file_path = Path(f"./processed_data/{set_name}_info.json")
+        reflex(skill_mapping, file_path)
         

@@ -19,22 +19,22 @@
                 "CSS",
                 "JavaScript",
                 "PHP",
-                ".Net",
+                ".NET",
                 "C",
                 "C++"
             ],
             "ky_nang": [
-                "Digital Marketing",
-                "Graphics Designing",
+                "Digital marketing",
+                "Graphic Design",
                 "Video Animation",
-                "Website Development",
+                "Phát triển website",
                 "Inventory Management",
                 "OTA Management",
                 "Channel Manager Integration",
                 "PMS Integration",
                 "Digital Feedback Integration",
                 "Basic SEO",
-                "Analytical",
+                "Analytical Skills",
                 "Technical",
                 "Operations Management",
                 "Yield Management",
@@ -98,13 +98,13 @@
                 "JavaScript"
             ],
             "ky_nang": [
-                "Cắt giao diện",
+                "Interface Cutting",
                 "Sử dụng Cơ sở dữ liệu",
                 "Sử dụng phần mềm quản lý code",
-                "Lập trình trên Elasticsearch",
-                "Code PHP theo chuẩn PSR-12",
-                "Nghiên cứu tài liệu và lập trình module, plugin, extension",
-                "Xử lý yêu cầu, lên phân tích chức năng, CSDL, giao diện",
+                "Programming on Elasticsearch",
+                "PHP Coding Standards PSR-12",
+                "Nghiên Cứu Tài Liệu và Lập Trình Module, Plugin, Extension",
+                "Requirements Analysis and Interface Design",
                 "Khả năng đọc mô tả, thiết kế, code phần mềm/hệ thống"
             ],
             "ky_nang_khac": [
@@ -198,7 +198,7 @@
                 "HTML",
                 "CSS",
                 "Bootstrap",
-                "Javascript",
+                "JavaScript",
                 "jQuery",
                 "Laravel",
                 "Postman",
@@ -303,8 +303,8 @@
                 "Speech Identification",
                 "RNN",
                 "LSTM",
-                "Word-Clouds",
-                "Tensorflow",
+                "Word Clouds",
+                "TensorFlow",
                 "Beautiful Soup"
             ],
             "ky_nang_khac": [],
@@ -359,10 +359,10 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Finite difference modelling",
-                "Finite element modelling",
-                "Theoretical modelling",
-                "Structural mapping",
+                "Finite Difference Modeling",
+                "Finite Element Modeling",
+                "Theoretical Modeling",
+                "Structural Mapping",
                 "Tectonics",
                 "Stratigraphy",
                 "Chemostratigraphy",
@@ -454,7 +454,7 @@
                 "Transact SQL",
                 "PL/SQL",
                 "Classic ASP",
-                "ASP.net",
+                "ASP.NET",
                 "HTML",
                 "DHTML",
                 "JavaScript",
@@ -577,7 +577,7 @@
                     "ten_du_an": "Real-time ChatApp",
                     "vai_tro": "Developer",
                     "cong_nghe_su_dung": [
-                        "MERN stack",
+                        "MERN Stack",
                         "Socket.io",
                         "WebRTC",
                         "MongoDB"
@@ -623,36 +623,36 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "budget",
-                "cabling",
-                "cisco",
-                "documentation",
+                "Budget",
+                "Cabling",
+                "Cisco",
+                "Documentation",
                 "Electrician",
-                "feasibility studies",
-                "funds",
+                "Feasibility Studies",
+                "Funds",
                 "Information Technology",
-                "inspector",
+                "Inspector",
                 "LAN",
-                "materials",
-                "access",
-                "network",
-                "networking",
-                "personnel",
+                "Materials",
+                "Access",
+                "Mạng",
+                "Networking",
+                "Personnel",
                 "Telephone Systems",
-                "printers",
-                "processes",
+                "Printers",
+                "Processes",
                 "Project Management",
                 "Quality Assurance",
-                "routers",
-                "system design",
-                "technical assistance",
+                "Routers",
+                "System Design",
+                "Hỗ trợ kỹ thuật",
                 "Technician",
-                "Telecommunications",
-                "Troubleshoot",
-                "troubleshooting",
-                "upgrades",
-                "video",
-                "wiring"
+                "Viễn thông",
+                "Troubleshooting",
+                "Troubleshooting",
+                "Upgrades",
+                "Video",
+                "Wiring"
             ],
             "ky_nang_khac": [],
             "chung_chi": [
@@ -719,10 +719,10 @@
                 "Python"
             ],
             "ky_nang": [
-                "Problem-solving",
+                "Problem Solving",
                 "Storytelling",
                 "Communication",
-                "Pre-processing data"
+                "Pre-Processing Data"
             ],
             "ky_nang_khac": [
                 "Basic Banking Products",
@@ -800,7 +800,7 @@
             ],
             "ky_nang": [
                 "Embedded System Programming",
-                "Data Structure",
+                "Data Structures",
                 "Linux Device Drivers"
             ],
             "ky_nang_khac": [
@@ -845,8 +845,8 @@
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
                         "Embedded C",
-                        "AVR studio",
-                        "ATmega16 board"
+                        "AVR Studio",
+                        "ATmega16 Board"
                     ],
                     "mo_ta": "We create an application in android which would allow the user to control the external hardware such as Robotic Arm in our case via Bluetooth."
                 }
@@ -877,7 +877,7 @@
                 "JavaScript"
             ],
             "ky_nang": [
-                "Html",
+                "HTML",
                 "CSS",
                 "Spring Boot",
                 "Angular",
@@ -887,10 +887,10 @@
                 "Dojo",
                 "Hibernate",
                 "Git",
-                "My SQL",
+                "MySQL",
                 "SQL Server",
                 "PostgreSQL",
-                "Google App Enginer"
+                "Google App Engine"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -924,7 +924,7 @@
                     "cong_nghe_su_dung": [
                         "Java",
                         "Spring Boot",
-                        "Rest API"
+                        "REST API"
                     ],
                     "mo_ta": "Web site and mobile app for traffic management"
                 },
@@ -933,10 +933,10 @@
                     "vai_tro": "Developer",
                     "cong_nghe_su_dung": [
                         "Spring Boot",
-                        "JOBC template",
+                        "JOBC Template",
                         "Hibernate",
-                        "Rest API",
-                        "Microservice"
+                        "REST API",
+                        "Microservices"
                     ],
                     "mo_ta": "Web site for computational processing"
                 },
@@ -946,10 +946,10 @@
                     "cong_nghe_su_dung": [
                         "Java",
                         "Spring Boot",
-                        "JDBC template",
+                        "JDBC Template",
                         "Hibernate",
-                        "Rest API",
-                        "Microservice"
+                        "REST API",
+                        "Microservices"
                     ],
                     "mo_ta": "Web site and mobile app for computational processing"
                 },
@@ -958,8 +958,8 @@
                     "vai_tro": "Developer",
                     "cong_nghe_su_dung": [
                         "Java",
-                        "Rest API",
-                        "Microservice"
+                        "REST API",
+                        "Microservices"
                     ],
                     "mo_ta": "App for outsourcing calculation"
                 },
@@ -970,7 +970,7 @@
                         "Java",
                         "Spring Boot",
                         "PostgreSQL",
-                        "Rest API"
+                        "REST API"
                     ],
                     "mo_ta": "Managing FE Staff Transactions with customers"
                 },
@@ -981,7 +981,7 @@
                         "Java",
                         "Spring Boot",
                         "Thymeleaf",
-                        "My SQL"
+                        "MySQL"
                     ],
                     "mo_ta": "Manage call center of Saigon BPO"
                 },
@@ -1014,8 +1014,8 @@
                         "Spring MVC",
                         "JSP",
                         "Hibernate",
-                        "Rest API",
-                        "My SQL"
+                        "REST API",
+                        "MySQL"
                     ],
                     "mo_ta": "Participate in the development of company products and fix bugs"
                 }
@@ -1045,20 +1045,20 @@
             "ky_nang": [
                 "SQL",
                 "MVC",
-                "Web API RestFul",
-                "Data caching",
+                "Web API RESTful",
+                "Data Caching",
                 "JavaScript",
-                "Jquery",
+                "jQuery",
                 "HTML5",
                 "Bootstrap",
                 "Entity Framework",
-                "LinQ",
+                "LINQ",
                 "Oracle",
-                "Postgres",
+                "PostgreSQL",
                 "SVN",
                 "Visual Studio",
                 "SQL Server",
-                "SQL development",
+                "SQL Development",
                 "pgAdmin",
                 "Postman",
                 "Soap UI"
@@ -1129,19 +1129,19 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Financial reporting",
-                "Budget forecasting",
-                "Business analysis",
-                "MIS reporting",
-                "Account reconciliation",
-                "Reporting proficiency",
-                "General ledger accounting",
-                "Financial statement analysis",
-                "Vendor payment management",
-                "Cash handling",
-                "Stock verification",
-                "Document controlling",
-                "Customer information management"
+                "Financial Reporting",
+                "Budget Forecasting",
+                "Business Analysis",
+                "MIS Reporting",
+                "Account Reconciliation",
+                "reporting proficiency",
+                "General Ledger Accounting",
+                "Financial Statement Analysis",
+                "Vendor Payment Management",
+                "Cash Handling",
+                "Stock Verification",
+                "Document Control",
+                "Customer Information Management"
             ],
             "ky_nang_khac": [
                 "Analytical and reasoning",
@@ -1215,17 +1215,17 @@
             "ky_nang": [
                 "ASP.NET",
                 "WPF",
-                "WF",
+                "Workflow",
                 "WCF",
                 "LINQ",
                 "Entity Framework",
-                "JQuery",
+                "jQuery",
                 "JSON",
                 "CSS",
                 "XML",
                 "HTML",
                 "AJAX",
-                "ADO.Net",
+                "ADO.NET",
                 "VB.Net",
                 "C",
                 "C++"
@@ -1275,12 +1275,12 @@
                     "ten_du_an": "Nop commerce customisation",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "ASP.Net MVC",
-                        "Jquery",
+                        "ASP.NET MVC",
+                        "jQuery",
                         "Entity Framework",
                         "LINQ",
                         "Autofac",
-                        "Fluent validation"
+                        "Fluent Validation"
                     ],
                     "mo_ta": ""
                 },
@@ -1288,7 +1288,7 @@
                     "ten_du_an": "Failure RMA Tracker",
                     "vai_tro": "Team Lead",
                     "cong_nghe_su_dung": [
-                        "ASP.Net",
+                        "ASP.NET",
                         "SQL Server"
                     ],
                     "mo_ta": ""
@@ -1297,12 +1297,12 @@
                     "ten_du_an": "Tele-Tag",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "ASP.Net MVC",
+                        "ASP.NET MVC",
                         "Entity Framework",
                         "LINQ",
-                        "JQuery Mobile",
+                        "jQuery Mobile",
                         "WCF",
-                        "FFMPEG API",
+                        "FFmpeg API",
                         "Facebook API",
                         "Twitter API"
                     ],
@@ -1312,7 +1312,7 @@
                     "ten_du_an": "CRS – Central Recipe Server",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "EF",
+                        "Entity Framework",
                         "WCF",
                         "WPF",
                         "LINQ"
@@ -1333,7 +1333,7 @@
                     "ten_du_an": "ICE CELL FTS",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "WF",
+                        "Workflow",
                         "WPF",
                         "LINQ",
                         "WCF"
@@ -1354,7 +1354,7 @@
                     "ten_du_an": "Phoenix Cardnet – ASP.Net Website",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "ASP.Net",
+                        "ASP.NET",
                         "MS SQL",
                         "MS SQL Server Reporting Services",
                         "LINQ",
@@ -1372,7 +1372,7 @@
                     "cong_nghe_su_dung": [
                         "Dynamics GP",
                         "Microsoft Dexterity",
-                        "Visual studio tools"
+                        "Visual Studio Tools"
                     ],
                     "mo_ta": "Dynamics GP application for financial processing of phoenix ATM and POS machines sales."
                 },
@@ -1380,7 +1380,7 @@
                     "ten_du_an": "PSA - Program status analysis",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "ASP.Net",
+                        "ASP.NET",
                         "LINQ",
                         "MS SQL",
                         "AJAX",
@@ -1392,12 +1392,12 @@
                     "ten_du_an": "Myetrek",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "ASP.Net",
+                        "ASP.NET",
                         "MS SQL",
                         "LINQ",
                         "AJAX",
                         "RAD Controls",
-                        "JQuery"
+                        "jQuery"
                     ],
                     "mo_ta": "Social networking website with features of normal social networking websites."
                 },
@@ -1405,7 +1405,7 @@
                     "ten_du_an": "Reach Marketing inc – CRM Website",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "VisualStudio.Net",
+                        "Visual Studio .NET",
                         "ASP.NET",
                         "C#",
                         "SQL Server",
@@ -1418,7 +1418,7 @@
                     "ten_du_an": "Carnivo XO",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "VisualStudio.Net",
+                        "Visual Studio .NET",
                         "ASP.NET",
                         "C#",
                         "SQL Server",
@@ -1468,13 +1468,13 @@
             "ngon_ngu_lap_trinh": [
                 "C",
                 "C++",
-                "JAVA"
+                "Java"
             ],
             "ky_nang": [
                 "LAN Administrator",
-                "Trouble Shooting",
+                "Troubleshooting",
                 "Software Installation",
-                "Computer Assembling"
+                "computer assembling"
             ],
             "ky_nang_khac": [
                 "MS Office",
@@ -1659,15 +1659,15 @@
             ],
             "ky_nang": [
                 "Angular",
-                "ReactJS",
-                "NextJS",
+                "React",
+                "Next.js",
                 "Java Spring",
                 "PHP",
                 "HTML",
                 "CSS",
-                "NodeJS",
+                "Node.js",
                 ".NET Framework",
-                "VB .NET Framework",
+                "VB.NET Framework",
                 "WPF",
                 "SQL Server",
                 "Oracle",
@@ -1681,8 +1681,8 @@
                 "Objective-C",
                 "Xamarin",
                 "PhoneGap",
-                "Amazon Web Service (AWS)",
-                "Google Cloud (Firebase Cloud Messaging)"
+                "Amazon Web Services (AWS)",
+                "Google Cloud"
             ],
             "ky_nang_khac": [
                 "Requirement understanding",
@@ -1776,7 +1776,7 @@
                     "ten_du_an": "Screen sharing system",
                     "vai_tro": "Project Manager",
                     "cong_nghe_su_dung": [
-                        "NodeJS"
+                        "Node.js"
                     ],
                     "mo_ta": ""
                 },
@@ -1860,7 +1860,7 @@
                 "Natural Language Processing",
                 "Image Processing",
                 "Data Management",
-                "Scikit Learn",
+                "Scikit-learn",
                 ".NET",
                 "SQL"
             ],
@@ -2049,7 +2049,7 @@
                 "Spring Boot",
                 "Spring Security",
                 "Java Servlet & JSP",
-                "RESTful API design",
+                "RESTful API Design",
                 "WebSocket",
                 "PostgreSQL",
                 "SQL Server",
@@ -2136,10 +2136,10 @@
                 "C#"
             ],
             "ky_nang": [
-                ".Net",
-                "Html",
+                ".NET",
+                "HTML",
                 "JavaScript",
-                "ASP.Net",
+                "ASP.NET",
                 "SQL Server",
                 "Windows",
                 "Linux"
@@ -2177,7 +2177,7 @@
                     "ten_du_an": "Airlines Reservation System",
                     "vai_tro": "Project leader",
                     "cong_nghe_su_dung": [
-                        ".Net"
+                        ".NET"
                     ],
                     "mo_ta": "Airline Reservation System contains airline Schedules, Fare tariffs, passenger reservations and ticket record."
                 }
@@ -2207,10 +2207,10 @@
                 "C#"
             ],
             "ky_nang": [
-                "ReactJS",
-                "NodeJS",
+                "React",
+                "Node.js",
                 "IIS",
-                "ubuntu server",
+                "Ubuntu Server",
                 "MQTT",
                 "QR Code",
                 "Serial/COM port",
@@ -2219,7 +2219,7 @@
                 "Entity Framework",
                 "MVC",
                 "MVVM",
-                "Powershell scripts",
+                "PowerShell Scripts",
                 "RabbitMQ",
                 "WebSocket",
                 "Twilio",
@@ -2299,7 +2299,7 @@
                         "LINQ",
                         "Entity Framework",
                         "SQL Server",
-                        "Powershell scripts"
+                        "PowerShell Scripts"
                     ],
                     "mo_ta": "A project about renting/buying houses, using MVC, VueJS, SQL Server."
                 },
@@ -2307,8 +2307,8 @@
                     "ten_du_an": "Raptor Vision Camera Project",
                     "vai_tro": "Full Stack Developer",
                     "cong_nghe_su_dung": [
-                        "ReactJS",
-                        "NodeJS",
+                        "React",
+                        "Node.js",
                         "GraphQL",
                         "MongoDB",
                         "RabbitMQ",
@@ -2355,21 +2355,21 @@
                 "JavaScript"
             ],
             "ky_nang": [
-                "A+ certification",
-                "Cisco certification",
-                "web design",
-                "game design",
-                "help desk",
-                "project management",
+                "A+ Certification",
+                "Cisco Certification",
+                "Web Design",
+                "Game Design",
+                "Help Desk",
+                "Project Management",
                 "LMS support",
-                "teacher technology training",
-                "maintaining school website",
-                "mobile application development",
-                "network setup",
-                "hardware and software repair",
-                "diagnostic and repair procedures",
-                "software, hardware and network analysis",
-                "router and switch configuration"
+                "Teacher Technology Training",
+                "School website maintenance",
+                "Mobile Application Development",
+                "Network Setup",
+                "Hardware and Software Repair",
+                "Diagnostic and Repair Procedures",
+                "Software, Hardware, and Network Analysis",
+                "Router and switch configuration"
             ],
             "ky_nang_khac": [
                 "Google and Microsoft suite experience",
@@ -2451,8 +2451,8 @@
             ],
             "ky_nang": [
                 "Flutter",
-                "Application Lifecycle Management",
-                "Analytical Problem-Solver",
+                "Quản lý vòng đời ứng dụng",
+                "Analytical Problem Solving",
                 "Effective Communication"
             ],
             "ky_nang_khac": [
@@ -2505,9 +2505,9 @@
                         "MVVM",
                         "Coroutine",
                         "Retrofit",
-                        "Firebase (FCM, Remote Config)",
+                        "Firebase (FCM Remote Config)",
                         "Google/Facebook Login SDK",
-                        "Android Jetpack (Lifecycles, LiveData, Paging, Room, ViewModel, WorkManager)"
+                        "Android Jetpack"
                     ],
                     "mo_ta": "Azibai is a comprehensive platform integrating social networking features such as chat, video calls, and location sharing inspired by the functionality of the Zalo app. Additionally, introduced an e-commerce facet allowing users to seamlessly buy, sell, and exchange products within the platform."
                 },
@@ -2535,11 +2535,11 @@
                         "RxJava",
                         "MVVM",
                         "Retrofit",
-                        "Google Cloud APIs (Maps, Direction, Places)",
+                        "Google Cloud APIs (Maps, Directions, Places)",
                         "Firebase (FCM, Real-time Database, Remote Config)",
                         "Stripe",
                         "Google/Facebook Login SDK",
-                        "Android Jetpack (Lifecycles, LiveData, Paging, Room, ViewModel)"
+                        "Android Jetpack"
                     ],
                     "mo_ta": "IKANGO for travelers will help you design a perfect tour with just one touch to choose the locality you want to visit, the place you want to go, such as eating- shopping tourism- entertainment (bar, club, massage ...), find the guide you like and the time that suits service."
                 },
@@ -2551,7 +2551,7 @@
                         "RxJava",
                         "MVVM",
                         "Retrofit",
-                        "Google Cloud APIs (Maps, Direction, Places)",
+                        "Google Cloud APIs (Maps, Directions, Places)",
                         "Firebase (FCM, Real-time Database, Remote Config)",
                         "Stripe",
                         "EventBus",
@@ -2573,7 +2573,7 @@
                         "Dagger",
                         "Stripe",
                         "EventBus",
-                        "Google Cloud APIs (Maps, Direction, Places)",
+                        "Google Cloud APIs (Maps, Directions, Places)",
                         "Picasso",
                         "ButterKnife"
                     ],
@@ -2589,8 +2589,8 @@
                         "Retrofit",
                         "ButterKnife",
                         "Picasso",
-                        "Swipe-Layout",
-                        "Socket IO"
+                        "Swipe Layout",
+                        "Socket.IO"
                     ],
                     "mo_ta": "The Skylab Platform is the ultimate app & website platform for today’s influencers, coaches, and brands including major features like chat for business, action tracking, a community wall, multimedia channels, gamified training courses, and in-app purchases."
                 }
@@ -2616,38 +2616,38 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Enterprise platforms",
+                "Enterprise Platforms",
                 "Knowledge of Product Lifecycle Management (PLM)",
                 "Project tracking",
-                "Hardware and software upgrade planning",
+                "Hardware and Software Upgrade Planning",
                 "Product requirements documentation",
-                "Self-directed",
-                "MS Visio",
+                "Self-Directed",
+                "Microsoft Visio",
                 "Decisive",
                 "Collaborative",
                 "Domain Active Directory Layout",
-                "Data storage engineering",
+                "Data Storage Engineering",
                 "Information Assurance",
                 "Risk Management Framework (RMF)",
-                "Active Directory design and deployment",
-                "Workstation build and deployment",
+                "Active Directory Design and Deployment",
+                "Workstation Build and Deployment",
                 "Systems Accreditation Packages",
-                "Red Hat Enterprise Linux installation and hardening",
+                "Red Hat Enterprise Linux Installation and Hardening",
                 "Network Design & Troubleshooting",
                 "High Performance Computing",
                 "Active Directory",
                 "Hardware Engineering",
                 "Information Technology",
                 "Red Hat Enterprise Linux Servers",
-                "MS Windows Servers",
-                "MS Windows Desktop",
+                "Microsoft Windows Server",
+                "Windows Desktop",
                 "Architectural Diagrams",
-                "Accreditation Boundarys",
+                "Accreditation Boundaries",
                 "Risk Management",
                 "Enterprise Strategies",
                 "Vendor Relations",
-                "Desktop Publishing Software: Photoshop, Illustrator, HTML",
-                "Team Work Collaboration"
+                "Desktop publishing software: Photoshop, Illustrator, HTML",
+                "Teamwork and Collaboration"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -2708,8 +2708,8 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "MS OFFICE Packages",
-                "Microsoft AX",
+                "MS Office Packages",
+                "Microsoft Dynamics AX",
                 "SPSS",
                 "Data Entry",
                 "HTML",
@@ -2811,7 +2811,7 @@
                 "Python"
             ],
             "ky_nang": [
-                "MVC architecture",
+                "MVC Architecture",
                 "Entity Framework",
                 "LINQ",
                 "SQL Server",
@@ -2821,12 +2821,12 @@
                 "CSS",
                 "JavaScript",
                 "RabbitMQ",
-                "Masstransit",
+                "MassTransit",
                 "gRPC",
                 "Docker",
                 "Angular",
                 "TypeScript",
-                "Postgres",
+                "PostgreSQL",
                 "MongoDB"
             ],
             "ky_nang_khac": [
@@ -2897,7 +2897,7 @@
                     "vai_tro": "FULLSTACK DEVELOPER (FREELANCER)",
                     "cong_nghe_su_dung": [
                         "RabbitMQ",
-                        "Masstransit",
+                        "MassTransit",
                         "gRPC",
                         ".NET 7",
                         "Entity Framework"
@@ -2932,10 +2932,10 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "User Research",
+                "Nghiên cứu người dùng",
                 "User Interface Design",
                 "User Experience",
-                "Thiết kế 2D"
+                "2D Design"
             ],
             "ky_nang_khac": [
                 "Graphic Design",
@@ -3009,12 +3009,12 @@
             ],
             "ky_nang": [
                 "RAG",
-                "embeddings",
+                "Embeddings",
                 "BM2S",
-                "ranking",
-                "OCR",
+                "Ranking",
+                "Optical Character Recognition",
                 "LLMs",
-                "prompt & context design",
+                "Prompt & Context Design",
                 "FastAPI",
                 "PostgreSQL",
                 "Qurant",
@@ -3025,8 +3025,8 @@
                 "Docker",
                 "Git",
                 "WSL",
-                "testing",
-                "worker/queue architecture"
+                "Testing",
+                "Worker/Queue Architecture"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -3077,16 +3077,16 @@
                 "MCSE",
                 "SQL Server",
                 ".NET",
-                "Web programming",
+                "Web Programming",
                 "Office 365 Power Platform",
-                "Creative thinking skills",
+                "Creative Thinking Skills",
                 "Problem-solving skills",
-                "Time management skills",
+                "Time Management Skills",
                 "Work arrangement skills",
                 "Communication skills",
-                "Training options to support users",
-                "Knowledge of project management",
-                "Knowledge of information security standards"
+                "Đào tạo hỗ trợ người dùng",
+                "Knowledge of Project Management",
+                "Knowledge of Information Security Standards"
             ],
             "ky_nang_khac": [
                 "Team management and coordination skills",
@@ -3151,12 +3151,12 @@
                 "Python"
             ],
             "ky_nang": [
-                "Machine learning",
-                "Data science",
-                "PowerBI",
-                "Data visualisation",
+                "Machine Learning",
+                "Data Science",
+                "Power BI",
+                "Data Visualization",
                 "Data Mining",
-                "Data Modelling",
+                "Data Modeling",
                 "Data Extraction",
                 "Text Analysis",
                 "Natural Language Processing"
@@ -3218,7 +3218,7 @@
             "ky_nang": [
                 "GetX",
                 "Plugin",
-                "camera detection",
+                "Camera Detection",
                 "Database Design",
                 "Design",
                 "Flutter",
@@ -3227,7 +3227,7 @@
                 "Angular",
                 "Spring Boot",
                 "JSON",
-                "IOS",
+                "iOS",
                 "SQLite",
                 "Firebase",
                 "MySQL",
@@ -3235,14 +3235,14 @@
                 "Android Studio",
                 "IntelliJ",
                 "Visual Studio",
-                "XCode",
+                "Xcode",
                 "Postman",
-                "VMW",
+                "VMware",
                 "GitHub",
-                "Gitlab",
+                "GitLab",
                 "Trello",
-                "You Track",
-                "Time management",
+                "YouTrack",
+                "Quản lý thời gian",
                 "Teamwork"
             ],
             "ky_nang_khac": [],
@@ -3328,7 +3328,7 @@
             "ky_nang": [
                 "HTML",
                 "JavaScript",
-                "ORACLE",
+                "Oracle",
                 "MS Access",
                 "SQL Server",
                 "SQL",
@@ -3371,7 +3371,7 @@
                     "ten_du_an": "Social Networking Site",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "Asp.Net"
+                        "ASP.NET"
                     ],
                     "mo_ta": ""
                 }
@@ -3409,27 +3409,27 @@
                 "Cassandra",
                 "Redis",
                 "HBase",
-                "Bigdata",
+                "Big Data",
                 "AI",
-                "Data warehouse",
+                "Data Warehouse",
                 "Pentaho",
-                "Spark",
-                "Hortonwork",
+                "Apache Spark",
+                "Hortonworks",
                 "Hadoop",
                 "Tableau",
                 "RabbitMQ",
                 "Kafka",
                 "Docker",
                 "Kubernetes",
-                "RestAPI",
+                "REST API",
                 "SOAP",
-                "KongAPI",
-                "GIT",
+                "Kong API",
+                "Git",
                 "SVN",
                 "Agile",
                 "Scrum",
                 "Planning",
-                "CI/CD (Jenkins, Gitlab)",
+                "CI/CD (Jenkins, GitLab)",
                 "CentOS",
                 "Solution Architect",
                 "DevOps"
@@ -3494,7 +3494,7 @@
                     "cong_nghe_su_dung": [
                         "Java",
                         "Spring Boot",
-                        "Microservices(Spring Cloud)",
+                        "Microservices (Spring Cloud)",
                         "MariaDB",
                         "PHP",
                         "RabbitMQ",
@@ -3507,8 +3507,8 @@
                     "ten_du_an": "OKKO",
                     "vai_tro": "Trưởng phòng",
                     "cong_nghe_su_dung": [
-                        ".Net",
-                        "SQLServer",
+                        ".NET",
+                        "SQL Server",
                         "Oracle"
                     ],
                     "mo_ta": "Tiếp nhận dịch vụ- Vận hành hệ thống- Maintain, phát triển tính năng theo yêu cầu kinh doanh"
@@ -3532,11 +3532,11 @@
                     "cong_nghe_su_dung": [
                         "Java",
                         "Kafka",
-                        "Spark",
+                        "Apache Spark",
                         "Hadoop",
-                        "Hbase",
+                        "HBase",
                         "Pentaho",
-                        "Hortonwork"
+                        "Hortonworks"
                     ],
                     "mo_ta": "Tìm hiểu công nghệ Bigdata - Phân tích và thiết kế hệ thống- Phát triển module- Hỗ trợ member"
                 },
@@ -3544,9 +3544,9 @@
                     "ten_du_an": "ISCALE",
                     "vai_tro": "Senior dev",
                     "cong_nghe_su_dung": [
-                        ".Net",
+                        ".NET",
                         "MongoDB",
-                        "SQLServer"
+                        "SQL Server"
                     ],
                     "mo_ta": "Tiếp nhận và tìm hiểu source code- Phát triển tính năng mới"
                 },
@@ -3554,18 +3554,18 @@
                     "ten_du_an": "SÀN VẬN TẢI",
                     "vai_tro": "PM & Scrum Master & Coder & DevOps",
                     "cong_nghe_su_dung": [
-                        "Microservices(Spring Cloud)",
+                        "Microservices (Spring Cloud)",
                         "Java",
                         "Kafka",
                         "PostgreSQL",
                         "Cassandra",
-                        "Spark",
+                        "Apache Spark",
                         "Hadoop",
-                        "Hbase",
-                        "VueJS",
+                        "HBase",
+                        "Vue.js",
                         "Quasar",
                         "TypeScript",
-                        "Cordova"
+                        "Apache Cordova"
                     ],
                     "mo_ta": "Tìm hiểu công nghệ Bigdata- Phân tích và thiết kế hệ thống- Phát triển module- Hỗ trợ member"
                 },
@@ -3586,7 +3586,7 @@
                     "cong_nghe_su_dung": [
                         "AWS",
                         "Keycloak",
-                        "KongGateway",
+                        "Kong Gateway",
                         "Docker"
                     ],
                     "mo_ta": "SA"
@@ -3597,11 +3597,11 @@
                     "cong_nghe_su_dung": [
                         "Java",
                         "Spring Boot",
-                        "ReactJS",
-                        "NodeJS(ExpressJS)",
+                        "React",
+                        "Node.js (Express.js)",
                         "PostgreSQL",
-                        "Bigdata(Hbase, Hadoop, Spark)",
-                        "AI(pytorch)"
+                        "Big Data (HBase, Hadoop, Spark)",
+                        "AI (PyTorch)"
                     ],
                     "mo_ta": "Thiết kết, xây dựng hệ thống, chịu trách nhiệm công nghệ, giải pháp cho hệ thống"
                 }
@@ -3634,28 +3634,28 @@
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
                 "Strategic Planning",
-                "Forecasting, Budgets, & P & L",
-                "Brand & Product Management",
+                "Forecasting, Budgets, & P&L",
+                "Brand and Product Management",
                 "Channel Strategies",
                 "Lead Generation",
-                "Account Management",
+                "Quản lý tài khoản",
                 "Complex Selling",
-                "Software & Technology",
+                "Software and Technology",
                 "Manufacturing",
                 "Sourcing",
                 "Sales Enablement",
                 "Business Competitive Analysis",
-                "Market Research",
+                "Nghiên cứu thị trường",
                 "New Product Development",
-                "Packaging",
-                "Creative/Design",
-                "Content & Communications",
+                "Đóng gói",
+                "Creative Design",
+                "Content and Communications",
                 "Social Media & Digital",
-                "Events",
+                "Sự kiện",
                 "Project Management",
                 "Vendor Management",
-                "CRM & Automation Apps",
-                "Call Center & Telemarketing"
+                "CRM and automation apps",
+                "Call Center and Telemarketing"
             ],
             "ky_nang_khac": [],
             "chung_chi": [
@@ -3772,27 +3772,27 @@
             "ngon_ngu_lap_trinh": [
                 "C#",
                 "Java",
-                "Typescript"
+                "TypeScript"
             ],
             "ky_nang": [
                 "MVC",
-                "LinQ",
+                "LINQ",
                 "Entity Framework",
-                ".Net Core",
-                ".Net Core MVC",
+                ".NET Core",
+                ".NET Core MVC",
                 "HTML5",
                 "CSS3",
                 "JavaScript",
-                "JQuery",
+                "jQuery",
                 "SQL Server",
-                "MySql",
+                "MySQL",
                 "SQLite",
                 "Oracle",
                 "Visual Studio",
                 "IIS",
-                "NetBean",
-                "Glassfish Server",
-                "Crystal report",
+                "NetBeans",
+                "GlassFish Server",
+                "Crystal Reports",
                 "Azure"
             ],
             "ky_nang_khac": [],
@@ -3903,59 +3903,59 @@
             "ky_nang": [
                 "Active Directory",
                 "Antivirus",
-                "asset management",
+                "Asset Management",
                 "Backup Exec",
-                "budget",
-                "business systems",
-                "cabling",
+                "Budget",
+                "Business Systems",
+                "Cabling",
                 "CISCO",
                 "Disaster Recovery",
-                "documentation",
-                "due diligence",
+                "Documentation",
+                "Due Diligence",
                 "Enterprise Resource Planning",
                 "Firewalls",
                 "FTP",
-                "help desk",
+                "Help Desk",
                 "IIS",
-                "imaging",
+                "Imaging",
                 "Information Technology",
                 "IP",
-                "IT support",
+                "IT Support",
                 "LAN",
                 "Laptops",
                 "Team Leadership",
-                "logistics",
+                "Logistics",
                 "Loss Prevention",
-                "managing",
-                "Market",
+                "Managing",
+                "Thị trường",
                 "Mentoring",
-                "access",
+                "Access",
                 "Microsoft Office Suite",
                 "SharePoint",
                 "Windows",
-                "word",
-                "process improvement",
-                "procurement",
+                "Word",
+                "Process Improvement",
+                "Procurement",
                 "Project Management",
-                "Proposal Development",
+                "proposal development",
                 "Requirements Analysis",
                 "Routers",
                 "SAN",
                 "Sarbanes-Oxley",
                 "Servers",
                 "Service Level Agreement",
-                "sound",
+                "Sound",
                 "SQL",
-                "strategy",
+                "Strategy",
                 "Strategic Planning",
                 "Switches",
                 "Symantec",
-                "telecommunications",
-                "troubleshooting",
-                "upgrades",
+                "Telecommunications",
+                "Troubleshooting",
+                "Upgrades",
                 "Veritas",
-                "Veritas Netbackup",
-                "video",
+                "Veritas NetBackup",
+                "Video",
                 "VPN",
                 "WAN"
             ],
@@ -4015,14 +4015,14 @@
             "ky_nang": [
                 "IT Management",
                 "IT Infrastructure Management",
-                "IT Operation Management",
-                "IT Helpdesk Management",
+                "IT Operations Management",
+                "Quản lý Helpdesk IT",
                 "IT Project Management",
                 "IT Vendor Management",
                 "IT Budgeting and Spending Management",
                 "Report Management",
                 "Work Management & Organization",
-                "Management skills",
+                "Management Skills",
                 "Leadership"
             ],
             "ky_nang_khac": [
@@ -4140,11 +4140,11 @@
             ],
             "ky_nang": [
                 "HTML",
-                "BigData hadoop",
+                "Big Data Hadoop",
                 "MapReduce",
                 "Hive",
                 "Pig",
-                "Hbase"
+                "HBase"
             ],
             "ky_nang_khac": [
                 "Good Team Player",
@@ -4209,11 +4209,11 @@
             "ky_nang": [
                 "Microsoft Office",
                 "Adobe Photoshop 7.0",
-                "Auto CAD",
+                "AutoCAD",
                 "Windows XP",
                 "Windows 7",
                 "Linux",
-                "HTML Basics"
+                "Cơ bản về HTML"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -4258,10 +4258,10 @@
                     "ten_du_an": "NOKIA Network & Solutions, Chennai",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "NOTIFIER NFS 3030",
+                        "Notifier NFS 3030",
                         "TYCO",
                         "CARDAX",
-                        "HONEYWELL"
+                        "Honeywell"
                     ],
                     "mo_ta": ""
                 },
@@ -4270,7 +4270,7 @@
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
                         "Canon with Milestone Server",
-                        "Smart I systems"
+                        "Smart I Systems"
                     ],
                     "mo_ta": ""
                 },
@@ -4329,13 +4329,13 @@
                 "Pandas",
                 "Matplotlib",
                 "Scikit-learn",
-                "Sentence-Transformers",
+                "Sentence Transformers",
                 "PyTorch",
                 "FastAPI",
                 "Docker",
                 "CI/CD (GitHub Actions)",
-                "experiment tracking (Weights & Biases)",
-                "cloud deployment (DigitalOcean Spaces, GPU droplets)",
+                "Experiment Tracking (Weights & Biases)",
+                "Cloud Deployment (DigitalOcean)",
                 "Neural Networks",
                 "CNN",
                 "RNN",
@@ -4344,8 +4344,8 @@
                 "Linear Regression",
                 "Logistic Regression",
                 "KNN",
-                "Tree based model (Decision Tree, RandomForest, Ada boosting, Gradient Boosting, XGBoosting)",
-                "LLMs & NLP: In-depth knowledge of Transformer-based models (BERT, LLaMA 3.2-8B)"
+                "Tree-based Models",
+                "LLMs & NLP: Transformer-based Models"
             ],
             "ky_nang_khac": [
                 "Strong teamwork and collaboration skills",
@@ -4438,18 +4438,18 @@
             "ngon_ngu_lap_trinh": [
                 "C",
                 "C++",
-                "JAVA"
+                "Java"
             ],
             "ky_nang": [
                 "HTML",
                 "PHP",
-                "MYSQL",
-                "Windows xp",
+                "MySQL",
+                "Windows XP",
                 "Windows 7",
                 "Windows 8.1",
                 "Ubuntu",
-                "Net Beans",
-                "Adobe flash"
+                "NetBeans",
+                "Adobe Flash"
             ],
             "ky_nang_khac": [
                 "I adapt to work in a team and individually.",
@@ -4468,8 +4468,8 @@
                     "cong_nghe_su_dung": [
                         "HTML",
                         "CSS",
-                        "JAVASCRIPT",
-                        "MYSQL"
+                        "JavaScript",
+                        "MySQL"
                     ],
                     "mo_ta": "Provides a web application for automated video indexing and video searching from large lecture video archives."
                 },
@@ -4477,8 +4477,8 @@
                     "ten_du_an": "EMPLOYEE DATABASE",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "VB",
-                        "Microsoft access"
+                        "Visual Basic",
+                        "Microsoft Access"
                     ],
                     "mo_ta": "A website providing the details of an employee."
                 },
@@ -4487,7 +4487,7 @@
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
                         "PHP",
-                        "MYSQL"
+                        "MySQL"
                     ],
                     "mo_ta": "A website providing the details of courses and the college that offered those courses."
                 },
@@ -4495,7 +4495,7 @@
                     "ten_du_an": "BINARY SEARCH TREE",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "Adobe flash professional CS5"
+                        "Adobe Flash Professional CS5"
                     ],
                     "mo_ta": "Automated scenes are created for insertion, searching and deletion."
                 }
@@ -4539,7 +4539,7 @@
                 "SQL",
                 "SAS",
                 "Stata",
-                "LaTex"
+                "LaTeX"
             ],
             "ky_nang_khac": [
                 "Chinese",
@@ -4601,7 +4601,7 @@
             "ngon_ngu_lap_trinh": [
                 "C",
                 "C++",
-                "Matlab",
+                "MATLAB",
                 "R",
                 "Python"
             ],
@@ -4609,7 +4609,7 @@
                 "SQL",
                 "VBA",
                 "Bloomberg",
-                "Factset"
+                "FactSet"
             ],
             "ky_nang_khac": [],
             "chung_chi": [
@@ -4678,19 +4678,19 @@
             "ngon_ngu_lap_trinh": [
                 "C",
                 "C++",
-                "JAVA",
+                "Java",
                 "PHP",
                 "HTML"
             ],
             "ky_nang": [
                 "Microsoft Windows",
                 "Windows Server",
-                "Office packages",
+                "Office Packages",
                 "Relational Database Management System",
                 "MS Access",
-                "Oracle-pl/SQ-9i",
+                "Oracle PL/SQL 9i",
                 "SPSS",
-                "R software"
+                "R Software"
             ],
             "ky_nang_khac": [
                 "A strong client focus and a desire to assist others",
@@ -4725,17 +4725,17 @@
             ],
             "ngon_ngu_lap_trinh": [
                 "C#",
-                "Java Script",
+                "JavaScript",
                 "HTML",
                 "CSS"
             ],
             "ky_nang": [
                 "Serenity Framework",
                 "ABP Framework",
-                "ReactJS",
-                "ReactNative",
+                "React",
+                "React Native",
                 "Angular",
-                "MSSQL"
+                "Microsoft SQL Server"
             ],
             "ky_nang_khac": [
                 "Trách nhiệm cao trong công việc",
@@ -4846,13 +4846,13 @@
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
                 "Payroll Administration",
-                "General ledger accounting",
+                "General Ledger Accounting",
                 "Budget preparation",
-                "Financial forecasting",
-                "Cashflow projections",
-                "Tax compliance",
-                "Internal control system implementation",
-                "Audit management"
+                "Financial Forecasting",
+                "Cash Flow Projections",
+                "Tax Compliance",
+                "Internal Control System Implementation",
+                "Audit Management"
             ],
             "ky_nang_khac": [
                 "Team work",
@@ -4923,7 +4923,7 @@
                 "Database Management",
                 "Access Control",
                 "IAM",
-                "Sail point",
+                "SailPoint",
                 "MySQL",
                 "MongoDB",
                 "Data Structures"
@@ -5001,7 +5001,7 @@
             ],
             "ky_nang": [
                 "CAD/CAM",
-                "Pro-E"
+                "Pro/ENGINEER"
             ],
             "ky_nang_khac": [
                 "Swimming",
@@ -5073,7 +5073,7 @@
                 "Manual Testing",
                 "Automation Tools: QTP",
                 "Selenium",
-                "Load Runner"
+                "LoadRunner"
             ],
             "ky_nang_khac": [],
             "chung_chi": [
@@ -5089,8 +5089,8 @@
                     "ten_du_an": "DEFENCE SECURWARE",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "ASP.Net",
-                        "SQL SERVER 2008"
+                        "ASP.NET",
+                        "SQL Server 2008"
                     ],
                     "mo_ta": "It is an online system which users can exchange the important files in secured way. This application is only for army personnel."
                 },
@@ -5143,17 +5143,17 @@
                 "C++"
             ],
             "ky_nang": [
-                "Auto Cad 2004 & 2009",
+                "AutoCAD 2004 & 2009",
                 "Flash 5.0",
-                "Photo Shop",
+                "Photoshop",
                 "Computer Hardware Maintenance",
                 "Computer Networking",
                 "MS Office",
                 "Internet",
                 "Emailing",
                 "Surfing",
-                "Online Doc/ XL Sheet",
-                "Preparing Power Point"
+                "Online Documents/Excel Sheets",
+                "Preparing PowerPoint"
             ],
             "ky_nang_khac": [
                 "Industrial Automation (PLC / DCS / SCADA)",
@@ -5246,57 +5246,57 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Issue escalation",
+                "Issue Escalation",
                 "Reporting and analysis",
-                "Quality control",
-                "Schematic understanding",
-                "Critical thinking",
-                "Data management",
+                "Quality Control",
+                "Schematic Understanding",
+                "Critical Thinking",
+                "Data Management",
                 "Network Administration",
-                "Experience in leadership",
-                "Improvement plan knowledge",
+                "Experience in Leadership",
+                "Improvement Planning",
                 "Supervision",
                 "Hardware repair",
-                "Computer configurations",
-                "System upgrades",
-                "New program installations",
-                "Organizational leadership",
+                "Computer Configurations",
+                "System Upgrades",
+                "New Program Installations",
+                "Organizational Leadership",
                 "Troubleshooting and Maintenance",
-                "Equipment repair",
-                "Power and hand tool use",
-                "Troubleshooting and repairs",
-                "Preventative maintenance",
-                "Telecommunications systems",
+                "Equipment Repair",
+                "Power and Hand Tool Use",
+                "Troubleshooting and Repairs",
+                "Bảo trì phòng ngừa",
+                "Telecommunications Systems",
                 "Component repairs",
                 "Multitasking",
-                "Part inspections",
-                "Friendly, positive attitude",
+                "Part Inspections",
+                "Thái độ thân thiện, tích cực",
                 "LAN and WAN configurations",
                 "Server and System Administration",
                 "End-User Training",
-                "Program installations",
-                "Software testing",
-                "Server improvements",
-                "Data backups",
-                "Project management",
-                "Security technologies",
-                "Network configuration",
-                "Time management",
-                "Active Directory knowledge",
+                "Program Installations",
+                "Software Testing",
+                "Server Improvements",
+                "Data Backups",
+                "Project Management",
+                "Security Technologies",
+                "Network Configuration",
+                "Quản lý thời gian",
+                "Kiến thức về Active Directory",
                 "Cybersecurity analysis",
                 "System Administration",
                 "Microsoft Office",
                 "MS Office",
                 "Apple iOS Technician",
-                "Help desk assistance",
-                "Application software testing",
-                "Mechanical abilities",
-                "Information Systems Security Professional",
-                "Advanced knowledge of Windows OS",
+                "Help Desk Assistance",
+                "Application Software Testing",
+                "Mechanical Abilities",
+                "Information Systems Security",
+                "Kiến thức nâng cao về hệ điều hành Windows",
                 "Advanced knowledge of Google Chrome OS",
                 "Soldering",
-                "Database management",
-                "Technical knowledge of server system softwares"
+                "Database Management",
+                "Technical Knowledge of Server System Software"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -5353,11 +5353,11 @@
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
                 "Tự tin trong giao tiếp",
-                "Kỹ năng làm việc nhóm",
-                "thuyết trình",
-                "giải quyết vấn đề",
-                "kỹ năng đàm phán",
-                "thuyết phục khách hàng"
+                "Teamwork Skills",
+                "Thuyết trình",
+                "Problem Solving",
+                "Negotiation Skills",
+                "Thuyết phục khách hàng"
             ],
             "ky_nang_khac": [
                 "Hát",
@@ -5420,17 +5420,17 @@
             "ky_nang": [
                 "Pine Script",
                 "Axure",
-                "Human resource management",
-                "Report viewer",
-                "Crystal Report",
+                "Human Resource Management",
+                "Report Viewer",
+                "Crystal Reports",
                 "Communication skills",
                 "SAP B1",
-                "MS Offices",
+                "MS Office",
                 "MS SQL",
                 "Team Management Skills",
                 "Work schedule management skills",
                 "Visio",
-                "Teamwork skills",
+                "Teamwork Skills",
                 "English"
             ],
             "ky_nang_khac": [
@@ -5510,11 +5510,11 @@
             ],
             "ngon_ngu_lap_trinh": [
                 "C",
-                "JAVA",
+                "Java",
                 "PHP"
             ],
             "ky_nang": [
-                "Data Structure",
+                "Data Structures",
                 "DBMS",
                 "Operating System",
                 "Networking",
@@ -5584,7 +5584,7 @@
             "ky_nang": [
                 "MS Office",
                 "Tally",
-                "Photo Shop",
+                "Photoshop",
                 "Internet"
             ],
             "ky_nang_khac": [],
@@ -5640,7 +5640,7 @@
                 "SAP",
                 "MySQL",
                 "HTML",
-                "Macromedia Visual Studio",
+                "Adobe Visual Studio",
                 "MS Office"
             ],
             "ky_nang_khac": [],
@@ -5713,7 +5713,7 @@
                 "XML",
                 "SVN",
                 "PostgreSQL",
-                "OOP"
+                "Object-Oriented Programming"
             ],
             "ky_nang_khac": [
                 "Software quality control and testing",
@@ -5861,7 +5861,7 @@
                 "SQL",
                 "CCNA",
                 "TCP/IP",
-                "Digital Marketing"
+                "Digital marketing"
             ],
             "ky_nang_khac": [
                 "Thuyết Trình",
@@ -5959,69 +5959,69 @@
                 "XML"
             ],
             "ky_nang": [
-                "application development",
+                "Application Development",
                 "Lotus Approach",
                 "Asset Management",
-                "Billing systems",
+                "Billing Systems",
                 "book",
-                "budget",
-                "Develop business",
+                "Budget",
+                "Business Development",
                 "Business Process Analysis",
-                "client management",
-                "contracts",
-                "Crystal",
+                "Client Management",
+                "Contracts",
                 "Crystal Reports",
-                "data collection",
-                "DBA",
-                "databases",
-                "features",
-                "financial",
+                "Crystal Reports",
+                "Data Collection",
+                "Database Administration",
+                "Databases",
+                "Features",
+                "Financial",
                 "FTP",
                 "GIS",
                 "HP-UX",
-                "image",
-                "ITIL v",
-                "Access",
+                "Image Processing",
+                "ITIL",
+                "Microsoft Access",
                 "SharePoint",
                 "Windows",
                 "Windows 95",
                 "Windows NT",
-                "migration",
+                "Migration",
                 "Enterprise",
                 "Network",
                 "Oracle 7.3",
                 "Oracle",
-                "Oracle database",
+                "Oracle Database",
                 "Oracle 8",
                 "OS/2",
-                "PC support",
-                "Pro C",
-                "processes",
+                "PC Support",
+                "Pro*C",
+                "Processes",
                 "Programming",
                 "Project Management",
-                "Reading",
+                "Đọc sách",
                 "reporting",
-                "requirements gathering",
-                "scanning",
-                "scheduling",
+                "Requirements Gathering",
+                "Scanning",
+                "Scheduling",
                 "Servers",
-                "scripts",
+                "Scripts",
                 "Shell Scripting",
                 "Software Development",
                 "SQL",
                 "SQL Server",
                 "Sybase SQL Server",
                 "System Administration",
-                "system configuration",
-                "tables",
-                "taxes",
-                "Desktop support",
+                "System Configuration",
+                "Tables",
+                "Taxes",
+                "Desktop Support",
                 "Uniface 6.1",
                 "Uniface 5.2",
                 "UNIX",
-                "Unix Shell scripts",
-                "upgrades",
-                "upgrade"
+                "Unix Shell Scripts",
+                "Upgrades",
+                "Upgrade"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -6115,10 +6115,10 @@
                 "MongoDB",
                 "Laravel Framework",
                 "WordPress",
-                "NodeJS",
+                "Node.js",
                 "Elasticsearch",
                 "Vuex",
-                "Reactjs",
+                "React",
                 "Redux",
                 ".NET Core",
                 "ASP",
@@ -6139,7 +6139,7 @@
                 "WebSocket",
                 "Web Services API",
                 "Git",
-                "Gitlab",
+                "GitLab",
                 "GitHub",
                 "Bitbucket",
                 "SVN",
@@ -6258,7 +6258,7 @@
                         "PHP",
                         "Laravel Framework",
                         "MySQL",
-                        "ReactJS",
+                        "React",
                         "Angular 5",
                         "Queue",
                         "HTML5",
@@ -6292,7 +6292,7 @@
                         "PHP",
                         "Laravel Framework",
                         "MySQL",
-                        "Vuejs",
+                        "Vue.js",
                         "Queue",
                         "HTML5",
                         "SCSS",
@@ -6308,13 +6308,13 @@
                     "cong_nghe_su_dung": [
                         "Core",
                         "SQL Server",
-                        "Vuejs",
+                        "Vue.js",
                         "Queue",
                         "HTML5",
                         "SCSS",
                         "jQuery",
                         "JavaScript",
-                        "Github",
+                        "GitHub",
                         "Windows Server"
                     ],
                     "mo_ta": "Build the admin system and create login, logout function."
@@ -6330,7 +6330,7 @@
                         "SCSS",
                         "jQuery",
                         "JavaScript",
-                        "Github",
+                        "GitHub",
                         "Windows Server"
                     ],
                     "mo_ta": "Draw chart all report and write api and view statistical data."
@@ -6342,7 +6342,7 @@
                         "PHP",
                         "Laravel Framework",
                         "MySQL",
-                        "Vuejs",
+                        "Vue.js",
                         "Docker",
                         "Queue",
                         "HTML5",
@@ -6360,11 +6360,11 @@
                         "PHP",
                         "Laravel Framework",
                         "MySQL",
-                        "Vuejs",
-                        "AWS(S3)",
+                        "Vue.js",
+                        "AWS S3",
                         "Docker",
                         "Queue",
-                        "Tailwindcss",
+                        "Tailwind CSS",
                         "HTML5",
                         "SCSS",
                         "jQuery",
@@ -6381,10 +6381,10 @@
                         "Laravel Framework",
                         "MySQL",
                         "MongoDB",
-                        "Reactjs",
+                        "React",
                         "Docker",
-                        "Web Service",
-                        "AWS(S3)",
+                        "Web Services",
+                        "AWS S3",
                         "Queue",
                         "HTML5",
                         "SCSS",
@@ -6398,7 +6398,7 @@
                     "ten_du_an": "Evantra",
                     "vai_tro": "Developer",
                     "cong_nghe_su_dung": [
-                        "Wordpress (Elementor)",
+                        "WordPress (Elementor)",
                         "CSS",
                         "jQuery",
                         "JavaScript"
@@ -6457,12 +6457,12 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "MSOffice",
+                "MS Office",
                 "HTML",
                 "SQL Server",
                 "Java",
-                "CORELDRAW 8.0",
-                "PHOTO SHOP"
+                "CorelDRAW 8.0",
+                "Photoshop"
             ],
             "ky_nang_khac": [
                 "Fluent in Hindi",
@@ -6533,19 +6533,19 @@
                 "JavaScript"
             ],
             "ky_nang": [
-                "ReactJS",
-                "NextJS",
+                "React",
+                "Next.js",
                 "HTML",
                 "CSS",
                 "SASS",
                 "Tailwind",
                 "Microservices",
                 "Microsoft SQL Server",
-                "SAP Hana",
+                "SAP HANA",
                 "Docker",
                 "CI/CD",
                 "Kubernetes",
-                "Redux Core",
+                "Redux",
                 "VBA",
                 "VB6",
                 "SQL",
@@ -6629,11 +6629,11 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Windows7",
-                "Windows8",
+                "Windows 7",
+                "Windows 8",
                 "Windows Vista",
                 "Windows XP",
-                "Visual Basics",
+                "Visual Basic",
                 "HTML",
                 "MS Office"
             ],
@@ -6751,35 +6751,35 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Back-up",
-                "budgets",
-                "hardware",
-                "client",
+                "Backup",
+                "Budgets",
+                "Hardware",
+                "Client",
                 "Database",
-                "database management",
-                "designing",
-                "disaster recovery",
-                "documentation",
-                "financial",
-                "Help Desk",
+                "Database Management",
+                "Designing",
+                "Disaster Recovery",
+                "Documentation",
+                "Financial",
+                "Help desk",
                 "HP",
-                "local area network",
+                "Local Area Network",
                 "LAN",
                 "Leadership",
-                "access",
-                "network",
-                "networks",
-                "NT servers",
-                "PC's",
+                "Access",
+                "Mạng",
+                "Networks",
+                "NT Servers",
+                "PCs",
                 "policies",
                 "printer",
-                "processes",
+                "Processes",
                 "Research",
-                "Trouble shooting",
-                "troubleshooting",
+                "Troubleshooting",
+                "Troubleshooting",
                 "Upgrades",
                 "WAN",
-                "workflow"
+                "Workflow"
             ],
             "ky_nang_khac": [],
             "chung_chi": [
@@ -6859,8 +6859,8 @@
                 "C++"
             ],
             "ky_nang": [
-                "Advanced excel",
-                "Html"
+                "Advanced Excel",
+                "HTML"
             ],
             "ky_nang_khac": [],
             "chung_chi": [
@@ -6924,7 +6924,7 @@
                 "JSP",
                 "Spring",
                 "Hibernate",
-                "Mybatis",
+                "MyBatis",
                 "Servlets",
                 "JSF",
                 "JDBC",
@@ -6938,7 +6938,7 @@
                 "Retrofit",
                 "REST API",
                 "Maven",
-                "Apache poi",
+                "Apache POI",
                 "JIRA",
                 "Trello",
                 "Git",
@@ -7001,7 +7001,7 @@
                     "vai_tro": "Lead Developer",
                     "cong_nghe_su_dung": [
                         "Java",
-                        "Spring framework",
+                        "Spring Framework",
                         "Hibernate",
                         "Tomcat",
                         "MySQL"
@@ -7013,7 +7013,7 @@
                     "vai_tro": "Lead Developer",
                     "cong_nghe_su_dung": [
                         "Java",
-                        "Spring framework",
+                        "Spring Framework",
                         "Hibernate",
                         "Tomcat",
                         "MySQL"
@@ -7025,8 +7025,8 @@
                     "vai_tro": "Lead Developer",
                     "cong_nghe_su_dung": [
                         "Java",
-                        "Spring framework",
-                        "Mybatis",
+                        "Spring Framework",
+                        "MyBatis",
                         "Tomcat",
                         "MySQL"
                     ],
@@ -7037,8 +7037,8 @@
                     "vai_tro": "Lead Developer",
                     "cong_nghe_su_dung": [
                         "Java",
-                        "Spring framework",
-                        "Mybatis",
+                        "Spring Framework",
+                        "MyBatis",
                         "Tomcat"
                     ],
                     "mo_ta": "Full-featured project management system for games."
@@ -7084,7 +7084,7 @@
                 "Spring",
                 "Hibernate",
                 "AngularJS",
-                "ReactJS",
+                "React",
                 "jQuery",
                 "Bootstrap",
                 "Git",
@@ -7162,8 +7162,8 @@
                 "Java"
             ],
             "ky_nang": [
-                "Automation testing",
-                "Performance testing",
+                "Automation Testing",
+                "Performance Testing",
                 "Scrum",
                 "Agile",
                 "English",
@@ -7338,11 +7338,11 @@
                     "cong_nghe_su_dung": [
                         "Windows",
                         "Linux",
-                        "IE",
+                        "Internet Explorer",
                         "Google Chrome",
                         "Mozilla Firefox",
                         "Safari",
-                        "Mongo SQL"
+                        "MongoDB"
                     ],
                     "mo_ta": "Doctella enables doctors to deliver checklists and workflows to patients and their caregivers to monitor their participation in real time."
                 },
@@ -7351,10 +7351,10 @@
                     "vai_tro": "QA, Business Analyst",
                     "cong_nghe_su_dung": [
                         "Windows",
-                        "IE",
+                        "Internet Explorer",
                         "Google Chrome",
                         "Mozilla Firefox",
-                        "My SQL"
+                        "MySQL"
                     ],
                     "mo_ta": "Developed an electric hospital website to manage hospital."
                 },
@@ -7363,11 +7363,11 @@
                     "vai_tro": "QA",
                     "cong_nghe_su_dung": [
                         "Microsoft Windows 7",
-                        "IE",
+                        "Internet Explorer",
                         "Google Chrome",
                         "Mozilla Firefox",
                         "Windows Server 2008",
-                        "MS SQL server"
+                        "MS SQL Server"
                     ],
                     "mo_ta": "Develop the website which allows healthcare consumers, and healthcare professionals to connect with each other to share health related information."
                 },
@@ -7376,10 +7376,10 @@
                     "vai_tro": "QA",
                     "cong_nghe_su_dung": [
                         "Microsoft Windows 7",
-                        "IE",
+                        "Internet Explorer",
                         "Google Chrome",
                         "Mozilla Firefox",
-                        "Amazon Services"
+                        "Amazon Web Services"
                     ],
                     "mo_ta": "Develop the website which Provides a service that allows users to test their web-applications or websites using state-of-the-art technologies and cloud-computing resources."
                 },
@@ -7387,7 +7387,7 @@
                     "ten_du_an": "Audio Photo",
                     "vai_tro": "QA",
                     "cong_nghe_su_dung": [
-                        "IOS",
+                        "iOS",
                         "Android"
                     ],
                     "mo_ta": "Develop the application on Smartphone which can shooting or take photo from library and merge with sound/music."
@@ -7447,10 +7447,10 @@
             "ky_nang": [
                 "Networking",
                 "Electronics",
-                "Embedded system (8051, PCB)",
+                "Embedded Systems (8051, PCB)",
                 "Windows 7",
                 "Windows 8",
-                "MS-Office",
+                "MS Office",
                 "Excel"
             ],
             "ky_nang_khac": [],
@@ -7507,15 +7507,15 @@
                 "Data Visualization",
                 "Text Analytics",
                 "Data Collection",
-                "Data Cleaning",
+                "data cleaning",
                 "Business Analysis",
                 "SQL",
-                "Google Bigquery",
+                "Google BigQuery",
                 "Tableau",
                 "Kibana",
-                "MS Excel/ MS Office",
+                "Microsoft Excel / Microsoft Office",
                 "Linux",
-                "Elastic Search",
+                "Elasticsearch",
                 "Machine Learning"
             ],
             "ky_nang_khac": [],
@@ -7551,12 +7551,12 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Time management",
+                "Quản lý thời gian",
                 "Problem solving",
                 "Communication",
                 "Creativity",
                 "Leadership",
-                "Quick learner"
+                "Quick Learner"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -7626,10 +7626,10 @@
                 "Machine Learning",
                 "Artificial Intelligence",
                 "MATLAB",
-                "NLP",
+                "Natural Language Processing",
                 "Computer Vision",
                 "Keras",
-                "Pytorch",
+                "PyTorch",
                 "RNN"
             ],
             "ky_nang_khac": [],
@@ -7816,12 +7816,12 @@
             "ky_nang": [
                 "Data analysis",
                 "Information systems",
-                "IT infrastructure",
-                "Office informatics (MOS, IC3)",
-                "System and data analysis",
+                "IT Infrastructure",
+                "Office Informatics",
+                "System and Data Analysis",
                 "Teaching",
                 "Researching",
-                "Building solutions"
+                "Building Solutions"
             ],
             "ky_nang_khac": [],
             "chung_chi": [
@@ -7896,20 +7896,20 @@
                 }
             ],
             "ngon_ngu_lap_trinh": [
-                ".Net",
+                ".NET",
                 "Angular",
                 "Flutter"
             ],
             "ky_nang": [
-                "Phân tích, quản lý dự án",
-                "Fullstack Dev",
+                "Phân tích và quản lý dự án",
+                "Fullstack Developer",
                 "Phân tích, xây dựng - kiến trúc database",
                 "Hiểu biết về AWS, Cloud Server, Docker",
-                "Làm việc với các hệ dữ liệu: SQL Server, Postgresql, Oracle",
+                "Database Management: SQL Server, PostgreSQL, Oracle",
                 "Phỏng vấn, tuyển dụng, cấu trúc - phân bổ nhân sự cho dự án",
                 "Xây dựng và lập kế hoạch cho dự án",
-                "Giám sát, theo dõi tài chính dự án",
-                "Tiếp xúc, đàm phán, tiến hành các thủ tục ký kết hợp đồng với khách hàng",
+                "Project Financial Monitoring",
+                "Đàm phán hợp đồng",
                 "Cài đặt, cấu hình server, hosting"
             ],
             "ky_nang_khac": [],
@@ -8129,10 +8129,10 @@
             "ky_nang": [
                 "Troubleshooting",
                 "Supply chain management",
-                "Mechanical aptitude",
+                "Mechanical Aptitude",
                 "Management of large maintenance crews",
-                "Proficiency with mechanical and pneumatic tools",
-                "Knowledgeable of applicable local codes"
+                "Mechanical and Pneumatic Tools Proficiency",
+                "Knowledge of applicable local codes"
             ],
             "ky_nang_khac": [
                 "Licensed FAA rated Airframe and Powerplant (A&P) Technician",
@@ -8284,26 +8284,26 @@
                 }
             ],
             "ngon_ngu_lap_trinh": [
-                "Html5",
+                "HTML5",
                 "CSS3",
-                "Javascript"
+                "JavaScript"
             ],
             "ky_nang": [
                 "Bootstrap",
                 "Responsive",
-                "ReactJS",
+                "React",
                 "Redux",
-                "Redux toolkit",
-                "Redux saga",
-                "Ant design",
-                "MaterialUI",
-                "Micro frontend",
-                "NodeJS(Express)",
+                "Redux Toolkit",
+                "Redux Saga",
+                "Ant Design",
+                "Material-UI",
+                "micro frontend",
+                "Node.js (Express)",
                 "MongoDB",
                 "MySQL",
-                "PostgresQL",
-                "Typescript",
-                "Github",
+                "PostgreSQL",
+                "TypeScript",
+                "GitHub",
                 "Docker"
             ],
             "ky_nang_khac": [],
@@ -8341,10 +8341,10 @@
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
                         "Axios",
-                        "React-router-dom",
-                        "Scss",
+                        "React Router",
+                        "SCSS",
                         "Swiper",
-                        "React-Hook"
+                        "React Hooks"
                     ],
                     "mo_ta": "Build UI Website - Responsive React Movie App. - Get API from Themoviedb"
                 },
@@ -8352,13 +8352,13 @@
                     "ten_du_an": "CREATE WEB ECOMMERCE",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "Reactjs",
-                        "redux",
-                        "redux-saga",
-                        "axios",
-                        "tailwindcss",
-                        "ExpressJS",
-                        "mongoDB"
+                        "React",
+                        "Redux",
+                        "Redux Saga",
+                        "Axios",
+                        "Tailwind CSS",
+                        "Express.js",
+                        "MongoDB"
                     ],
                     "mo_ta": "Design web using Reactjs, redux, redux-saga, axios, tailwindcss - Using ExpressJS and mongoDB for backend."
                 }
@@ -8392,29 +8392,29 @@
                 "Visual Basic"
             ],
             "ky_nang": [
-                "administrative duties",
+                "Administrative duties",
                 "Adobe Acrobat",
-                "Schedule appointments",
-                "asset management",
-                "billing",
-                "billing system",
-                "Computer repair and upgrade",
-                "Data entry",
-                "database",
-                "delivery",
-                "financial",
-                "information technology",
-                "inventory",
-                "marketing",
-                "network setup",
+                "Appointment Scheduling",
+                "Asset Management",
+                "Billing",
+                "Billing system",
+                "Computer Repair and Upgrade",
+                "Data Entry",
+                "Database",
+                "Delivery",
+                "Financial",
+                "Information Technology",
+                "Inventory Management",
+                "Marketing",
+                "Network Setup",
                 "Notary Public",
-                "Order office supplies",
-                "organizational",
+                "Office Supplies Management",
+                "Organizational",
                 "reporting",
-                "scheduling",
-                "Troubleshoot",
-                "troubleshooting",
-                "upgrade"
+                "Scheduling",
+                "Troubleshooting",
+                "Troubleshooting",
+                "Upgrade"
             ],
             "ky_nang_khac": [
                 "MS Word",
@@ -8508,10 +8508,10 @@
                 "Natural Language Processing",
                 "Deep Learning",
                 "Business Analysis",
-                "Numpy",
+                "NumPy",
                 "Pandas",
-                "Scikit Learn",
-                "Tensorflow",
+                "Scikit-learn",
+                "TensorFlow",
                 "Keras",
                 "PySpark"
             ],
@@ -8589,7 +8589,7 @@
             "ky_nang": [
                 "HTML",
                 "CSS",
-                "SQL SERVER2008"
+                "SQL Server 2008"
             ],
             "ky_nang_khac": [
                 "Windows XP",
@@ -8673,27 +8673,27 @@
             "ngon_ngu_lap_trinh": [
                 "C",
                 "C++",
-                "JAVA",
+                "Java",
                 "Python"
             ],
             "ky_nang": [
                 "MS-DOS",
-                "WINDOWS",
+                "Windows",
                 "UNIX",
-                "LINUX",
-                "MS-Office",
+                "Linux",
+                "MS Office",
                 "Visual Basic",
                 "Visual C++",
                 "Photoshop",
-                "InDesign",
-                "MS-Access",
+                "Adobe InDesign",
+                "MS Access",
                 "SQL Server",
-                "MY SQL",
+                "MySQL",
                 "HTML",
                 "XML",
                 "ASP",
                 "VB Script",
-                "Java Script"
+                "JavaScript"
             ],
             "ky_nang_khac": [
                 "Robotics",
@@ -8751,33 +8751,33 @@
                 "SQL",
                 "DuckDB",
                 "SQLite",
-                "pandas",
+                "Pandas",
                 "NumPy",
-                "web scraping",
-                "schema validation",
-                "data-quality gates",
-                "deduplication and record merging",
-                "scheduled jobs",
-                "causal inference",
-                "A/B test reasoning",
-                "regression",
-                "classification",
-                "clustering",
+                "Web scraping",
+                "Schema Validation",
+                "Data quality gates",
+                "Deduplication and Record Merging",
+                "Scheduled Jobs",
+                "Causal Inference",
+                "Lý do kiểm thử A/B",
+                "Regression",
+                "Classification",
+                "Clustering",
                 "scikit-learn",
                 "XGBoost",
                 "PyTorch",
-                "feature engineering",
-                "model evaluation",
+                "Feature Engineering",
+                "Model Evaluation",
                 "Streamlit",
                 "Plotly",
                 "Matplotlib",
                 "Seaborn",
                 "Git",
                 "pytest",
-                "modular project layout",
-                "YAML configuration",
-                "logging",
-                "idempotent storage"
+                "Modular Project Layout",
+                "YAML Configuration",
+                "Logging",
+                "Idempotent Storage"
             ],
             "ky_nang_khac": [
                 "technical reading"
@@ -8814,7 +8814,7 @@
                         "DuckDB",
                         "XGBoost",
                         "Streamlit",
-                        "pandera"
+                        "Pandera"
                     ],
                     "mo_ta": "Conducted a causal analysis to determine the effectiveness of promotions, revealing significant selection bias in apparent campaign effects."
                 },
@@ -8824,7 +8824,7 @@
                     "cong_nghe_su_dung": [
                         "Python",
                         "BeautifulSoup",
-                        "pandas",
+                        "Pandas",
                         "SQLite",
                         "pytest"
                     ],
@@ -8861,18 +8861,18 @@
                 "SCSS",
                 "MVC5",
                 "WPF",
-                "Entities framework",
-                "JQuery",
-                "Reactjs",
-                "Nextjs",
-                "Nodejs",
-                "Expressjs",
-                "SQL server",
+                "Entity Framework",
+                "jQuery",
+                "React",
+                "Next.js",
+                "Node.js",
+                "Express.js",
+                "SQL Server",
                 "MySQL",
                 "MongoDB",
                 "Visual Studio",
                 "Visual Studio Code",
-                "Adobe illustrator",
+                "Adobe Illustrator",
                 "Git",
                 "Jira"
             ],
@@ -8896,8 +8896,8 @@
                         "HTML5",
                         "SCSS",
                         "CSS3",
-                        "Reactjs",
-                        "Nextjs",
+                        "React",
+                        "Next.js",
                         "MySQL"
                     ],
                     "mo_ta": "Built to help teachers create and manage online exams easily with content that follows the main curriculum and follows Cambridge standards."
@@ -8910,10 +8910,10 @@
                         "HTML5",
                         "SCSS",
                         "CSS3",
-                        "Reactjs",
-                        "Nextjs",
-                        "Nodejs",
-                        "Expressjs",
+                        "React",
+                        "Next.js",
+                        "Node.js",
+                        "Express.js",
                         "MongoDB"
                     ],
                     "mo_ta": "Track all user actions on all software systems in a single place to analyze user behavior and detect system errors."
@@ -8928,7 +8928,7 @@
                         "jQuery",
                         "Bootstrap",
                         "MVC5",
-                        "Entities framework",
+                        "Entity Framework",
                         "SQL Server 2012 R2"
                     ],
                     "mo_ta": "An online teaching support system used by schools, teachers, and students for classroom management and progress tracking."
@@ -8938,9 +8938,9 @@
                     "vai_tro": "Team Leader, Fullstack Developer",
                     "cong_nghe_su_dung": [
                         "C#",
-                        "WPF .NET framework",
+                        "WPF .NET Framework",
                         "MVC5",
-                        "Entities framework",
+                        "Entity Framework",
                         "SQL Server 2012 R2"
                     ],
                     "mo_ta": "An application providing educational applications for offline use in classrooms."
@@ -8974,26 +8974,26 @@
                 "Office Management",
                 "Records Management",
                 "Database Administration",
-                "50wpm typing speed",
+                "50 WPM Typing Speed",
                 "Spreadsheets/Reports",
                 "Event Management",
                 "Calendaring",
-                "Front-Desk",
+                "Front Desk",
                 "Reception",
                 "Executive Support",
                 "Travel Coordination",
                 "MS Word",
                 "MS Excel",
-                "MS PowerPoint",
-                "MS Outlook",
+                "Microsoft PowerPoint",
+                "Microsoft Outlook",
                 "MS Access",
-                "MS Project",
+                "Microsoft Project",
                 "MS Publisher",
                 "FileMaker Pro",
                 "Windows",
                 "HTML",
                 "CSS",
-                "Web development"
+                "Web Development"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -9047,9 +9047,9 @@
                 "C++"
             ],
             "ky_nang": [
-                "ASP.Net",
+                "ASP.NET",
                 "ASP.NET MVC",
-                "ADO.Net",
+                "ADO.NET",
                 "Entity Framework",
                 "AJAX",
                 "LINQ",
@@ -9107,7 +9107,7 @@
                     "cong_nghe_su_dung": [
                         "Entity Framework",
                         "LINQ",
-                        "ADO.Net"
+                        "ADO.NET"
                     ],
                     "mo_ta": "The goal of the project to allow the admins, managers, scrum masters of the organization to keep track various applications."
                 },
@@ -9116,7 +9116,7 @@
                     "vai_tro": "Developer",
                     "cong_nghe_su_dung": [
                         "AJAX",
-                        "ASP.Net"
+                        "ASP.NET"
                     ],
                     "mo_ta": "GoMizzou is the University of Missouri flagship mobile application, designed to provide services to all possible users of the university."
                 },
@@ -9246,12 +9246,12 @@
                 "C"
             ],
             "ky_nang": [
-                "Html",
+                "HTML",
                 "CSS",
-                "Javascript",
-                "Jquery",
-                "MySql",
-                "Powerpoint",
+                "JavaScript",
+                "jQuery",
+                "MySQL",
+                "PowerPoint",
                 "Photoshop"
             ],
             "ky_nang_khac": [],
@@ -9307,9 +9307,9 @@
             ],
             "ky_nang": [
                 "Data Science",
-                "Customer analytics",
+                "Customer Analytics",
                 "Data Visualization",
-                "Natural language Processing",
+                "Natural Language Processing",
                 "SQL",
                 "Tableau",
                 "Alteryx",
@@ -9364,102 +9364,102 @@
                 "C#"
             ],
             "ky_nang": [
-                "Database design",
+                "Database Design",
                 "Excellent problem-solving abilities",
                 "Windows and Linux",
-                "Website and portal monitoring",
-                "Network maintenance",
-                "Data backup and retrieval",
-                "Product templates",
-                "Brand development",
-                "Excellent communication skills",
-                "SEO coding and strategy",
-                "Website maintenance",
+                "Giám sát website và cổng thông tin",
+                "Network Maintenance",
+                "Data Backup and Retrieval",
+                "Product Templates",
+                "Brand Development",
+                "Kỹ năng giao tiếp xuất sắc",
+                "Lập trình và chiến lược SEO",
+                "Website Maintenance",
                 "Adobe Photoshop",
                 "Adobe Illustrator",
-                "MailChimp",
-                "PowerPoint presentations",
-                "Web content",
+                "Mailchimp",
+                "PowerPoint Presentations",
+                "Web Content",
                 "HTML and CSS",
                 "Adobe InDesign",
-                "Superior verbal and written communication skills",
-                "AP, MLA and Chicago Manuals of Style",
-                "Natural leader",
+                "superior verbal and written communication skills",
+                "AP, MLA, and Chicago Style Manuals",
+                "Natural Leader",
                 "Self-starter",
-                "Desktop and laptop repair",
+                "Desktop and Laptop Repair",
                 "Patient",
-                "ASP.net",
+                "ASP.NET",
                 "ACT!",
                 "Adobe",
-                "Acrobat",
+                "Adobe Acrobat",
                 "Apache",
                 "Apple",
-                "broadcast",
-                "business solutions",
-                "catalog",
-                "consultant",
-                "consultation",
-                "consulting",
-                "credit",
+                "Broadcast",
+                "Business Solutions",
+                "Catalog",
+                "Consultant",
+                "Consultation",
+                "Consulting",
+                "Credit",
                 "Crystal Reports",
                 "CSS",
-                "clients",
-                "document management",
-                "ecommerce",
-                "focus",
-                "graphics",
-                "help desk support",
-                "help desk",
+                "Clients",
+                "Document Management",
+                "E-commerce",
+                "Focus",
+                "Graphics",
+                "Help Desk Support",
+                "Help Desk",
                 "IBM",
                 "IBM WebSphere",
-                "InDesign",
-                "Javascript",
+                "Adobe InDesign",
+                "JavaScript",
                 "Languages",
-                "TEAM BUILDER",
-                "marketing strategy",
-                "marketing",
-                "market",
-                "Microsoft Office User Specialist",
+                "team builder",
+                "Marketing Strategy",
+                "Marketing",
+                "Market",
+                "Microsoft Office Specialist",
                 "Microsoft Office XP",
-                "MS Project",
+                "Microsoft Project",
                 "Windows 8",
                 "Windows",
                 "Windows 9.x",
                 "MySQL",
                 "OS 5",
-                "organizational",
-                "photography",
-                "PHOTOGRAPHER",
-                "presentations",
-                "programming",
-                "Project lead",
-                "project management",
-                "purchasing",
-                "quality",
+                "Organizational",
+                "Photography",
+                "Nhiếp ảnh gia",
+                "Presentations",
+                "Programming",
+                "Project Leadership",
+                "Project Management",
+                "Mua sắm",
+                "Quality",
                 "QuarkXPress",
                 "QuickBooks",
-                "recruiting",
+                "Recruiting",
                 "Sage",
-                "software training",
-                "specification",
+                "Software Training",
+                "Specification",
                 "MS SQL Server",
-                "staffing",
-                "strategy",
-                "strategic",
-                "structured",
-                "training programs",
-                "troubleshooting",
+                "Staffing",
+                "Strategy",
+                "Strategic",
+                "Structured",
+                "Training programs",
+                "Troubleshooting",
                 "VBA",
                 "VBScript",
-                "video",
+                "Video",
                 "Visio",
                 "MS Visual Basic",
                 "MS Visual C++",
                 "MS Visual Studio",
-                "website",
-                "websites",
-                "web marketing",
-                "workflow"
+                "Website",
+                "Websites",
+                "Web Marketing",
+                "Workflow"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -9510,7 +9510,7 @@
             "ky_nang": [
                 "IT Phần Cứng",
                 "CCTV",
-                "CCTV System Design",
+                "CCTV system design",
                 "Windows Server 2012",
                 "Windows Server Management",
                 "IT Administration",
@@ -9582,8 +9582,8 @@
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
                 "Maximizing Productivity and Profits",
-                "Quality Assurance for product",
-                "Leadership/Supervision",
+                "Quality Assurance",
+                "Lãnh đạo/Giám sát",
                 "Professionalism",
                 "Dependable",
                 "Hardworking",
@@ -9592,7 +9592,7 @@
                 "Honest",
                 "Attention to Detail",
                 "Team Player",
-                "Troubleshoot/Maintain/Repair all motors, pumps, compressors, heat exchangers, piping and electrical components within plant site"
+                "Troubleshooting and Maintenance of Plant Equipment"
             ],
             "ky_nang_khac": [
                 "Operation of a $27 million Air Separation Unit Plant",
@@ -9662,36 +9662,36 @@
                 "Accounting",
                 "Active Directory",
                 "Apache",
-                "backup",
+                "Backup",
                 "Bloomberg",
-                "cisco",
+                "Cisco",
                 "Citrix",
-                "client/server",
-                "hardware",
-                "databases",
+                "Client/Server",
+                "Hardware",
+                "Databases",
                 "Dell",
                 "DHCP",
-                "email",
-                "energy trading",
+                "Email",
+                "Energy Trading",
                 "GIS",
                 "HP Servers",
-                "Internet applications",
+                "Internet Applications",
                 "LAN",
-                "laptops",
+                "Laptops",
                 "Managing",
-                "Market",
-                "access",
+                "Thị trường",
+                "Access",
                 "Exchange",
-                "Office",
+                "Microsoft Office",
                 "MS Office 97",
                 "Windows",
-                "microwave",
+                "Microwave",
                 "Network Administrator",
                 "Networking",
                 "ODBC",
                 "Oil",
-                "phone system",
-                "promotion",
+                "Phone system",
+                "Promotion",
                 "Reuters",
                 "SCADA",
                 "servers",
@@ -9699,11 +9699,11 @@
                 "Symantec",
                 "T1",
                 "TCP/IP",
-                "Desktop support",
-                "phones",
-                "Terminal server",
-                "troubleshoot",
-                "troubleshooting",
+                "Desktop Support",
+                "Phones",
+                "Terminal Server",
+                "Troubleshoot",
+                "Troubleshooting",
                 "VPN",
                 "VOIP",
                 "WAN"
@@ -9787,30 +9787,30 @@
             "ky_nang": [
                 "Microsoft Office",
                 "Excel",
-                "Power Point",
-                "Word",
-                "Outlook",
+                "PowerPoint",
+                "Microsoft Word",
+                "Microsoft Outlook",
                 "SQL",
-                "Adobe Suit",
+                "Adobe Suite",
                 "Flash",
                 "Photoshop",
                 "Illustrator",
                 "3D Max",
-                "Cording",
+                "Coding",
                 "Programming",
                 "Customer relationship management (CRM)",
                 "ERP System",
                 "RFID",
                 "E-Commerce",
-                "Electronic Product Code (EPC)",
+                "Mã sản phẩm điện tử (EPC)",
                 "Financial Accounting",
-                "Human Resources (HR)",
+                "Human Resources",
                 "Business Marketing",
                 "International Trade (Import and Export)",
                 "App Development",
                 "SEM",
                 "analysis",
-                "QMS",
+                "Quality Management System",
                 "Statistics",
                 "Healthcare"
             ],
@@ -9872,9 +9872,9 @@
             ],
             "ky_nang": [
                 "MS Office",
-                "WINXP",
-                "WINDOW7",
-                "WINDOW8"
+                "Windows XP",
+                "Windows 7",
+                "Windows 8"
             ],
             "ky_nang_khac": [
                 "Leadership Quality",
@@ -9930,7 +9930,7 @@
                     "ten_du_an": "Androide Oprated Robot",
                     "vai_tro": "",
                     "cong_nghe_su_dung": [
-                        "Embedded system"
+                        "Embedded Systems"
                     ],
                     "mo_ta": "Project developed in Embedded system."
                 }
@@ -9962,17 +9962,17 @@
                 "Laravel Framework",
                 "MySQL",
                 "Oracle",
-                "Postgresql",
-                "OOP",
+                "PostgreSQL",
+                "Object-Oriented Programming",
                 "Spring",
-                "SpringMVC",
+                "Spring MVC",
                 "Spring Boot",
                 "Hibernate",
-                "Spring DataJPA",
+                "Spring Data JPA",
                 "MVC",
                 "WPF",
                 "Entity Framework",
-                "Search engine"
+                "Search Engine"
             ],
             "ky_nang_khac": [
                 "Có thể làm việc trong môi trường áp lực cao",
@@ -10072,7 +10072,7 @@
             "ky_nang": [
                 "Testing",
                 "Debugging",
-                "Parameter tuning",
+                "Parameter Tuning",
                 "Data Analytics",
                 "Data Manipulation",
                 "Data Mining",
@@ -10149,7 +10149,7 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Auto cad",
+                "AutoCAD",
                 "Creo"
             ],
             "ky_nang_khac": [],
@@ -10253,24 +10253,24 @@
             ],
             "ky_nang": [
                 "Solid Edge",
-                "UG NX6 -NX10",
+                "UG NX6 - NX10",
                 "Teamcenter",
                 "Digital Engine Visualization",
                 "GD&T",
-                "FEA/ ANSYS",
-                "Modifying designs",
+                "FEA/ANSYS",
+                "Modifying Designs",
                 "Lean Six Sigma",
                 "Adobe Photoshop",
-                "AUTOCAD",
-                "Microsoft Projects",
+                "AutoCAD",
+                "Microsoft Project",
                 "Microsoft Visio",
                 "Microsoft Office",
-                "FEA/ Abacus",
+                "FEA/Abacus",
                 "LabVIEW",
                 "Visual Basic",
-                "Matlab",
+                "MATLAB",
                 "Data Acquisition",
-                "Solid Works"
+                "SolidWorks"
             ],
             "ky_nang_khac": [],
             "chung_chi": [
@@ -10338,13 +10338,13 @@
                 }
             ],
             "ngon_ngu_lap_trinh": [
-                "SQL*PLUS",
+                "SQL*Plus",
                 "PL/SQL",
                 "UNIX Shell Scripting"
             ],
             "ky_nang": [
-                "Oracle databases",
-                "Sql Server databases",
+                "Oracle Databases",
+                "SQL Server Databases",
                 "AWS",
                 "TKPROF",
                 "EXPLAIN PLAN",
@@ -10352,11 +10352,11 @@
                 "AWR",
                 "ADDM",
                 "Toad",
-                "Putty",
+                "PuTTY",
                 "X-wing32",
                 "WinSCP",
                 "RMAN",
-                "DataPump",
+                "Data Pump",
                 "Export",
                 "Import"
             ],
@@ -10407,12 +10407,12 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Leadership skills",
-                "Projects Management",
+                "Leadership Skills",
+                "Project management",
                 "Time Management",
-                "Presentation",
+                "Thuyết trình",
                 "Communication",
-                "Problem-solving"
+                "Problem Solving"
             ],
             "ky_nang_khac": [],
             "chung_chi": [
@@ -10487,7 +10487,7 @@
                 "HTML5",
                 "CSS3",
                 "JavaScript",
-                "Database SQL"
+                "SQL Database"
             ],
             "ky_nang_khac": [
                 "Asp.net MVC5",
@@ -10525,7 +10525,7 @@
                     "ten_du_an": "Online food delivery web site",
                     "vai_tro": "Developer",
                     "cong_nghe_su_dung": [
-                        "asp.net"
+                        "ASP.NET"
                     ],
                     "mo_ta": "Developed an online food delivery website"
                 }
@@ -10556,7 +10556,7 @@
             "ky_nang": [
                 "Machine Learning Engineer",
                 "Data Processing",
-                "Data Modelling",
+                "Data Modeling",
                 "Data Structures",
                 "Deep Learning",
                 "Application Development",
@@ -10624,8 +10624,8 @@
             ],
             "ky_nang": [
                 "Design PCB",
-                "MVC model",
-                "English for communication"
+                "MVC Model",
+                "English Communication"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -10691,11 +10691,11 @@
                 "jQuery",
                 "CSS",
                 "HTML",
-                "Mysql",
+                "MySQL",
                 "MongoDB",
                 "Oracle",
                 "SQL Server",
-                "Github"
+                "GitHub"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -10757,11 +10757,11 @@
                 "Agile",
                 "ITIL",
                 "GAP Analysis",
-                "UAT",
+                "User Acceptance Testing",
                 "Business Requirements",
                 "Process Improvement",
                 "Process Mapping",
-                "Demand Management",
+                "Demand management",
                 "Resource Management",
                 "Project Management Lifecycle"
             ],
@@ -10878,51 +10878,51 @@
             "ky_nang": [
                 "Accounting",
                 "Analyst",
-                "business processes",
+                "Business Processes",
                 "Change Management",
                 "Coaching",
-                "hardware",
-                "direction",
-                "employee training",
+                "Hardware",
+                "Direction",
+                "Employee Training",
                 "ERP",
                 "Finance",
-                "financials",
-                "human resources",
-                "HR",
-                "information security",
-                "information technology",
-                "inventory",
+                "Financials",
+                "Nhân sự",
+                "Human Resources",
+                "Information Security",
+                "Information Technology",
+                "Inventory Management",
                 "Leadership",
                 "Team Leadership",
-                "Managing People",
+                "People Management",
                 "Managing",
                 "Mentoring",
-                "MS Office suite",
-                "migration",
-                "needs analysis",
+                "MS Office Suite",
+                "Migration",
+                "Needs Analysis",
                 "Enterprise",
                 "Network Administrator",
-                "network",
+                "Mạng",
                 "Organizational Development",
-                "phone system",
+                "Phone system",
                 "policies",
-                "printers",
-                "processes",
+                "Printers",
+                "Processes",
                 "Project Management",
-                "purchasing",
+                "Mua sắm",
                 "reporting",
                 "servers",
                 "Service Level Agreements",
                 "SLA",
-                "software development",
-                "strategic",
+                "Software Development",
+                "Strategic",
                 "Supervision",
-                "technical support",
-                "telecom",
-                "telecommunication",
-                "Telephony",
+                "Technical support",
+                "Telecommunications",
+                "Telecommunication",
+                "telephony",
                 "Trainer",
-                "Wordperfect"
+                "WordPerfect"
             ],
             "ky_nang_khac": [
                 "Innovative Leadership",
@@ -10987,38 +10987,38 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Enterprise platforms",
+                "Enterprise Platforms",
                 "Knowledge of Product Lifecycle Management (PLM)",
                 "Project tracking",
-                "Hardware and software upgrade planning",
+                "Hardware and Software Upgrade Planning",
                 "Product requirements documentation",
-                "Self-directed",
-                "MS Visio",
+                "Self-Directed",
+                "Microsoft Visio",
                 "Decisive",
                 "Collaborative",
                 "Domain Active Directory Layout",
-                "Data storage engineering",
+                "Data Storage Engineering",
                 "Information Assurance",
                 "Risk Management Framework (RMF)",
-                "Active Directory design and deployment",
-                "Workstation build and deployment",
+                "Active Directory Design and Deployment",
+                "Workstation Build and Deployment",
                 "Systems Accreditation Packages",
-                "Red Hat Enterprise Linux installation and hardening",
+                "Red Hat Enterprise Linux Installation and Hardening",
                 "Network Design & Troubleshooting",
                 "High Performance Computing",
                 "Active Directory",
                 "Hardware Engineering",
                 "Information Technology",
                 "Red Hat Enterprise Linux Servers",
-                "MS Windows Servers",
-                "MS Windows Desktop",
+                "Microsoft Windows Server",
+                "Windows Desktop",
                 "Architectural Diagrams",
-                "Accreditation Boundarys",
+                "Accreditation Boundaries",
                 "Risk Management",
                 "Enterprise Strategies",
                 "Vendor Relations",
-                "Desktop Publishing Software: Photoshop, Illustrator, HTML",
-                "Team Work Collaboration"
+                "Desktop publishing software: Photoshop, Illustrator, HTML",
+                "Teamwork and Collaboration"
             ],
             "ky_nang_khac": [],
             "chung_chi": [],
@@ -11080,7 +11080,7 @@
                 "Team Leadership",
                 "Systems Integration",
                 "Contract Negotiations",
-                "Disaster Recovery Plans",
+                "Disaster Recovery Planning",
                 "IT Operations",
                 "Data Analysis",
                 "Data Processing",
@@ -11089,22 +11089,22 @@
                 "EDI",
                 "ITIL",
                 "Training",
-                "Executive Management",
+                "Executive management",
                 "Senior Management",
                 "Information Security",
-                "HealthCare IT",
-                "IT support",
+                "Healthcare IT",
+                "IT Support",
                 "Leadership",
                 "Marketing",
-                "Network analysis",
-                "Performance reviews",
+                "Network Analysis",
+                "Performance Reviews",
                 "VoIP",
                 "Presentations",
                 "Process Enhancement",
                 "Product Development",
                 "Servers",
                 "Strategy",
-                "Desktop support",
+                "Desktop Support",
                 "Workflow"
             ],
             "ky_nang_khac": [],
@@ -11177,10 +11177,10 @@
                 "C#"
             ],
             "ky_nang": [
-                "People Centered Leadership",
-                "Strategic & Tactical Planning",
+                "People-Centered Leadership",
+                "Lập kế hoạch chiến lược và chiến thuật",
                 "Software Engineering",
-                "Designing & Architecting Systems",
+                "System Design and Architecture",
                 "Coaching and Talent Development",
                 "Building a Culture of Innovation and Engagement",
                 "Transformation and Change Advocate"
@@ -11261,8 +11261,8 @@
                 "Java"
             ],
             "ky_nang": [
-                "Test-driven development",
-                "Behavior-driven development",
+                "Test-Driven Development",
+                "Behavior-Driven Development",
                 "Agile",
                 "Scrum",
                 "API",
@@ -11276,7 +11276,7 @@
                 "WireMock",
                 "JMeter",
                 "Gatling",
-                "ELK stack",
+                "ELK Stack",
                 "Git",
                 "Subversion",
                 "UML"
@@ -11354,14 +11354,14 @@
             ],
             "ky_nang": [
                 "Machine Learning Engineer",
-                "Data Analyst",
+                "Data Analysis",
                 "Natural Language Processing",
                 "Deep Learning",
                 "Reinforcement Learning",
-                "Tensorflow",
+                "TensorFlow",
                 "Keras",
-                "Scikit Learn",
-                "Numpy",
+                "Scikit-learn",
+                "NumPy",
                 "Pandas",
                 "Matplotlib"
             ],
@@ -11460,7 +11460,7 @@
                 "Zeplin",
                 "ProtoPie",
                 "Balsamiq",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "User Flows",
                 "Design Thinking",
                 "Visual Design",
@@ -11547,7 +11547,7 @@
                 "API Testing",
                 "Manual Testing",
                 "Test Case Design",
-                "Test Scenario Writing",
+                "Test scenario writing",
                 "User Acceptance Testing (UAT)",
                 "Black Box Testing",
                 "Test Planning",
@@ -11686,7 +11686,7 @@
                 "FigJam",
                 "Zeplin",
                 "Sketch",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "Wireframing",
                 "User Flows",
                 "Design Thinking",
@@ -11758,7 +11758,7 @@
                 "Adobe XD",
                 "Design Systems",
                 "Wireframing",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "Prototyping",
                 "Information Architecture",
                 "Heuristic Evaluation",
@@ -11840,7 +11840,7 @@
                 "Black Box Testing",
                 "Bug Reporting",
                 "Test Case Design",
-                "Test Scenario Writing",
+                "Test scenario writing",
                 "Zephyr",
                 "Charles Proxy",
                 "Git",
@@ -12018,7 +12018,7 @@
                 "Black Box Testing",
                 "Test Case Design",
                 "Bug Reporting",
-                "Test Scenario Writing",
+                "Test scenario writing",
                 "User Acceptance Testing (UAT)",
                 "Test Planning",
                 "Exploratory Testing",
@@ -12209,7 +12209,7 @@
                 "Cross-browser Testing",
                 "Exploratory Testing",
                 "Test Case Design",
-                "Regression Testing",
+                "Regression testing",
                 "Smoke Testing",
                 "Zephyr",
                 "Git",
@@ -12273,7 +12273,7 @@
                 "Usability Testing",
                 "Notion",
                 "Maze",
-                "Layout Design",
+                "Layout design",
                 "Illustration",
                 "Adobe Illustrator"
             ],
@@ -12341,7 +12341,7 @@
                 "Design Systems",
                 "Responsive Design",
                 "Usability Testing",
-                "User Research",
+                "Nghiên cứu người dùng",
                 "Information Architecture",
                 "Maze"
             ],
@@ -12403,11 +12403,11 @@
                 "ProtoPie",
                 "FigJam",
                 "User Flows",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "Design Systems",
                 "Design Thinking",
                 "Usability Testing",
-                "Layout Design",
+                "Layout design",
                 "Typography",
                 "Iconography",
                 "Adobe Illustrator"
@@ -12612,7 +12612,7 @@
                 "Adobe XD",
                 "InVision",
                 "ProtoPie",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "Design Systems",
                 "Usability Testing",
                 "Information Architecture",
@@ -12749,7 +12749,7 @@
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
                 "User Acceptance Testing (UAT)",
-                "Regression Testing",
+                "Regression testing",
                 "Defect Tracking",
                 "Exploratory Testing",
                 "Test Case Design",
@@ -12814,7 +12814,7 @@
             ],
             "ky_nang": [
                 "Smoke Testing",
-                "Test Scenario Writing",
+                "Test scenario writing",
                 "Test Planning",
                 "Cross-browser Testing",
                 "API Testing",
@@ -12992,12 +12992,12 @@
                 "Framer",
                 "Balsamiq",
                 "Miro",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "Wireframing",
                 "User Flows",
                 "Responsive Design",
                 "Mobile App Design",
-                "User Research",
+                "Nghiên cứu người dùng",
                 "Card Sorting",
                 "Journey Mapping",
                 "Heuristic Evaluation",
@@ -13077,7 +13077,7 @@
                 "Test Case Design",
                 "User Acceptance Testing (UAT)",
                 "Cross-browser Testing",
-                "Regression Testing",
+                "Regression testing",
                 "Bug Reporting",
                 "Charles Proxy",
                 "BrowserStack",
@@ -13161,7 +13161,7 @@
                 "Prototyping",
                 "Mobile App Design",
                 "A/B Testing",
-                "User Research",
+                "Nghiên cứu người dùng",
                 "Google Analytics",
                 "Iconography",
                 "Brand Identity",
@@ -13222,10 +13222,10 @@
             ],
             "ky_nang": [
                 "Exploratory Testing",
-                "Regression Testing",
+                "Regression testing",
                 "Smoke Testing",
                 "Cross-browser Testing",
-                "Test Scenario Writing",
+                "Test scenario writing",
                 "Bug Reporting",
                 "SQL",
                 "Zephyr",
@@ -13300,7 +13300,7 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Regression Testing",
+                "Regression testing",
                 "Exploratory Testing",
                 "Smoke Testing",
                 "API Testing",
@@ -13399,7 +13399,7 @@
                 "InVision",
                 "Zeplin",
                 "Miro",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "Mobile App Design",
                 "Usability Testing",
                 "Wireframing",
@@ -13460,8 +13460,8 @@
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
                 "API Testing",
-                "Regression Testing",
-                "Test Scenario Writing",
+                "Regression testing",
+                "Test scenario writing",
                 "Exploratory Testing",
                 "Smoke Testing",
                 "Test Planning",
@@ -13551,12 +13551,12 @@
                 "Axure RP",
                 "Zeplin",
                 "Usability Testing",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "Mobile App Design",
                 "Design Thinking",
                 "Design Systems",
                 "Persona Development",
-                "User Research",
+                "Nghiên cứu người dùng",
                 "Card Sorting",
                 "Dovetail",
                 "Google Analytics",
@@ -13619,7 +13619,7 @@
                 "InVision",
                 "Design Thinking",
                 "Wireframing",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "Illustration",
                 "Iconography",
                 "Adobe Photoshop"
@@ -13704,7 +13704,7 @@
                 "Test Case Design",
                 "Smoke Testing",
                 "Black Box Testing",
-                "Regression Testing",
+                "Regression testing",
                 "Defect Tracking",
                 "Cross-browser Testing",
                 "Bug Reporting",
@@ -13801,7 +13801,7 @@
                 "Smoke Testing",
                 "API Testing",
                 "Test Planning",
-                "Regression Testing",
+                "Regression testing",
                 "Jira",
                 "Azure DevOps",
                 "SQL",
@@ -13879,7 +13879,7 @@
                 "Mobile App Design",
                 "Interaction Design",
                 "Design Thinking",
-                "User Research",
+                "Nghiên cứu người dùng",
                 "Heuristic Evaluation",
                 "Information Architecture",
                 "Usability Testing",
@@ -13887,7 +13887,7 @@
                 "Google Analytics",
                 "Typography",
                 "Brand Identity",
-                "Layout Design",
+                "Layout design",
                 "Adobe After Effects",
                 "Lottie",
                 "Principle"
@@ -14040,9 +14040,9 @@
             ],
             "ngon_ngu_lap_trinh": [],
             "ky_nang": [
-                "Regression Testing",
+                "Regression testing",
                 "Cross-browser Testing",
-                "Test Scenario Writing",
+                "Test scenario writing",
                 "User Acceptance Testing (UAT)",
                 "Bug Reporting",
                 "Agile/Scrum",
@@ -14195,7 +14195,7 @@
                 "ProtoPie",
                 "Balsamiq",
                 "Miro",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "Wireframing",
                 "Responsive Design",
                 "Heuristic Evaluation",
@@ -14365,7 +14365,7 @@
                 "User Flows",
                 "Prototyping",
                 "Mobile App Design",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "Wireframing",
                 "A/B Testing",
                 "Information Architecture",
@@ -14520,10 +14520,10 @@
                 "Axure RP",
                 "Design Thinking",
                 "Prototyping",
-                "Accessibility (WCAG)",
+                "Web Accessibility (WCAG)",
                 "Wireframing",
                 "Card Sorting",
-                "User Research",
+                "Nghiên cứu người dùng",
                 "Persona Development",
                 "Optimal Workshop"
             ],
