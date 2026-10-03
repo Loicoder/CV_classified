@@ -26,7 +26,6 @@ CATEGORY = (
 )
 
 EXTRACTED_INFO_STRUCTURE = {
-    "label": "",
     "information": {
         "thong_tin_ca_nhan": {
             "ho_ten": "",
@@ -68,7 +67,8 @@ EXTRACTED_INFO_STRUCTURE = {
                 "mo_ta": ""
             }
         ]
-    }
+    },
+    "label": ""
 }
 
 SUPPORTED_EXTENSIONS = CVReader.SUPPORTED_EXTENSIONS
