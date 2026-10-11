@@ -4,9 +4,9 @@
 import numpy as np
 
 class NaiveBayes():
-    def __init__(self, alpha: float = 0.5, base_varience: float = 0.1):
+    def __init__(self, alpha: float = 0.5, base_variance: float = 0.1):
         self.alpha = alpha
-        self.base_varience = self.base_varience
+        self.base_variance = base_variance
 
     def fit(self, X, y):
         n_samples, n_features = X.shape
@@ -17,7 +17,7 @@ class NaiveBayes():
 
         # tính toán trung bình, độ lệch chuẩn và xác suất tiên nghiệm cho mỗi nhãn
         self._mean = np.zeros((n_classes, self.n_numeric_features), dtype=np.float64)
-        self._varience = np.zeros((n_classes, self.n_numeric_features), dtype=np.float64)
+        self._variance = np.zeros((n_classes, self.n_numeric_features), dtype=np.float64)
         self._prior = np.zeros(n_classes, dtype=np.float64)
         self._boolean_prob = np.zeros((n_classes, self.n_boolean_features))
 
@@ -28,7 +28,7 @@ class NaiveBayes():
             X_class_boolean = X_class[:, self.n_numeric_features:]
 
             self._mean[index, :] = self._cal_mean(X_class_numeric)
-            self._varience[index, :] = self._cal_var(X_class_numeric, index)
+            self._variance[index, :] = self._cal_var(X_class_numeric, index)
             self._prior[index] = X_class.shape[0] / float(n_samples)
             self._boolean_prob[index, :] = self._cal_boolean_prob(X_class_boolean)
 
@@ -53,7 +53,7 @@ class NaiveBayes():
             for j in range(class_len):
                 sum += (X_class_numeric[j][i] - self._mean[class_index][i])**2
             var = sum / (class_len-1)
-            var = max(var, self.base_varience)
+            var = max(var, self.base_variance)
             var_row.append(var)
 
         return var_row
@@ -76,9 +76,9 @@ class NaiveBayes():
     # pdf - probability density function
     def _cal_pdf(self, x, class_index):
         mean = self._mean[class_index]
-        varience = self._varience[class_index]
-        numerator = np.exp(-(x-mean)**2/(2*varience))
-        denominator = np.sqrt(2*np.pi*varience)
+        variance = self._variance[class_index]
+        numerator = np.exp(-(x-mean)**2/(2*variance))
+        denominator = np.sqrt(2*np.pi*variance)
         return numerator/denominator
 
     def predict(self, X):
