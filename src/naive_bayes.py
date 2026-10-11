@@ -3,8 +3,11 @@
 """
 import numpy as np
 
-
 class NaiveBayes():
+    def __init__(self, alpha: float = 0.5, base_varience: float = 0.1):
+        self.alpha = alpha
+        self.base_varience = self.base_varience
+
     def fit(self, X, y):
         n_samples, n_features = X.shape
         self._classes = np.unique(y)
@@ -29,6 +32,8 @@ class NaiveBayes():
             self._prior[index] = X_class.shape[0] / float(n_samples)
             self._boolean_prob[index, :] = self._cal_boolean_prob(X_class_boolean)
 
+        return self
+
     def _cal_mean(self, X_class):
         class_len, feature_len = X_class.shape
         mean_row = []
@@ -48,6 +53,7 @@ class NaiveBayes():
             for j in range(class_len):
                 sum += (X_class_numeric[j][i] - self._mean[class_index][i])**2
             var = sum / (class_len-1)
+            var = max(var, self.base_varience)
             var_row.append(var)
 
         return var_row
@@ -62,7 +68,7 @@ class NaiveBayes():
                 if (X_class_boolean[j][i] == 1):
                     n_ones += 1
 
-            prob = n_ones / n_class
+            prob = (n_ones+self.alpha) / (n_class+2*self.alpha) 
             probs.append(prob)
 
         return probs
