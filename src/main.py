@@ -1,5 +1,6 @@
 
 from naive_bayes import NaiveBayes
+from logistic_regression import LogisticRegression
 from evaluate import ModelEvaluator
 from pathlib import Path
 import joblib
@@ -15,8 +16,6 @@ def load_package(file_path: Path):
         return None
 
 if __name__ == "__main__":
-    model = NaiveBayes()
-
     data_file_path = Path("./processed_data/features.pkl")
     package = load_package(data_file_path)
 
@@ -30,15 +29,28 @@ if __name__ == "__main__":
     Y_eval = np.asarray(package["Y_eval"])
     Y_test = np.asarray(package["Y_test"])
 
-    eval = ModelEvaluator("NaiveBayes",
-                          model,
-                          X_train_NB,
-                          X_eval_NB,
-                          X_test_NB,
-                          Y_train,
-                          Y_eval,
-                          Y_test)
-    
+    eval = ModelEvaluator(model_name="NaiveBayes",
+                          model=NaiveBayes(),
+                          X_train=X_train_NB,
+                          X_evaluation=X_eval_NB,
+                          X_test=X_test_NB,
+                          Y_train=Y_train,
+                          Y_evaluation=Y_eval,
+                          Y_test=Y_test)
+
     eval.evaluate()
+
+    eval = ModelEvaluator(model_name="LogisticRegression",
+                          model=LogisticRegression(),
+                          X_train=X_train_LR_SVM,
+                          X_evaluation=X_eval_LR_SVM,
+                          X_test=X_test_LR_SVM,
+                          Y_train=Y_train,
+                          Y_evaluation=Y_eval,
+                          Y_test=Y_test)
+
+    eval.evaluate()
+
+    
     
     

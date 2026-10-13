@@ -53,7 +53,8 @@ class ModelEvaluator:
 
         for t, d in zip(Y_label, Y_predict):
             matrix[reflex_label[t], reflex_label[d]] += 1
-        print(matrix)
+        
+
         return matrix
 
     def cal_eva_value_by_class(self, confusion_matrix):
