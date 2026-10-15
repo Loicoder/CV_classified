@@ -94,7 +94,7 @@ class ModelEvaluator:
 
 
         self.result = {
-            "evaluation model": self.model_name,
+            "evaluation_model": self.model_name,
             "precision_per_class": precisions,
             "recall_per_class": recalls,
             "f1_per_class": f1s,
@@ -104,4 +104,16 @@ class ModelEvaluator:
             "macro_f1": macro_f1
         }
 
+        print(
+            f"""
+            "evaluation_model": {self.result["evaluation_model"]},
+            "precision_per_class": {self.result["precision_per_class"]},
+            "recall_per_class": {self.result["recall_per_class"]},
+            "f1_per_class": {self.result["f1_per_class"]},
+            "accuracy": {self.result["accuracy"]},
+            "macro_precision": {self.result["macro_precision"]},
+            "macro_recall": {self.result["macro_recall"]},
+            "macro_f1": {self.result["macro_f1"]}
+            """
+        )
         return self.result

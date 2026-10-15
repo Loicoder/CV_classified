@@ -1,6 +1,7 @@
 
 from naive_bayes import NaiveBayes
-from logistic_regression import LogisticRegression
+from softmax_regression import SoftmaxRegression
+from support_vector_machine import SupportVectorMachine
 from evaluate import ModelEvaluator
 from pathlib import Path
 import joblib
@@ -29,7 +30,7 @@ if __name__ == "__main__":
     Y_eval = np.asarray(package["Y_eval"])
     Y_test = np.asarray(package["Y_test"])
 
-    eval = ModelEvaluator(model_name="NaiveBayes",
+    eval1 = ModelEvaluator(model_name="NaiveBayes",
                           model=NaiveBayes(),
                           X_train=X_train_NB,
                           X_evaluation=X_eval_NB,
@@ -38,10 +39,10 @@ if __name__ == "__main__":
                           Y_evaluation=Y_eval,
                           Y_test=Y_test)
 
-    eval.evaluate()
+    eval1.evaluate()
 
-    eval = ModelEvaluator(model_name="LogisticRegression",
-                          model=LogisticRegression(),
+    eval2 = ModelEvaluator(model_name="SoftmaxRegression",
+                          model=SoftmaxRegression(),
                           X_train=X_train_LR_SVM,
                           X_evaluation=X_eval_LR_SVM,
                           X_test=X_test_LR_SVM,
@@ -49,7 +50,18 @@ if __name__ == "__main__":
                           Y_evaluation=Y_eval,
                           Y_test=Y_test)
 
-    eval.evaluate()
+    eval2.evaluate()
+
+    eval3 = ModelEvaluator(model_name="SupportVectorMachine",
+                            model=SupportVectorMachine(iters=1000),
+                            X_train=X_train_LR_SVM,
+                            X_evaluation=X_eval_LR_SVM,
+                            X_test=X_test_LR_SVM,
+                            Y_train=Y_train,
+                            Y_evaluation=Y_eval,
+                            Y_test=Y_test)
+
+    eval3.evaluate()
 
     
     

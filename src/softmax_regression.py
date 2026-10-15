@@ -1,8 +1,8 @@
 import numpy as np
 
 
-class LogisticRegression():
-    def __init__(self, learning_rate: float = 0.01, iters: int = 10000000):
+class SoftmaxRegression():
+    def __init__(self, learning_rate: float = 0.01, iters: int = 1000):
         self.lr = learning_rate
         self.iters = iters
         self._classes = None
@@ -23,7 +23,6 @@ class LogisticRegression():
             self.loss_history.append(loss)
             self.weights = self.weights - self.lr * grad_w
             self.bias = self.bias - self.lr * grad_b
-            print(self.weights)
         
         return self
 
