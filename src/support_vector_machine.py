@@ -1,11 +1,21 @@
 import numpy as np
 
 class SupportVectorMachine():
-    def __init__(self, learning_rate: float = 0.001, iters: int = 1000, lambda_: float = 0.01):
+    def __init__(self, learning_rate: float = 0.1, iters: int = 1000, lambda_: float = 0.01):
         self.learning_rate = learning_rate
         self.iters = iters
         self.lambda_ = lambda_
 
+    def get_params(self):
+        return {
+            "learning rate": self.learning_rate,
+            "iters": self.iters,
+            "lambda": self.lambda_
+        }
+
+    def get_history(self):
+        return self.history
+    
     def fit(self, X, y):
         self.n_samples, self.n_features = X.shape
         self._classes = np.unique(y)
@@ -36,24 +46,25 @@ class SupportVectorMachine():
 
         for i in range(self.iters):
             grad_w, grad_b = self._cal_gradients(X, y, weights, bias, n_samples)
+            
+            loss = self.loss_function(X, y, weights, bias)
+            history.append(loss)
 
             weights -= self.learning_rate * grad_w
             bias -= self.learning_rate * grad_b
 
-            loss = self.loss_function(X, y, weights, bias)
-            history.append(loss)
 
         return weights, bias, history
 
-    def decision_function(self, X, w, b):
+    def score_function(self, X, w, b):
         return X @ w + b
 
     def predict_binary(self, X, w, b):
-        scores = self.decision_function(X, w, b)
+        scores = self.score_function(X, w, b)
         return np.where(scores >= 0, 1, -1)
 
     def hinge_loss(self, X, y, w, b):
-        scores = self.decision_function(X, w, b)
+        scores = self.score_function(X, w, b)
 
         margin = y * scores
 
@@ -69,7 +80,7 @@ class SupportVectorMachine():
         return regularization + hinge_loss
 
     def _cal_gradients(self, X, y, w, b, n_samples):
-        scores = self.decision_function(X, w, b)
+        scores = self.score_function(X, w, b)
         margin = y * scores
 
         is_violate = margin < 1

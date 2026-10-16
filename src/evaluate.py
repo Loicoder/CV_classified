@@ -1,19 +1,17 @@
-import joblib
 import numpy as np
-from pathlib import Path
-from naive_bayes import NaiveBayes
+import time
 
 class ModelEvaluator:
     def __init__(self,
-                 model_name,
-                 model,
-                 X_train,
-                 X_evaluation,
-                 X_test,
-                 Y_train,
-                 Y_evaluation,
-                 Y_test,
-                 classes = ["Business_Analyst",
+                model_name,
+                model,
+                X_train,
+                X_evaluation,
+                X_test,
+                Y_train,
+                Y_evaluation,
+                Y_test,
+                classes = ["Business_Analyst",
                     "Developer",
                     "Quality_Assurance",
                     "UIUX_Designer"]):
@@ -86,34 +84,38 @@ class ModelEvaluator:
         return precisions, recalls, accuracy, f1s, macro_prec, macro_rec, macro_f1
 
     def evaluate(self):
+        fit_start_time = time.perf_counter()
         self.model.fit(self.X_train, self.Y_train)
+        fit_end_time = time.perf_counter()
+        training_time = fit_end_time - fit_start_time
+
+        predict_start_time = time.perf_counter()
         predict = self.model.predict(self.X_evaluation)
+        predict_end_time = time.perf_counter()
+        predict_time = predict_end_time - predict_start_time
 
         confusion_matrix = self.create_confusion_matrix(self.Y_evaluation, predict)
         precisions, recalls, accuracy, f1s, macro_prec, macro_rec, macro_f1 = self.cal_eva_value_by_class(confusion_matrix)
 
+        history = self.model.get_history()
 
-        self.result = {
-            "evaluation_model": self.model_name,
+        metrics = {
+            "model_name": self.model_name,
             "precision_per_class": precisions,
             "recall_per_class": recalls,
             "f1_per_class": f1s,
             "accuracy": accuracy,
             "macro_precision": macro_prec,
             "macro_recall": macro_rec,
-            "macro_f1": macro_f1
+            "macro_f1": macro_f1,
+            "training_time": training_time,
+            "predict_time": predict_time,
+            "confusion_matrix": confusion_matrix,
+            "loss_history": history
         }
 
-        print(
-            f"""
-            "evaluation_model": {self.result["evaluation_model"]},
-            "precision_per_class": {self.result["precision_per_class"]},
-            "recall_per_class": {self.result["recall_per_class"]},
-            "f1_per_class": {self.result["f1_per_class"]},
-            "accuracy": {self.result["accuracy"]},
-            "macro_precision": {self.result["macro_precision"]},
-            "macro_recall": {self.result["macro_recall"]},
-            "macro_f1": {self.result["macro_f1"]}
-            """
-        )
+        params = self.model.get_params()
+
+        self.result = {**metrics, **params}
+
         return self.result

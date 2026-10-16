@@ -2,7 +2,7 @@ import numpy as np
 
 
 class SoftmaxRegression():
-    def __init__(self, learning_rate: float = 0.01, iters: int = 1000):
+    def __init__(self, learning_rate: float = 0.1, iters: int = 1000):
         self.lr = learning_rate
         self.iters = iters
         self._classes = None
@@ -10,6 +10,14 @@ class SoftmaxRegression():
         self.bias = None
         self.loss_history = None
 
+    def get_params(self):
+        return {
+            "learning_rate": self.lr,
+            "iters": self.iters
+        }
+
+    def get_history(self):
+        return self.loss_history
     
     def fit(self, X, y):
         self.n_samples, self.n_features = X.shape

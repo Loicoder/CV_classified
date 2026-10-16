@@ -8,6 +8,15 @@ class NaiveBayes():
         self.alpha = alpha
         self.base_variance = base_variance
 
+    def get_params(self):
+        return {
+            "alpha": self.alpha,
+            "base_variance": self.base_variance
+        }
+
+    def get_history(self):
+        return None
+    
     def fit(self, X, y):
         n_samples, n_features = X.shape
         self._classes = np.unique(y)
