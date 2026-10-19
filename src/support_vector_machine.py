@@ -1,99 +1,112 @@
 import numpy as np
 
 class SupportVectorMachine():
-    def __init__(self, learning_rate: float = 0.1, iters: int = 1000, lambda_: float = 0.01):
-        self.learning_rate = learning_rate
+    def __init__(self, iters: int = 1000,
+                gamma: float = 1e-4,
+                C: float = 100000):
         self.iters = iters
-        self.lambda_ = lambda_
+        self.gamma = gamma
+        self.C = C
 
     def get_params(self):
         return {
-            "learning rate": self.learning_rate,
             "iters": self.iters,
-            "lambda": self.lambda_
+            "gamma": self.gamma
         }
 
-    def get_history(self):
-        return self.history
-    
     def fit(self, X, y):
         self.n_samples, self.n_features = X.shape
         self._classes = np.unique(y)
-        self.weights = np.zeros((self.n_features, len(self._classes)))
-        self.bias = np.zeros((len(self._classes)))
-        self.history = np.zeros((len(self._classes), self.iters))
 
+        self.alphas = []
+        self.bias = []
+        self.ks = []
+        self.y = []
+        self.X_train = X.copy()
         for i, _class in enumerate(self._classes):
             y_binary = np.where(y == _class, 1, -1)
-            w, b, h = self.fit_binary(X, y_binary)
+            a, b, k = self.fit_binary(X, y_binary)
 
-            self.weights[:, i] = w
-            self.bias[i] = b
-            self.history[i, :] = h 
+            self.alphas.append(a)
+            self.bias.append(b)  
+            self.ks.append(k)
+            self.y.append(y_binary)
             
         return self
 
     def predict(self, X):
-        score = X @ self.weights + self.bias
-        return self._classes[np.argmax(score, axis=1)]
+        K = self._rbf_kernel(self.X_train, X)
+        scores = []
+
+        for i in range(len(self._classes)):
+
+            score = (self.alphas[i] * self.y[i]) @ K + self.bias[i]
+
+            scores.append(score)
+
+        scores = np.array(scores).T
+        return self._classes[np.argmax(scores, axis=1)]
+
+    def _rbf_kernel(self, X, Z):
+        X_norm = np.sum(X ** 2, axis=1).reshape(-1, 1)
+        Z_norm = np.sum(Z ** 2, axis=1).reshape(1, -1)
+
+        squared_distance = X_norm + Z_norm - 2 * np.dot(X, Z.T)
+        squared_distance = np.maximum(squared_distance, 0)
+
+        return np.exp(-self.gamma * squared_distance)
 
     def fit_binary(self, X, y):
         n_samples, n_features = X.shape
 
-        weights = np.zeros(n_features)
+        alphas = np.zeros(n_samples)
         bias = 0.0
-        history = []
 
-        for i in range(self.iters):
-            grad_w, grad_b = self._cal_gradients(X, y, weights, bias, n_samples)
-            
-            loss = self.loss_function(X, y, weights, bias)
-            history.append(loss)
+        k_matrix = self._rbf_kernel(X, X)
 
-            weights -= self.learning_rate * grad_w
-            bias -= self.learning_rate * grad_b
+        for k in range(self.iters):
+            scores = self.score_func(alphas, k_matrix, bias, y)
+
+            i = np.random.randint(n_samples)
+            j = np.random.randint(n_samples - 1)
+
+            if j >= i: j += 1   
+
+            E_i = scores[i] - y[i]
+            E_j = scores[j] - y[j]
+
+            if y[i] != y[j]:
+                L = max(0, alphas[j] - alphas[i])
+                H = min(self.C, self.C + alphas[j] - alphas[i])
+            else:
+                L = max(0, alphas[i] + alphas[j] - self.C)
+                H = min(self.C, alphas[i] + alphas[j])
+
+            if L == H: continue
+
+            eta = 2 * k_matrix[i, j] - k_matrix[i, i] - k_matrix[j, j]
+            if eta >= 0: continue
+
+            alpha_j_old = alphas[j]
+            alpha_i_old = alphas[i]
+
+            alphas[j] -= y[j] * (E_i - E_j) / eta
+            alphas[j] = np.clip(alphas[j], L, H)
 
 
-        return weights, bias, history
+            alphas[i] = alpha_i_old + y[i] * y[j] * (alpha_j_old - alphas[j])
 
-    def score_function(self, X, w, b):
-        return X @ w + b
+            b1 = (bias - E_i - y[i] * (alphas[i] - alpha_i_old) * k_matrix[i, i] - y[j] * (alphas[j] - alpha_j_old) * k_matrix[i, j])
+            b2 = (bias - E_j - y[i] * (alphas[i] - alpha_i_old) * k_matrix[i, j] - y[j] * (alphas[j] - alpha_j_old) * k_matrix[j, j])
 
-    def predict_binary(self, X, w, b):
-        scores = self.score_function(X, w, b)
-        return np.where(scores >= 0, 1, -1)
+            if 0 < alphas[i] < self.C:
+                bias = b1
+            elif 0 < alphas[j] < self.C:
+                bias = b2
+            else:
+                bias = (b1 + b2) / 2
 
-    def hinge_loss(self, X, y, w, b):
-        scores = self.score_function(X, w, b)
+        return alphas, bias, k_matrix
 
-        margin = y * scores
-
-        hinge_loss = np.maximum(0, 1 - margin)
-
-        return np.mean(hinge_loss)
-
-    def loss_function(self, X, y, w, b):
-        hinge_loss = self.hinge_loss(X, y, w, b)
-
-        regularization = 0.5 * self.lambda_ * np.sum(w**2)
-
-        return regularization + hinge_loss
-
-    def _cal_gradients(self, X, y, w, b, n_samples):
-        scores = self.score_function(X, w, b)
-        margin = y * scores
-
-        is_violate = margin < 1
-
-        grad_w = self.lambda_ * w
-        grad_b = 0.0
-
-        if np.any(is_violate):
-            X_violate = X[is_violate]
-            y_violate = y[is_violate]
-
-            grad_w -= X_violate.T @ y_violate / n_samples
-            grad_b = -np.sum(y_violate) / n_samples
-
-        return grad_w, grad_b
-
+    def score_func(self, alphas, k, bias: float, y):
+        return (alphas * y) @ k + bias

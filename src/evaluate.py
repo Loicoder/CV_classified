@@ -97,8 +97,6 @@ class ModelEvaluator:
         confusion_matrix = self.create_confusion_matrix(self.Y_evaluation, predict)
         precisions, recalls, accuracy, f1s, macro_prec, macro_rec, macro_f1 = self.cal_eva_value_by_class(confusion_matrix)
 
-        history = self.model.get_history()
-
         metrics = {
             "model_name": self.model_name,
             "precision_per_class": precisions,
@@ -110,8 +108,7 @@ class ModelEvaluator:
             "macro_f1": macro_f1,
             "training_time": training_time,
             "predict_time": predict_time,
-            "confusion_matrix": confusion_matrix,
-            "loss_history": history
+            "confusion_matrix": confusion_matrix
         }
 
         params = self.model.get_params()

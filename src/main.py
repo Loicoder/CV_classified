@@ -2,6 +2,7 @@
 from naive_bayes import NaiveBayes
 from softmax_regression import SoftmaxRegression
 from support_vector_machine import SupportVectorMachine
+from k_nearest_neighbor import KNN
 from evaluate import ModelEvaluator
 from pathlib import Path
 from visualize import visualize
@@ -89,9 +90,18 @@ if __name__ == "__main__":
     #                         Y_test=Y_test)
     # pre_optimize_eval_data.append(svm_eval.evaluate())
 
-    # save_json_file(pre_optimize_eval_data, pre_optimize_file_path)
+    knn_evel = ModelEvaluator(model_name="K-NearestNeighbor",
+                            model=KNN(),
+                            X_train=X_train_LR_SVM,
+                            X_evaluation=X_eval_LR_SVM,
+                            X_test=X_test_LR_SVM,
+                            Y_train=Y_train,
+                            Y_evaluation=Y_eval,
+                            Y_test=Y_test)
+    pre_optimize_eval_data.append(knn_evel.evaluate())
 
-    visualize(pre_optimize_file_path)
+    save_json_file(pre_optimize_eval_data, pre_optimize_file_path)
+
 
     
     
