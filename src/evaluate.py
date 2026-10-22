@@ -11,11 +11,7 @@ class ModelEvaluator:
                 Y_train,
                 Y_evaluation,
                 Y_test,
-                classes = ["Business_Analyst",
-                    "Developer",
-                    "Quality_Assurance",
-                    "UIUX_Designer"]):
-
+                classes):
         self.model_name = model_name
         self.model = model
         self.X_train = X_train

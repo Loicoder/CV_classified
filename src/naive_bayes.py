@@ -5,6 +5,7 @@ import numpy as np
 
 class NaiveBayes():
     def __init__(self, alpha: float = 0.5, base_variance: float = 0.1):
+        self.name = "NaiveBayes"
         self.alpha = alpha
         self.base_variance = base_variance
 

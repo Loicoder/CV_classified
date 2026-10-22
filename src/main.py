@@ -3,6 +3,8 @@ from naive_bayes import NaiveBayes
 from softmax_regression import SoftmaxRegression
 from support_vector_machine import SupportVectorMachine
 from k_nearest_neighbor import KNN
+from decision_tree import DecisionTree
+
 from evaluate import ModelEvaluator
 from pathlib import Path
 from visualize import visualize
@@ -12,6 +14,13 @@ import json
 
 ROOT = Path(__file__).resolve().parent.parent
 PROCESSED_DATA = ROOT / "processed_data"
+
+labels = [
+    "Business_Analyst",
+    "Developer",
+    "Quality_Assurance",
+    "UIUX_Designer"
+]
 
 def load_package(file_path: Path):
     if file_path.exists():
@@ -48,57 +57,46 @@ if __name__ == "__main__":
     data_file_path = Path("./processed_data/features.pkl")
 
     package = load_package(data_file_path)
-    X_train_LR_SVM = package["X_train_LR_SVM"].to_numpy(dtype=np.float64)
-    X_eval_LR_SVM = package["X_eval_LR_SVM"].to_numpy(dtype=np.float64)
-    X_test_LR_SVM = package["X_test_LR_SVM"].to_numpy(dtype=np.float64)
-    X_train_NB = package["X_train_NB"].to_numpy(dtype=np.float64)
-    X_eval_NB = package["X_eval_NB"].to_numpy(dtype=np.float64)
-    X_test_NB = package["X_test_NB"].to_numpy(dtype=np.float64)
+    X_train_scaled = package["X_train_scaled"].to_numpy(dtype=np.float64)
+    X_eval_scaled = package["X_eval_scaled"].to_numpy(dtype=np.float64)
+    X_test_scaled = package["X_test_scaled"].to_numpy(dtype=np.float64)
+    X_train_unscaled = package["X_train_unscaled"].to_numpy(dtype=np.float64)
+    X_eval_unscaled = package["X_eval_unscaled"].to_numpy(dtype=np.float64)
+    X_test_unscaled = package["X_test_unscaled"].to_numpy(dtype=np.float64)
     Y_train = np.asarray(package["Y_train"])
     Y_eval = np.asarray(package["Y_eval"])
     Y_test = np.asarray(package["Y_test"])
 
     pre_optimize_eval_data = []
 
-    # bayes_eval = ModelEvaluator(model_name="NaiveBayes",
-    #                       model=NaiveBayes(),
-    #                       X_train=X_train_NB,
-    #                       X_evaluation=X_eval_NB,
-    #                       X_test=X_test_NB,
-    #                       Y_train=Y_train,
-    #                       Y_evaluation=Y_eval,
-    #                       Y_test=Y_test)
-    # pre_optimize_eval_data.append(bayes_eval.evaluate())
+    models = [
+        NaiveBayes(),
+        SoftmaxRegression(),
+        SupportVectorMachine(),
+        KNN(),
+        DecisionTree()
+    ]
 
-    # softmax_eval = ModelEvaluator(model_name="SoftmaxRegression",
-    #                       model=SoftmaxRegression(),
-    #                       X_train=X_train_LR_SVM,
-    #                       X_evaluation=X_eval_LR_SVM,
-    #                       X_test=X_test_LR_SVM,
-    #                       Y_train=Y_train,
-    #                       Y_evaluation=Y_eval,
-    #                       Y_test=Y_test)
-    # pre_optimize_eval_data.append(softmax_eval.evaluate())
+    for model in models:
+        if isinstance(model, NaiveBayes):
+            X_train = X_train_unscaled
+            X_evaluation = X_eval_unscaled
+            X_test = X_test_unscaled
+        else:
+            X_train = X_train_scaled
+            X_evaluation = X_eval_scaled
+            X_test = X_test_scaled
 
-    # svm_eval = ModelEvaluator(model_name="SupportVectorMachine",
-    #                         model=SupportVectorMachine(),
-    #                         X_train=X_train_LR_SVM,
-    #                         X_evaluation=X_eval_LR_SVM,
-    #                         X_test=X_test_LR_SVM,
-    #                         Y_train=Y_train,
-    #                         Y_evaluation=Y_eval,
-    #                         Y_test=Y_test)
-    # pre_optimize_eval_data.append(svm_eval.evaluate())
-
-    knn_evel = ModelEvaluator(model_name="K-NearestNeighbor",
-                            model=KNN(),
-                            X_train=X_train_LR_SVM,
-                            X_evaluation=X_eval_LR_SVM,
-                            X_test=X_test_LR_SVM,
-                            Y_train=Y_train,
-                            Y_evaluation=Y_eval,
-                            Y_test=Y_test)
-    pre_optimize_eval_data.append(knn_evel.evaluate())
+        evaluation = ModelEvaluator(model_name=model.name,
+                                model=model,
+                                X_train=X_train,
+                                X_evaluation=X_evaluation,
+                                X_test=X_test,
+                                Y_train=Y_train,
+                                Y_evaluation=Y_eval,
+                                Y_test=Y_test,
+                                classes=labels)
+        pre_optimize_eval_data.append(evaluation.evaluate())
 
     save_json_file(pre_optimize_eval_data, pre_optimize_file_path)
 

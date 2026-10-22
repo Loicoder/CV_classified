@@ -3,6 +3,7 @@ import numpy as np
 
 class SoftmaxRegression():
     def __init__(self, learning_rate: float = 0.1, iters: int = 1000):
+        self.name = "SoftmaxRegression"
         self.lr = learning_rate
         self.iters = iters
         self._classes = None

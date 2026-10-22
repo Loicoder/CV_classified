@@ -4,6 +4,7 @@ class SupportVectorMachine():
     def __init__(self, iters: int = 1000,
                 gamma: float = 1e-4,
                 C: float = 100000):
+        self.name = "SupportVectorMachine"
         self.iters = iters
         self.gamma = gamma
         self.C = C

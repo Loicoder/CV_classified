@@ -8,6 +8,7 @@ def euclid_distance(x1, x2):
 
 class KNN():
     def __init__(self, k: int = 3):
+        self.name = "K-NearestNeighbour"
         self.k = k
 
     def get_params(self):

@@ -186,7 +186,7 @@ def build_feature_table(data_set, skill_dict: list):
 ################################################################################################
 
 ########################## Xây dựng tập đặc trưng cho các thuật toán ###########################
-def create_feature_for_LR_SVM(train_table, eval_table, test_table):
+def create_feature_for_scaled(train_table, eval_table, test_table):
     scalar = StandardScaler()
 
     numeric_column = ["so_nam_kinh_nghiem", "so_luong_skill", "so_du_an", "so_cong_ty_da_lam"]
@@ -239,20 +239,20 @@ def save_features():
     eval_table = build_feature_table(eval_dataset, skill_dict)
     test_table = build_feature_table(test_dataset, skill_dict)
 
-    X_train_svm, X_eval_svm, X_test_svm, scalar = create_feature_for_LR_SVM(train_table, eval_table, test_table)
-    X_train_nb, X_eval_nb, X_test_nb = train_table, eval_table, test_table
+    X_train_svm, X_eval_svm, X_test_svm, scalar = create_feature_for_scaled(train_table, eval_table, test_table)
+    X_train_unscaled, X_eval_unscaled, X_test_unscaled = train_table, eval_table, test_table
 
     Y_train = [cv["label"] for cv in train_dataset]
     Y_eval = [cv["label"] for cv in eval_dataset]
     Y_test = [cv["label"] for cv in test_dataset]
 
     package = {
-        "X_train_LR_SVM": X_train_svm,
-        "X_eval_LR_SVM": X_eval_svm, 
-        "X_test_LR_SVM": X_test_svm, 
-        "X_train_NB": X_train_nb, 
-        "X_eval_NB": X_eval_nb, 
-        "X_test_NB": X_test_nb,
+        "X_train_scaled": X_train_svm,
+        "X_eval_scaled": X_eval_svm, 
+        "X_test_scaled": X_test_svm, 
+        "X_train_unscaled": X_train_unscaled, 
+        "X_eval_unscaled": X_eval_unscaled, 
+        "X_test_unscaled": X_test_unscaled,
         "Y_train": Y_train,
         "Y_eval": Y_eval,
         "Y_test": Y_test,
