@@ -54,6 +54,29 @@ def date_from_string(string_date):
     except:
         pass
 
+    try:
+        date = datetime.strptime(string_date, "%m/%Y").date()
+        year  = date.year
+        time = year * 12
+        return time
+    except:
+        pass
+
+    try:
+        date = datetime.strptime(string_date, "%Y-").date()
+        year  = date.year
+        time = year * 12
+        return time
+    except:
+        pass
+
+    try:
+        date = datetime.strptime(string_date, "%m-%Y").date()
+        year  = date.year
+        time = year * 12
+        return time
+    except:
+        pass
     
     print(f"[ERR] Cannot get date from string {string_date}")
     return None

@@ -7,19 +7,15 @@ class ModelEvaluator:
                 model,
                 X_train,
                 X_evaluation,
-                X_test,
                 Y_train,
                 Y_evaluation,
-                Y_test,
                 classes):
         self.model_name = model_name
         self.model = model
         self.X_train = X_train
         self.X_evaluation = X_evaluation
-        self.X_test = X_test
         self.Y_train = Y_train
         self.Y_evaluation = Y_evaluation
-        self.Y_test = Y_test
         self.classes = classes
         self.result = {}
 

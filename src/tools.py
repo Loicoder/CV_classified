@@ -44,7 +44,21 @@ def count_info_per_category():
         for job in CATEGORY:
             print(f"{job} có {count[job]} cv.")
 
+def count_cv_information():
+    file_path = PROCESSED_DATA_ROOT / "information.json"
+
+    if file_path.exists():
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        print(f"There're {len(data)} cv have been extract data")
+
+    else:
+        print(f"Cannot open file {file_path.name}")
+        return 0
+
 if __name__ == "__main__":
     count_info_per_category()
+    # count_cv_information()
 
 

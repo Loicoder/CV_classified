@@ -38,8 +38,9 @@ class DecisionTree():
                 leaf_value = self._most_common_label(y)
                 return Node(value=leaf_value)
 
+        feat_idxs = np.random.choice(n_features, self.n_features, replace=False)
 
-        best_feature, best_threshold = self._best_split(X, y, n_features)
+        best_feature, best_threshold = self._best_split(X, y, feat_idxs)
 
         if best_feature is None:
             leaf_value = self._most_common_label(y)
