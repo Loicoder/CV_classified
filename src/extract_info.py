@@ -257,39 +257,67 @@ def main_process():
         print()
     print("Hoàn tất việc đọc thông tin hữu ích từ CV")
 
-def split_data(info_file_path: Path, output_folder: Path, train_ratio: float = 0.8, evaluation_ratio: float = 0.1):
-    print("Bắt đầu quá trình chia và xáo trộn dữ liệu...")
-    random_generator = random.Random()
 
-    if info_file_path.exists():
-        with open(info_file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-    else:
-        print(f"[ERR] Cannot read the information file")
+import json
+import random
+from pathlib import Path
+
+
+def split_data(info_file_path: Path, output_folder: Path, train_ratio: float = 0.8, evaluation_ratio: float = 0.1, seed: int = 301):
+    print("Đang xáo trộn dữ liệu....")
+    if not info_file_path.exists():
+        print("[ERR] Cannot read the information file")
         return
 
-    random_generator.shuffle(data)
-    data_size = len(data)
+    with open(info_file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    if not data:
+        print("[ERR] Dataset is empty")
+        return
+
+    test_ratio = 1.0 - train_ratio - evaluation_ratio
+
+    rng = random.Random(seed)
+
+    label_groups = {}
+
+    for item in data:
+        label = item["label"]
+        label_groups.setdefault(label, []).append(item)
 
     train = []
     evaluation = []
     test = []
 
-    train_size = round(train_ratio * data_size)
-    evaluation_size = round(evaluation_ratio * data_size)
+    for label, group in label_groups.items():
+        rng.shuffle(group)
 
-    # slicing
-    train.extend(data[:train_size])
-    evaluation.extend(data[train_size:train_size+evaluation_size])
-    test.extend(data[train_size+evaluation_size:])
+        n = len(group)
+        train_size = round(n * train_ratio)
+        evaluation_size = round(n * evaluation_ratio)
 
-    #saving
+        train.extend(group[:train_size])
+
+        evaluation.extend(
+            group[train_size:train_size + evaluation_size]
+        )
+
+        test.extend(
+            group[train_size + evaluation_size:]
+        )
+
+    rng.shuffle(train)
+    rng.shuffle(evaluation)
+    rng.shuffle(test)
+
+    output_folder.mkdir(parents=True, exist_ok=True)
+
     write_json(train, output_folder / "train.json")
     write_json(evaluation, output_folder / "evaluation.json")
     write_json(test, output_folder / "test.json")
 
 if __name__ == "__main__":
-    # main_process()
+    main_process()
     split_data(
         info_file_path=PROCESSED_DATA / "information.json",
         train_ratio=0.8,

@@ -1,9 +1,9 @@
 
-from naive_bayes import NaiveBayes
-from softmax_regression import SoftmaxRegression
-from support_vector_machine import SupportVectorMachine
-from k_nearest_neighbor import KNN
-from decision_tree import DecisionTree
+from models.naive_bayes import NaiveBayes
+from models.softmax_regression import SoftmaxRegression
+from models.support_vector_machine import SupportVectorMachine
+from models.k_nearest_neighbor import KNN
+from models.decision_tree import DecisionTree
 
 from evaluate import ModelEvaluator
 from pathlib import Path
@@ -125,9 +125,32 @@ def cross_validation(fold_idxs, X, y, model_factory):
         "wrong_predictions": wrong_predictions
     }
 
+def baseline(Y_train, X_train_unscaled, X_train_scaled):
+    # cross validation
+    model_factorys = [
+        lambda: NaiveBayes(),
+        lambda: SoftmaxRegression(),
+        lambda: SupportVectorMachine(),
+        lambda: KNN(),
+        lambda: DecisionTree()
+    ]
+
+    cross_valid_res = []
+    folds = split_folds(Y_train, k=5, seed=301)
+    for factory in model_factorys:
+        model = factory()
+        if isinstance(model, NaiveBayes):
+            X_train = X_train_unscaled
+        else:
+            X_train = X_train_scaled
+
+        res = cross_validation(folds, X_train, Y_train, factory)
+        cross_valid_res.append(res)
+    save_json_file(cross_valid_res, PROCESSED_DATA / "cv_baseline.json")
+
 if __name__ == "__main__":
     # file paths
-    pre_optimize_file_path = PROCESSED_DATA / "pre_optimize.json"
+    file_path = PROCESSED_DATA / "optimized.json"
     data_file_path = Path("./processed_data/features.pkl")
 
     package = load_package(data_file_path)
@@ -151,28 +174,6 @@ if __name__ == "__main__":
         DecisionTree()
     ]
 
-    model_factorys = [
-        lambda: NaiveBayes(),
-        lambda: SoftmaxRegression(),
-        lambda: SupportVectorMachine(),
-        lambda: KNN(),
-        lambda: DecisionTree()
-    ]
-
-    # cross_valid_res = []
-    # folds = split_folds(Y_train, k=5, seed=301)
-    # for factory in model_factorys:
-    #     model = factory()
-    #     if isinstance(model, NaiveBayes):
-    #         X_train = X_train_unscaled
-    #     else:
-    #         X_train = X_train_scaled
-
-    #     res = cross_validation(folds, X_train, Y_train, factory)
-    #     cross_valid_res.append(res)
-    # save_json_file(cross_valid_res, PROCESSED_DATA / "cv_baseline.json")
-
-
     for model in models:
         if isinstance(model, NaiveBayes):
             X_train = X_train_unscaled
@@ -192,7 +193,7 @@ if __name__ == "__main__":
                                 classes=labels)
         pre_optimize_eval_data.append(evaluation.evaluate())
 
-    save_json_file(pre_optimize_eval_data, pre_optimize_file_path)
+    save_json_file(pre_optimize_eval_data, file_path)
 
 
 
